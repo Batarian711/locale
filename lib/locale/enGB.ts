@@ -2,12 +2,12 @@ import ILocale from '@lib/ILocale';
 
 import {
   english,
-  English,
+  English
 } from '@lib/locale/Iso639/Part1';
 
 import {
   unitedKingdomOfGreatBritainAndNorthernIreland,
-  UnitedKingdomOfGreatBritainAndNorthernIreland,
+  UnitedKingdomOfGreatBritainAndNorthernIreland
 } from '@lib/locale/Iso3166/Part1';
 
 export interface IEnGb extends ILocale { language: English; country: UnitedKingdomOfGreatBritainAndNorthernIreland; }
