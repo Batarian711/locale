@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist/lib",
+    "baseUrl": ".",
+    "paths": {
+      "@lib/*": ["lib/*"],
+      "@locale/*": ["lib/locale/*"]
+    },
+    "newLine": "LF",
+    "lib": [
+      "es2017",
+      "dom",
+      "esnext.asynciterable"
+    ]
+  },
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+    "**/*.test.ts"
+  ],
+  "typedocOptions": {
+    "name": "EF Locale",
+    "out": "dist/docs",
+    "readme": "docs/README.md",
+    "hideGenerator": true,
+    "excludePrivate": true,
+    "logger": "none",
+    "exclude": "**/*.test.ts",
+    "media": "media"
+  }
+}
