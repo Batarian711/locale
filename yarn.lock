@@ -129,25 +129,30 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@octokit/rest@^14.0.3":
-  version "14.0.8"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-14.0.8.tgz#594292f9c30eb86a832f99f7d464ee7c9c8114c5"
+"@mrmlnc/readdir-enhanced@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
+  dependencies:
+    call-me-maybe "^1.0.1"
+    glob-to-regexp "^0.3.0"
+
+"@octokit/rest@^14.0.9":
+  version "14.0.9"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-14.0.9.tgz#d5e0a00dcb78901dd7b2ef852acfc0aea7c479ef"
   dependencies:
     before-after-hook "^1.1.0"
     debug "^3.1.0"
-    dotenv "^4.0.0"
-    https-proxy-agent "^2.1.0"
     is-array-buffer "^1.0.0"
     is-stream "^1.1.0"
     lodash "^4.17.4"
-    proxy-from-env "^1.0.0"
     url-template "^2.0.8"
 
-"@semantic-release/changelog@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-1.0.0.tgz#df918410ec04c72fed8328b8f583f4a2667b7584"
+"@semantic-release/changelog@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-2.0.0.tgz#422758472746d35a15e09b109d040ebaf8565af4"
   dependencies:
     "@semantic-release/error" "^2.1.0"
+    aggregate-error "^1.0.0"
     fs-extra "^5.0.0"
     lodash "^4.17.4"
 
@@ -165,11 +170,16 @@
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-2.1.0.tgz#44771f676f5b148da309111285a97901aa95a6e0"
 
-"@semantic-release/git@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-3.0.0.tgz#8e2fb02672e83c878376717d3185e1365d204599"
+"@semantic-release/error@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-2.2.0.tgz#ee9d5a09c9969eade1ec864776aeda5c5cddbbf0"
+
+"@semantic-release/git@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-4.0.0.tgz#c0ad37bbbffd150eda0251cedacdc7e21e8aa889"
   dependencies:
     "@semantic-release/error" "^2.1.0"
+    aggregate-error "^1.0.0"
     debug "^3.1.0"
     dir-glob "^2.0.0"
     execa "^0.9.0"
@@ -178,26 +188,30 @@
     micromatch "^3.1.4"
     p-reduce "^1.0.0"
 
-"@semantic-release/github@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-4.0.0.tgz#5b374f1eb0117485af81178aa06a973949a02890"
+"@semantic-release/github@^4.1.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-4.2.3.tgz#928835afbf7a8cb08c589c1dc0bb97cf2ec2dc49"
   dependencies:
-    "@octokit/rest" "^14.0.3"
-    "@semantic-release/error" "^2.1.0"
+    "@octokit/rest" "^14.0.9"
+    "@semantic-release/error" "^2.2.0"
+    aggregate-error "^1.0.0"
+    bottleneck "^2.0.1"
     debug "^3.1.0"
     fs-extra "^5.0.0"
-    globby "^7.1.1"
+    globby "^8.0.0"
+    issue-parser "^1.0.1"
     lodash "^4.17.4"
     mime "^2.0.3"
-    p-reduce "^1.0.0"
+    p-retry "^1.0.0"
     parse-github-url "^1.0.1"
-    url-join "^3.0.0"
+    url-join "^4.0.0"
 
-"@semantic-release/npm@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-3.0.0.tgz#720ad469e1cc1fe0b895ef0238c9b275b60848c8"
+"@semantic-release/npm@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-3.2.0.tgz#0f81b722c315d91653eac272932948394056596e"
   dependencies:
-    "@semantic-release/error" "^2.1.0"
+    "@semantic-release/error" "^2.2.0"
+    aggregate-error "^1.0.0"
     execa "^0.9.0"
     fs-extra "^5.0.0"
     lodash "^4.17.4"
@@ -307,12 +321,6 @@ acorn-globals@^4.1.0:
 acorn@^5.0.0, acorn@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.3.0.tgz#7446d39459c54fb49a80e6ee6478149b940ec822"
-
-agent-base@^4.1.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-4.2.0.tgz#9838b5c3392b962bad031e6a4c5e1024abec45ce"
-  dependencies:
-    es6-promisify "^5.0.0"
 
 aggregate-error@^1.0.0:
   version "1.0.0"
@@ -769,6 +777,10 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
+bottleneck@^2.0.1:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.1.0.tgz#6574a78501d717b3ace434897063f986358a5252"
+
 brace-expansion@^1.1.7:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.8.tgz#c07b211c7c952ec1f8efd51a77ef0d1d3990a292"
@@ -794,6 +806,23 @@ braces@^2.3.0:
     extend-shallow "^2.0.1"
     fill-range "^4.0.0"
     isobject "^3.0.1"
+    repeat-element "^1.1.2"
+    snapdragon "^0.8.1"
+    snapdragon-node "^2.0.1"
+    split-string "^3.0.2"
+    to-regex "^3.0.1"
+
+braces@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/braces/-/braces-2.3.1.tgz#7086c913b4e5a08dbe37ac0ee6a2500c4ba691bb"
+  dependencies:
+    arr-flatten "^1.1.0"
+    array-unique "^0.3.2"
+    define-property "^1.0.0"
+    extend-shallow "^2.0.1"
+    fill-range "^4.0.0"
+    isobject "^3.0.1"
+    kind-of "^6.0.2"
     repeat-element "^1.1.2"
     snapdragon "^0.8.1"
     snapdragon-node "^2.0.1"
@@ -839,6 +868,10 @@ cachedir@^1.1.0:
   resolved "https://registry.yarnpkg.com/cachedir/-/cachedir-1.2.0.tgz#e9a0a25bb21a2b7a0f766f07c41eb7a311919b97"
   dependencies:
     os-homedir "^1.0.1"
+
+call-me-maybe@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/call-me-maybe/-/call-me-maybe-1.0.1.tgz#26d208ea89e37b5cbde60250a15f031c16a4d66b"
 
 caller-path@^0.1.0:
   version "0.1.0"
@@ -1306,6 +1339,13 @@ define-property@^1.0.0:
   dependencies:
     is-descriptor "^1.0.0"
 
+define-property@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/define-property/-/define-property-2.0.2.tgz#d459689e8d654ba77e02a817f8710d702cb16e9d"
+  dependencies:
+    is-descriptor "^1.0.2"
+    isobject "^3.0.1"
+
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
@@ -1356,10 +1396,6 @@ dot-prop@^3.0.0:
   resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-3.0.0.tgz#1b708af094a49c9a0e7dbcad790aba539dac1177"
   dependencies:
     is-obj "^1.0.0"
-
-dotenv@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
 
 duplexer2@~0.1.0:
   version "0.1.4"
@@ -1418,16 +1454,6 @@ es-to-primitive@^1.1.1:
     is-callable "^1.1.1"
     is-date-object "^1.0.1"
     is-symbol "^1.0.1"
-
-es6-promise@^4.0.3:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.4.tgz#dc4221c2b16518760bd8c39a52d8f356fc00ed29"
-
-es6-promisify@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/es6-promisify/-/es6-promisify-5.0.0.tgz#5109d62f3e56ea967c4b63505aef08291c8a5203"
-  dependencies:
-    es6-promise "^4.0.3"
 
 escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -1549,7 +1575,7 @@ extend-shallow@^2.0.1:
   dependencies:
     is-extendable "^0.1.0"
 
-extend-shallow@^3.0.0:
+extend-shallow@^3.0.0, extend-shallow@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/extend-shallow/-/extend-shallow-3.0.2.tgz#26a71aaf073b39fb2127172746131c2704028db8"
   dependencies:
@@ -1578,7 +1604,7 @@ extglob@^0.3.1:
   dependencies:
     is-extglob "^1.0.0"
 
-extglob@^2.0.2:
+extglob@^2.0.2, extglob@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/extglob/-/extglob-2.0.4.tgz#ad00fe4dc612a9232e8718711dc5cb5ab0285543"
   dependencies:
@@ -1606,6 +1632,16 @@ eyes@0.1.x:
 fast-deep-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.0.0.tgz#96256a3bc975595eb36d82e9929d060d893439ff"
+
+fast-glob@^2.0.2:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-2.1.0.tgz#50ee95e6a112f09e886cfff5215de69ca4a6a861"
+  dependencies:
+    "@mrmlnc/readdir-enhanced" "^2.2.1"
+    glob-parent "^3.1.0"
+    is-glob "^4.0.0"
+    merge2 "^1.2.1"
+    micromatch "^3.1.8"
 
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
@@ -1879,6 +1915,12 @@ git-url-parse@^8.0.0:
   dependencies:
     git-up "^2.0.0"
 
+git-url-parse@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-8.1.0.tgz#d1ee09213efce5d8dc7a21bb03f17cfe0c111122"
+  dependencies:
+    git-up "^2.0.0"
+
 glob-base@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/glob-base/-/glob-base-0.3.0.tgz#dbb164f6221b1c0b1ccf82aea328b497df0ea3c4"
@@ -1891,6 +1933,17 @@ glob-parent@^2.0.0:
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-2.0.0.tgz#81383d72db054fcccf5336daa902f182f6edbb28"
   dependencies:
     is-glob "^2.0.0"
+
+glob-parent@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"
+  dependencies:
+    is-glob "^3.1.0"
+    path-dirname "^1.0.0"
+
+glob-to-regexp@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
 
 glob2base@^0.0.12:
   version "0.0.12"
@@ -1946,12 +1999,13 @@ globals@^9.18.0:
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
 
-globby@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-7.1.1.tgz#fb2ccff9401f8600945dfada97440cca972b8680"
+globby@^8.0.0:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-8.0.1.tgz#b5ad48b8aa80b35b814fc1281ecc851f1d2b5b50"
   dependencies:
     array-union "^1.0.1"
     dir-glob "^2.0.0"
+    fast-glob "^2.0.2"
     glob "^7.1.2"
     ignore "^3.3.5"
     pify "^3.0.0"
@@ -2120,13 +2174,6 @@ http-signature@~1.2.0:
     assert-plus "^1.0.0"
     jsprim "^1.2.2"
     sshpk "^1.7.0"
-
-https-proxy-agent@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.1.1.tgz#a7ce4382a1ba8266ee848578778122d491260fd9"
-  dependencies:
-    agent-base "^4.1.0"
-    debug "^3.1.0"
 
 husky@^0.15.0-rc.3:
   version "0.15.0-rc.3"
@@ -2301,7 +2348,7 @@ is-descriptor@^0.1.0:
     is-data-descriptor "^0.1.4"
     kind-of "^5.0.0"
 
-is-descriptor@^1.0.0:
+is-descriptor@^1.0.0, is-descriptor@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-descriptor/-/is-descriptor-1.0.2.tgz#3b159746a66604b04f8c81524ba365c5f14d86ec"
   dependencies:
@@ -2337,6 +2384,10 @@ is-extglob@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-extglob/-/is-extglob-1.0.0.tgz#ac468177c4943405a092fc8f29760c6ffc6206c0"
 
+is-extglob@^2.1.0, is-extglob@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/is-extglob/-/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
+
 is-finite@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-finite/-/is-finite-1.0.2.tgz#cc6677695602be550ef11e8b4aa6305342b6d0aa"
@@ -2363,6 +2414,18 @@ is-glob@^2.0.0, is-glob@^2.0.1:
   dependencies:
     is-extglob "^1.0.0"
 
+is-glob@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-3.1.0.tgz#7ba5ae24217804ac70707b96922567486cc3e84a"
+  dependencies:
+    is-extglob "^2.1.0"
+
+is-glob@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.0.tgz#9521c76845cc2610a85203ddf080a958c2ffabc0"
+  dependencies:
+    is-extglob "^2.1.1"
+
 is-number@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-2.1.0.tgz#01fcbbb393463a548f2f466cce16dece49db908f"
@@ -2375,6 +2438,10 @@ is-number@^3.0.0:
   dependencies:
     kind-of "^3.0.2"
 
+is-number@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/is-number/-/is-number-4.0.0.tgz#0026e37f5454d73e356dfe6564699867c6a7f0ff"
+
 is-obj@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
@@ -2384,6 +2451,12 @@ is-odd@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-odd/-/is-odd-1.0.0.tgz#3b8a932eb028b3775c39bb09e91767accdb69088"
   dependencies:
     is-number "^3.0.0"
+
+is-odd@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/is-odd/-/is-odd-2.0.0.tgz#7646624671fd7ea558ccd9a2795182f2958f1b24"
+  dependencies:
+    is-number "^4.0.0"
 
 is-plain-obj@^1.0.0:
   version "1.1.0"
@@ -2449,6 +2522,10 @@ is-windows@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/is-windows/-/is-windows-0.2.0.tgz#de1aa6d63ea29dd248737b69f1ff8b8002d2108c"
 
+is-windows@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/is-windows/-/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
+
 isarray@1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
@@ -2470,6 +2547,12 @@ isobject@^3.0.0, isobject@^3.0.1:
 isstream@0.1.x, isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+
+issue-parser@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/issue-parser/-/issue-parser-1.0.1.tgz#8996d0209e0ef8ff2b7d63e5b4fe6c09233d5f61"
+  dependencies:
+    lodash "^4.17.4"
 
 istanbul-api@^1.1.14:
   version "1.2.1"
@@ -3160,6 +3243,10 @@ merge-stream@^1.0.1:
   dependencies:
     readable-stream "^2.0.1"
 
+merge2@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.2.1.tgz#271d2516ff52d4af7f7b710b8bf3e16e183fef66"
+
 merge@^1.1.3, merge@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
@@ -3195,6 +3282,24 @@ micromatch@^3.1.4:
     fragment-cache "^0.2.1"
     kind-of "^6.0.0"
     nanomatch "^1.2.5"
+    object.pick "^1.3.0"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
+
+micromatch@^3.1.8:
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-3.1.9.tgz#15dc93175ae39e52e93087847096effc73efcf89"
+  dependencies:
+    arr-diff "^4.0.0"
+    array-unique "^0.3.2"
+    braces "^2.3.1"
+    define-property "^2.0.2"
+    extend-shallow "^3.0.2"
+    extglob "^2.0.4"
+    fragment-cache "^0.2.1"
+    kind-of "^6.0.2"
+    nanomatch "^1.2.9"
     object.pick "^1.3.0"
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
@@ -3276,6 +3381,23 @@ nanomatch@^1.2.5:
     fragment-cache "^0.2.1"
     is-odd "^1.0.0"
     kind-of "^5.0.2"
+    object.pick "^1.3.0"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
+
+nanomatch@^1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.9.tgz#879f7150cb2dab7a471259066c104eee6e0fa7c2"
+  dependencies:
+    arr-diff "^4.0.0"
+    array-unique "^0.3.2"
+    define-property "^2.0.2"
+    extend-shallow "^3.0.2"
+    fragment-cache "^0.2.1"
+    is-odd "^2.0.0"
+    is-windows "^1.0.2"
+    kind-of "^6.0.2"
     object.pick "^1.3.0"
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
@@ -3534,9 +3656,11 @@ p-reduce@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-reduce/-/p-reduce-1.0.0.tgz#18c2b0dd936a4690a529f8231f58a0fdb6a47dfa"
 
-p-reflect@^1.0.0:
+p-retry@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/p-reflect/-/p-reflect-1.0.0.tgz#f4fa1ee1bb546d8eb3ec0321148dfe0a79137bb8"
+  resolved "https://registry.yarnpkg.com/p-retry/-/p-retry-1.0.0.tgz#3927332a4b7d70269b535515117fc547da1a6968"
+  dependencies:
+    retry "^0.10.0"
 
 p-try@^1.0.0:
   version "1.0.0"
@@ -3592,6 +3716,10 @@ parse5@4.0.0:
 pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
+
+path-dirname@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/path-dirname/-/path-dirname-1.0.2.tgz#cc33d24d525e099a5388c0336c6e32b9160609e0"
 
 path-exists@2.1.0, path-exists@^2.0.0:
   version "2.1.0"
@@ -3703,10 +3831,6 @@ progress@^2.0.0:
 protocols@^1.1.0, protocols@^1.4.0:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/protocols/-/protocols-1.4.6.tgz#f8bb263ea1b5fd7a7604d26b8be39bd77678bf8a"
-
-proxy-from-env@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.0.0.tgz#33c50398f70ea7eb96d21f7b817630a55791c7ee"
 
 pseudomap@^1.0.2:
   version "1.0.2"
@@ -4020,6 +4144,10 @@ restore-cursor@^1.0.1:
     exit-hook "^1.0.0"
     onetime "^1.0.0"
 
+retry@^0.10.0:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/retry/-/retry-0.10.1.tgz#e76388d217992c252750241d3d3956fed98d8ff4"
+
 right-align@^0.1.1:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/right-align/-/right-align-0.1.3.tgz#61339b722fe6a3515689210d24e14c96148613ef"
@@ -4080,14 +4208,14 @@ secure-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/secure-keys/-/secure-keys-1.0.0.tgz#f0c82d98a3b139a8776a8808050b824431087fca"
 
-semantic-release@^13.1.1:
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-13.1.1.tgz#20748acdf2baddd9c25e2679b6c3afd710c4ee98"
+semantic-release@^15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.0.0.tgz#d54b7584f4e11f75513349096fc08a96e83f8825"
   dependencies:
     "@semantic-release/commit-analyzer" "^5.0.0"
-    "@semantic-release/error" "^2.1.0"
-    "@semantic-release/github" "^4.0.0"
-    "@semantic-release/npm" "^3.0.0"
+    "@semantic-release/error" "^2.2.0"
+    "@semantic-release/github" "^4.1.0"
+    "@semantic-release/npm" "^3.2.0"
     "@semantic-release/release-notes-generator" "^6.0.0"
     aggregate-error "^1.0.0"
     chalk "^2.3.0"
@@ -4098,17 +4226,17 @@ semantic-release@^13.1.1:
     execa "^0.9.0"
     get-stream "^3.0.0"
     git-log-parser "^1.2.0"
-    git-url-parse "^8.0.0"
+    git-url-parse "^8.1.0"
     hook-std "^0.4.0"
     lodash "^4.17.4"
     marked "^0.3.9"
     marked-terminal "^2.0.0"
     p-locate "^2.0.0"
     p-reduce "^1.0.0"
-    p-reflect "^1.0.0"
     read-pkg-up "^3.0.0"
     resolve-from "^4.0.0"
     semver "^5.4.1"
+    yargs "^11.0.0"
 
 "semver@2 || 3 || 4 || 5", semver@5.5.0, semver@^5.0.1, semver@^5.3.0, semver@^5.4.1:
   version "5.5.0"
@@ -4741,9 +4869,9 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
 
-url-join@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/url-join/-/url-join-3.0.0.tgz#26e8113ace195ea30d0fc38186e45400f9cea672"
+url-join@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.0.tgz#4d3340e807d3773bda9991f8305acdcc2a665d2a"
 
 url-template@^2.0.8:
   version "2.0.8"
