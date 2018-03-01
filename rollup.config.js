@@ -3,7 +3,7 @@ export default {
   output: {
     file: 'dist/lib/index.umd.js',
     format: 'umd',
-    name: 'ef.carbon.chat.bot',
+    name: 'ef.carbon.locale',
     exports: 'named',
     sourcemap: true
   },
