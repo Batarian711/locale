@@ -90,6 +90,7 @@ There are various scripts available that provide the workflow steps for the proj
 | `fix`              | Performs formatting and linting fixes                                                           |
 | `docs`             | Builds API documentation                                                                        |
 | `docs:open`        | Opens up the built API documentation in the default browser                                     |
+| `generate`         | Generates TypeScript files using the built binary                                               |
 
 ## Reports
 

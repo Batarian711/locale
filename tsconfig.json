@@ -15,9 +15,11 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist/lib",
+    "outDir": "dist",
     "baseUrl": ".",
     "paths": {
+      "@bin/*": ["bin/*"],
+      "@lib": ["lib/index"],
       "@lib/*": ["lib/*"],
       "@locale/*": ["lib/locale/*"]
     },
@@ -29,6 +31,7 @@
     ]
   },
   "include": [
+    "bin/**/*",
     "lib/**/*"
   ],
   "exclude": [

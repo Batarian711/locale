@@ -15,7 +15,7 @@
     "no-default-export": false,
     "no-implicit-dependencies": false,
     "no-magic-numbers": false,
-    "no-submodule-imports": [true, "@lib", "@locale", "@error", "@input", "@test"],
+    "no-submodule-imports": [true, "@lib", "@locale", "@bin", "@test"],
     "no-unbound-method": false,
     "no-unsafe-any": false,
     "no-void-expression": ["ignore-arrow-function-shorthand"],

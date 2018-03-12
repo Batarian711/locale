@@ -18,3 +18,6 @@ node_modules
 .DS_Store
 Thumbs.db
 *.tgz
+__snapshots__
+__mocks__
+ef-locale.json

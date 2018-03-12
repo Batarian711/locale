@@ -7,5 +7,8 @@ export default {
     exports: 'named',
     sourcemap: true
   },
-  context: 'global'
+  context: 'global',
+  external: [
+    'extendable-error'
+  ]
 };
