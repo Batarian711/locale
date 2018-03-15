@@ -8,6 +8,7 @@
     "indent": [true, "spaces", 2],
     "match-default-export-name": false,
     "max-classes-per-file": false,
+    "max-file-line-count": false,
     "member-access": [true, "no-public"],
     "member-ordering": false,
     "newline-before-return": false,
