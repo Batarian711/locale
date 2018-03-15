@@ -1,3 +1,11 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/ef-carbon/locale/compare/v1.0.2...v1.1.0) (2018-03-15)
+
+
+### Features
+
+* add a `ef-locale` binary ([2d00519](https://github.com/ef-carbon/locale/commit/2d00519))
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/ef-carbon/locale/compare/v1.0.1...v1.0.2) (2018-03-09)
 

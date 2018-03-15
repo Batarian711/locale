@@ -1,6 +1,6 @@
 {
   "name": "@ef-carbon/locale",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Provides TypeScript interfaces, class and defines for understanding a language locale.",
   "main": "dist/lib/index.umd.js",
   "module": "dist/lib/index.js",
