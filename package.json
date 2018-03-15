@@ -62,7 +62,7 @@
     "jest": "^22.1.4",
     "jest-junit-reporter": "^1.1.0",
     "opn-cli": "^3.1.0",
-    "rollup": "^0.56.2",
+    "rollup": "^0.57.0",
     "semantic-release": "^15.0.0",
     "ts-jest": "^22.0.2",
     "tslint": "^5.9.1",
