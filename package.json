@@ -6,7 +6,7 @@
   "module": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "bin": {
-    "ef-locale": "dist/bin/ef-locale"
+    "ef-locale": "dist/bin/locale"
   },
   "repository": "https://github.com/ef-carbon/locale.git",
   "license": "MIT",
@@ -44,7 +44,7 @@
     "fix": "yarn -s lint:fix",
     "docs": "yarn -s typedoc lib",
     "docs:open": "yarn -s opn dist/docs/index.html",
-    "generate": "yarn -s build && ./dist/bin/ef-locale --generator ./dist/bin/generator/typescript.cjs lib"
+    "generate": "yarn -s build && ./dist/bin/locale --generator ./dist/bin/generator/typescript.cjs lib"
   },
   "husky": {
     "hooks": {

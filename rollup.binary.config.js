@@ -10,9 +10,9 @@ function chmod({mode} = {mode: '644'}) {
 }
 
 export default {
-  input: 'dist/bin/ef-locale.js',
+  input: 'dist/bin/locale.js',
   output: {
-    file: 'dist/bin/ef-locale',
+    file: 'dist/bin/locale',
     format: 'cjs',
     banner: '#! /usr/bin/env node\n'
   },
