@@ -93,7 +93,8 @@
   "jest": {
     "globals": {
       "ts-jest": {
-        "tsConfigFile": "test/tsconfig.json"
+        "tsConfigFile": "test/tsconfig.json",
+        "enableTsDiagnostics": true
       }
     },
     "moduleFileExtensions": [
