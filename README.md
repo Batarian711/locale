@@ -13,6 +13,10 @@
 [![Semantic Release][semantic-release-badge]][semantic-release]
 [![Commitizen friendly][commitizen-badge]][commitizen]
 [![Conventional Commits][coventional-commits-badge]][coventional-commits]
+[![Direct Dependencies Status][david-dm-direct-badge]][david-dm]
+[![Developer Dependencies Status][david-dm-dev-badge]][david-dm]
+[![Peer Dependencies Status][david-dm-peer-badge]][david-dm]
+[![Optional Dependencies Status][david-dm-optional-badge]][david-dm]
 
 > Provides TypeScript interfaces, class and defines for understanding a language locale.
 
@@ -129,3 +133,8 @@ There are various scripts available that provide the workflow steps for the proj
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [coventional-commits]: https://conventionalcommits.org
 [coventional-commits-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
+[david-dm-direct-badge]: https://img.shields.io/david/ef-carbon/locale.svg
+[david-dm-dev-badge]: https://img.shields.io/david/dev/ef-carbon/locale.svg
+[david-dm-peer-badge]: https://img.shields.io/david/peer/ef-carbon/locale.svg
+[david-dm-optional-badge]: https://img.shields.io/david/optional/ef-carbon/locale.svg
+[david-dm]: https://david-dm.org/
