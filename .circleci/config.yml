@@ -154,6 +154,11 @@ jobs:
       - <<: *restore_cache
       - <<: *setup_junit_environment
       - run:
+          name: Disable Diagnostics
+          command: |
+            jq '.jest.globals["ts-jest"].enableTsDiagnostics = false' < package.json > package.json~
+            mv package.json{~,}
+      - run:
           name: Tests
           command: yarn test --ci
       - run:
@@ -170,6 +175,11 @@ jobs:
     steps:
       - checkout
       - <<: *restore_cache
+      - run:
+          name: Disable Diagnostics
+          command: |
+            jq '.jest.globals["ts-jest"].enableTsDiagnostics = false' < package.json > package.json~
+            mv package.json{~,}
       - run:
           name: Coverage
           command: yarn coverage
