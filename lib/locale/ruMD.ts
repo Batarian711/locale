@@ -15,7 +15,7 @@ export interface IRuMd extends ILocale {
  */
 export const ruMD: IRuMd = {
   language: russian,
-  region: moldova
+  region: moldova,
 };
 
 export default ruMD;

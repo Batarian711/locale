@@ -12,7 +12,7 @@ export interface IOs extends ILocale {
  * The locale variable for the Ossetian language
  */
 export const os: IOs = {
-  language: ossetian
+  language: ossetian,
 };
 
 export default os;

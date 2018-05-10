@@ -15,7 +15,7 @@ export interface IMyMm extends ILocale {
  */
 export const myMM: IMyMm = {
   language: burmese,
-  region: myanmar
+  region: myanmar,
 };
 
 export default myMM;

@@ -12,7 +12,7 @@ export interface IPs extends ILocale {
  * The locale variable for the Pashto language
  */
 export const ps: IPs = {
-  language: pashto
+  language: pashto,
 };
 
 export default ps;

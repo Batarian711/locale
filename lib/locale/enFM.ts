@@ -15,7 +15,7 @@ export interface IEnFm extends ILocale {
  */
 export const enFM: IEnFm = {
   language: english,
-  region: micronesia
+  region: micronesia,
 };
 
 export default enFM;

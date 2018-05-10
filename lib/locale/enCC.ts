@@ -15,7 +15,7 @@ export interface IEnCc extends ILocale {
  */
 export const enCC: IEnCc = {
   language: english,
-  region: cocosKeelingIslands
+  region: cocosKeelingIslands,
 };
 
 export default enCC;

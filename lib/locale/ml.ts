@@ -12,7 +12,7 @@ export interface IMl extends ILocale {
  * The locale variable for the Malayalam language
  */
 export const ml: IMl = {
-  language: malayalam
+  language: malayalam,
 };
 
 export default ml;

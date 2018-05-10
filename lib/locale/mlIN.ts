@@ -15,7 +15,7 @@ export interface IMlIn extends ILocale {
  */
 export const mlIN: IMlIn = {
   language: malayalam,
-  region: india
+  region: india,
 };
 
 export default mlIN;

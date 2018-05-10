@@ -12,7 +12,7 @@ export interface ISq extends ILocale {
  * The locale variable for the Albanian language
  */
 export const sq: ISq = {
-  language: albanian
+  language: albanian,
 };
 
 export default sq;

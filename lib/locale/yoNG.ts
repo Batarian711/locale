@@ -15,7 +15,7 @@ export interface IYoNg extends ILocale {
  */
 export const yoNG: IYoNg = {
   language: yoruba,
-  region: nigeria
+  region: nigeria,
 };
 
 export default yoNG;

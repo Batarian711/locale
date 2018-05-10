@@ -15,7 +15,7 @@ export interface IFrTd extends ILocale {
  */
 export const frTD: IFrTd = {
   language: french,
-  region: chad
+  region: chad,
 };
 
 export default frTD;

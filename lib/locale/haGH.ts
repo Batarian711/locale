@@ -15,7 +15,7 @@ export interface IHaGh extends ILocale {
  */
 export const haGH: IHaGh = {
   language: hausa,
-  region: ghana
+  region: ghana,
 };
 
 export default haGH;

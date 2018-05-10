@@ -15,7 +15,7 @@ export interface IEnPw extends ILocale {
  */
 export const enPW: IEnPw = {
   language: english,
-  region: palau
+  region: palau,
 };
 
 export default enPW;

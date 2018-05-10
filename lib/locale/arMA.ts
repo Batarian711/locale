@@ -15,7 +15,7 @@ export interface IArMa extends ILocale {
  */
 export const arMA: IArMa = {
   language: arabic,
-  region: morocco
+  region: morocco,
 };
 
 export default arMA;

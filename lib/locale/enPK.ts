@@ -15,7 +15,7 @@ export interface IEnPk extends ILocale {
  */
 export const enPK: IEnPk = {
   language: english,
-  region: pakistan
+  region: pakistan,
 };
 
 export default enPK;

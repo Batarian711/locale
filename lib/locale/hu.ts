@@ -12,7 +12,7 @@ export interface IHu extends ILocale {
  * The locale variable for the Hungarian language
  */
 export const hu: IHu = {
-  language: hungarian
+  language: hungarian,
 };
 
 export default hu;

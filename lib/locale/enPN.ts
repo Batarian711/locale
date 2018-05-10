@@ -15,7 +15,7 @@ export interface IEnPn extends ILocale {
  */
 export const enPN: IEnPn = {
   language: english,
-  region: pitcairn
+  region: pitcairn,
 };
 
 export default enPN;

@@ -15,7 +15,7 @@ export interface IEnCx extends ILocale {
  */
 export const enCX: IEnCx = {
   language: english,
-  region: christmasIsland
+  region: christmasIsland,
 };
 
 export default enCX;

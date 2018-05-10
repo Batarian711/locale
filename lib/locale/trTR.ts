@@ -15,7 +15,7 @@ export interface ITrTr extends ILocale {
  */
 export const trTR: ITrTr = {
   language: turkish,
-  region: turkey
+  region: turkey,
 };
 
 export default trTR;

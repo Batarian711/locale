@@ -15,7 +15,7 @@ export interface IEnNr extends ILocale {
  */
 export const enNR: IEnNr = {
   language: english,
-  region: nauru
+  region: nauru,
 };
 
 export default enNR;

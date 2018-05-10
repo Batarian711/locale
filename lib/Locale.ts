@@ -2224,7 +2224,7 @@ export const locale: ReadonlySet<Locale> = new Set<Locale>([
   yoBJ,
   yoNG,
   zu,
-  zuZA
+  zuZA,
 ]);
 
 export default Locale;

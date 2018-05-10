@@ -15,7 +15,7 @@ export interface ICaIt extends ILocale {
  */
 export const caIT: ICaIt = {
   language: catalan,
-  region: italy
+  region: italy,
 };
 
 export default caIT;

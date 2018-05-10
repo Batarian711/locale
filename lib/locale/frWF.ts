@@ -15,7 +15,7 @@ export interface IFrWf extends ILocale {
  */
 export const frWF: IFrWf = {
   language: french,
-  region: wallisAndFutuna
+  region: wallisAndFutuna,
 };
 
 export default frWF;

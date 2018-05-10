@@ -15,7 +15,7 @@ export interface IEsHn extends ILocale {
  */
 export const esHN: IEsHn = {
   language: spanish,
-  region: honduras
+  region: honduras,
 };
 
 export default esHN;

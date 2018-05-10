@@ -15,7 +15,7 @@ export interface IFrMq extends ILocale {
  */
 export const frMQ: IFrMq = {
   language: french,
-  region: martinique
+  region: martinique,
 };
 
 export default frMQ;

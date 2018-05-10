@@ -15,7 +15,7 @@ export interface IDeLu extends ILocale {
  */
 export const deLU: IDeLu = {
   language: german,
-  region: luxembourg
+  region: luxembourg,
 };
 
 export default deLU;

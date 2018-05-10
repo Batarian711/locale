@@ -15,7 +15,7 @@ export interface IEnMh extends ILocale {
  */
 export const enMH: IEnMh = {
   language: english,
-  region: marshallIslands
+  region: marshallIslands,
 };
 
 export default enMH;

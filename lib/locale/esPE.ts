@@ -15,7 +15,7 @@ export interface IEsPe extends ILocale {
  */
 export const esPE: IEsPe = {
   language: spanish,
-  region: peru
+  region: peru,
 };
 
 export default esPE;

@@ -15,7 +15,7 @@ export interface IFrPm extends ILocale {
  */
 export const frPM: IFrPm = {
   language: french,
-  region: saintPierreAndMiquelon
+  region: saintPierreAndMiquelon,
 };
 
 export default frPM;

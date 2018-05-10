@@ -12,7 +12,7 @@ export interface IKo extends ILocale {
  * The locale variable for the Korean language
  */
 export const ko: IKo = {
-  language: korean
+  language: korean,
 };
 
 export default ko;

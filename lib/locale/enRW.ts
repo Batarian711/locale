@@ -15,7 +15,7 @@ export interface IEnRw extends ILocale {
  */
 export const enRW: IEnRw = {
   language: english,
-  region: rwanda
+  region: rwanda,
 };
 
 export default enRW;

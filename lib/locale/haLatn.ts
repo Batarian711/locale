@@ -15,7 +15,7 @@ export interface IHaLatn extends ILocale {
  */
 export const haLatn: IHaLatn = {
   language: hausa,
-  script: latin
+  script: latin,
 };
 
 export default haLatn;

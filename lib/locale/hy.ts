@@ -12,7 +12,7 @@ export interface IHy extends ILocale {
  * The locale variable for the Armenian language
  */
 export const hy: IHy = {
-  language: armenian
+  language: armenian,
 };
 
 export default hy;

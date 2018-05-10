@@ -15,7 +15,7 @@ export interface INbSj extends ILocale {
  */
 export const nbSJ: INbSj = {
   language: norwegianBokmal,
-  region: svalbardAndJanMayen
+  region: svalbardAndJanMayen,
 };
 
 export default nbSJ;

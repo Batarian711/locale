@@ -12,7 +12,7 @@ export interface ITl extends ILocale {
  * The locale variable for the Tagalog language
  */
 export const tl: ITl = {
-  language: tagalog
+  language: tagalog,
 };
 
 export default tl;

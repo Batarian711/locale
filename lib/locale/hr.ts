@@ -12,7 +12,7 @@ export interface IHr extends ILocale {
  * The locale variable for the Croatian language
  */
 export const hr: IHr = {
-  language: croatian
+  language: croatian,
 };
 
 export default hr;

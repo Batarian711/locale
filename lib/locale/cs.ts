@@ -12,7 +12,7 @@ export interface ICs extends ILocale {
  * The locale variable for the Czech language
  */
 export const cs: ICs = {
-  language: czech
+  language: czech,
 };
 
 export default cs;

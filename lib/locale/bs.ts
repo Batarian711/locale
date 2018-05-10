@@ -12,7 +12,7 @@ export interface IBs extends ILocale {
  * The locale variable for the Bosnian language
  */
 export const bs: IBs = {
-  language: bosnian
+  language: bosnian,
 };
 
 export default bs;

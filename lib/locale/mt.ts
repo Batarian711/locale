@@ -12,7 +12,7 @@ export interface IMt extends ILocale {
  * The locale variable for the Maltese language
  */
 export const mt: IMt = {
-  language: maltese
+  language: maltese,
 };
 
 export default mt;

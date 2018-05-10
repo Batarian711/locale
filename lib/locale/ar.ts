@@ -12,7 +12,7 @@ export interface IAr extends ILocale {
  * The locale variable for the Arabic language
  */
 export const ar: IAr = {
-  language: arabic
+  language: arabic,
 };
 
 export default ar;

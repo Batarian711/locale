@@ -15,7 +15,7 @@ export interface IFaIr extends ILocale {
  */
 export const faIR: IFaIr = {
   language: persian,
-  region: iran
+  region: iran,
 };
 
 export default faIR;

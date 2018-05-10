@@ -15,7 +15,7 @@ export interface IEnUm extends ILocale {
  */
 export const enUM: IEnUm = {
   language: english,
-  region: unitedStatesMinorOutlyingIslands
+  region: unitedStatesMinorOutlyingIslands,
 };
 
 export default enUM;

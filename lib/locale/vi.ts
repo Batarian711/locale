@@ -12,7 +12,7 @@ export interface IVi extends ILocale {
  * The locale variable for the Vietnamese language
  */
 export const vi: IVi = {
-  language: vietnamese
+  language: vietnamese,
 };
 
 export default vi;

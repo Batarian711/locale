@@ -15,7 +15,7 @@ export interface IMgMg extends ILocale {
  */
 export const mgMG: IMgMg = {
   language: malagasy,
-  region: madagascar
+  region: madagascar,
 };
 
 export default mgMG;

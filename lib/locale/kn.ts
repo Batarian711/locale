@@ -12,7 +12,7 @@ export interface IKn extends ILocale {
  * The locale variable for the Kannada language
  */
 export const kn: IKn = {
-  language: kannada
+  language: kannada,
 };
 
 export default kn;

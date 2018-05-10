@@ -12,7 +12,7 @@ export interface IFo extends ILocale {
  * The locale variable for the Faroese language
  */
 export const fo: IFo = {
-  language: faroese
+  language: faroese,
 };
 
 export default fo;

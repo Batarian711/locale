@@ -15,7 +15,7 @@ export interface INlAw extends ILocale {
  */
 export const nlAW: INlAw = {
   language: dutch,
-  region: aruba
+  region: aruba,
 };
 
 export default nlAW;

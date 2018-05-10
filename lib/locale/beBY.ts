@@ -15,7 +15,7 @@ export interface IBeBy extends ILocale {
  */
 export const beBY: IBeBy = {
   language: belarusian,
-  region: belarus
+  region: belarus,
 };
 
 export default beBY;

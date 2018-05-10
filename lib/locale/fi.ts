@@ -12,7 +12,7 @@ export interface IFi extends ILocale {
  * The locale variable for the Finnish language
  */
 export const fi: IFi = {
-  language: finnish
+  language: finnish,
 };
 
 export default fi;

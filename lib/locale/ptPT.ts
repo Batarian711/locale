@@ -15,7 +15,7 @@ export interface IPtPt extends ILocale {
  */
 export const ptPT: IPtPt = {
   language: portuguese,
-  region: portugal
+  region: portugal,
 };
 
 export default ptPT;

@@ -15,7 +15,7 @@ export interface IEnMw extends ILocale {
  */
 export const enMW: IEnMw = {
   language: english,
-  region: malawi
+  region: malawi,
 };
 
 export default enMW;

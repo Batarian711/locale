@@ -15,7 +15,7 @@ export interface IGlEs extends ILocale {
  */
 export const glES: IGlEs = {
   language: galician,
-  region: spain
+  region: spain,
 };
 
 export default glES;

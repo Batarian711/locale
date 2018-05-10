@@ -12,7 +12,7 @@ export interface IHe extends ILocale {
  * The locale variable for the Hebrew language
  */
 export const he: IHe = {
-  language: hebrew
+  language: hebrew,
 };
 
 export default he;

@@ -15,7 +15,7 @@ export interface IArLy extends ILocale {
  */
 export const arLY: IArLy = {
   language: arabic,
-  region: libya
+  region: libya,
 };
 
 export default arLY;

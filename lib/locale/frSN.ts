@@ -15,7 +15,7 @@ export interface IFrSn extends ILocale {
  */
 export const frSN: IFrSn = {
   language: french,
-  region: senegal
+  region: senegal,
 };
 
 export default frSN;

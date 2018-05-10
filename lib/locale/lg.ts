@@ -12,7 +12,7 @@ export interface ILg extends ILocale {
  * The locale variable for the Ganda language
  */
 export const lg: ILg = {
-  language: ganda
+  language: ganda,
 };
 
 export default lg;

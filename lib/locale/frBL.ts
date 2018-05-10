@@ -15,7 +15,7 @@ export interface IFrBl extends ILocale {
  */
 export const frBL: IFrBl = {
   language: french,
-  region: saintBarthelemy
+  region: saintBarthelemy,
 };
 
 export default frBL;

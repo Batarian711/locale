@@ -12,7 +12,7 @@ export interface INb extends ILocale {
  * The locale variable for the Norwegian Bokmål language
  */
 export const nb: INb = {
-  language: norwegianBokmal
+  language: norwegianBokmal,
 };
 
 export default nb;

@@ -15,7 +15,7 @@ export interface ITiEt extends ILocale {
  */
 export const tiET: ITiEt = {
   language: tigrinya,
-  region: ethiopia
+  region: ethiopia,
 };
 
 export default tiET;

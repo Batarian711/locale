@@ -12,7 +12,7 @@ export interface IFa extends ILocale {
  * The locale variable for the Persian language
  */
 export const fa: IFa = {
-  language: persian
+  language: persian,
 };
 
 export default fa;

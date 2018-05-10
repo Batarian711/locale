@@ -15,7 +15,7 @@ export interface IMrIn extends ILocale {
  */
 export const mrIN: IMrIn = {
   language: marathi,
-  region: india
+  region: india,
 };
 
 export default mrIN;

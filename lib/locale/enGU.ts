@@ -15,7 +15,7 @@ export interface IEnGu extends ILocale {
  */
 export const enGU: IEnGu = {
   language: english,
-  region: guam
+  region: guam,
 };
 
 export default enGU;

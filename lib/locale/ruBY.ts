@@ -15,7 +15,7 @@ export interface IRuBy extends ILocale {
  */
 export const ruBY: IRuBy = {
   language: russian,
-  region: belarus
+  region: belarus,
 };
 
 export default ruBY;

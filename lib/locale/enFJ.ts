@@ -15,7 +15,7 @@ export interface IEnFj extends ILocale {
  */
 export const enFJ: IEnFj = {
   language: english,
-  region: fiji
+  region: fiji,
 };
 
 export default enFJ;

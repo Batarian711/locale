@@ -15,7 +15,7 @@ export interface IEnJm extends ILocale {
  */
 export const enJM: IEnJm = {
   language: english,
-  region: jamaica
+  region: jamaica,
 };
 
 export default enJM;

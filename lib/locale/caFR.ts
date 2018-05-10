@@ -15,7 +15,7 @@ export interface ICaFr extends ILocale {
  */
 export const caFR: ICaFr = {
   language: catalan,
-  region: france
+  region: france,
 };
 
 export default caFR;

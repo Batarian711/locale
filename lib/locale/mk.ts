@@ -12,7 +12,7 @@ export interface IMk extends ILocale {
  * The locale variable for the Macedonian language
  */
 export const mk: IMk = {
-  language: macedonian
+  language: macedonian,
 };
 
 export default mk;

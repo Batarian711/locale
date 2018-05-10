@@ -15,7 +15,7 @@ export interface IItIt extends ILocale {
  */
 export const itIT: IItIt = {
   language: italian,
-  region: italy
+  region: italy,
 };
 
 export default itIT;

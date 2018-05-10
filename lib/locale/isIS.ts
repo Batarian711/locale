@@ -15,7 +15,7 @@ export interface IIsIs extends ILocale {
  */
 export const isIS: IIsIs = {
   language: icelandic,
-  region: iceland
+  region: iceland,
 };
 
 export default isIS;

@@ -12,7 +12,7 @@ export interface ISw extends ILocale {
  * The locale variable for the Swahili language
  */
 export const sw: ISw = {
-  language: swahili
+  language: swahili,
 };
 
 export default sw;

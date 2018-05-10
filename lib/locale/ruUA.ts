@@ -15,7 +15,7 @@ export interface IRuUa extends ILocale {
  */
 export const ruUA: IRuUa = {
   language: russian,
-  region: ukraine
+  region: ukraine,
 };
 
 export default ruUA;

@@ -12,7 +12,7 @@ export interface IEe extends ILocale {
  * The locale variable for the Ewe language
  */
 export const ee: IEe = {
-  language: ewe
+  language: ewe,
 };
 
 export default ee;

@@ -15,7 +15,7 @@ export interface IEnAs extends ILocale {
  */
 export const enAS: IEnAs = {
   language: english,
-  region: americanSamoa
+  region: americanSamoa,
 };
 
 export default enAS;

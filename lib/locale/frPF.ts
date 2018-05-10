@@ -15,7 +15,7 @@ export interface IFrPf extends ILocale {
  */
 export const frPF: IFrPf = {
   language: french,
-  region: frenchPolynesia
+  region: frenchPolynesia,
 };
 
 export default frPF;

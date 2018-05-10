@@ -15,7 +15,7 @@ export interface IFrGa extends ILocale {
  */
 export const frGA: IFrGa = {
   language: french,
-  region: gabon
+  region: gabon,
 };
 
 export default frGA;

@@ -15,7 +15,7 @@ export interface IEsBo extends ILocale {
  */
 export const esBO: IEsBo = {
   language: spanish,
-  region: bolivia
+  region: bolivia,
 };
 
 export default esBO;

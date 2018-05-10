@@ -15,7 +15,7 @@ export interface IArAe extends ILocale {
  */
 export const arAE: IArAe = {
   language: arabic,
-  region: unitedArabEmirates
+  region: unitedArabEmirates,
 };
 
 export default arAE;

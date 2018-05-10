@@ -15,7 +15,7 @@ export interface IEnKn extends ILocale {
  */
 export const enKN: IEnKn = {
   language: english,
-  region: saintKittsAndNevis
+  region: saintKittsAndNevis,
 };
 
 export default enKN;

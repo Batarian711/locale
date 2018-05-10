@@ -15,7 +15,7 @@ export interface IMkMk extends ILocale {
  */
 export const mkMK: IMkMk = {
   language: macedonian,
-  region: macedonia
+  region: macedonia,
 };
 
 export default mkMK;

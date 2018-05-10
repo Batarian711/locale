@@ -12,7 +12,7 @@ export interface IDa extends ILocale {
  * The locale variable for the Danish language
  */
 export const da: IDa = {
-  language: danish
+  language: danish,
 };
 
 export default da;

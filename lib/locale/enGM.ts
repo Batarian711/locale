@@ -15,7 +15,7 @@ export interface IEnGm extends ILocale {
  */
 export const enGM: IEnGm = {
   language: english,
-  region: gambia
+  region: gambia,
 };
 
 export default enGM;

@@ -15,7 +15,7 @@ export interface ISgCf extends ILocale {
  */
 export const sgCF: ISgCf = {
   language: sango,
-  region: centralAfricanRepublic
+  region: centralAfricanRepublic,
 };
 
 export default sgCF;

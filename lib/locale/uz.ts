@@ -12,7 +12,7 @@ export interface IUz extends ILocale {
  * The locale variable for the Uzbek language
  */
 export const uz: IUz = {
-  language: uzbek
+  language: uzbek,
 };
 
 export default uz;

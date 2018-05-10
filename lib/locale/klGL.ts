@@ -15,7 +15,7 @@ export interface IKlGl extends ILocale {
  */
 export const klGL: IKlGl = {
   language: kalaallisut,
-  region: greenland
+  region: greenland,
 };
 
 export default klGL;

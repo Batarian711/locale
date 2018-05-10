@@ -15,7 +15,7 @@ export interface ISvFi extends ILocale {
  */
 export const svFI: ISvFi = {
   language: swedish,
-  region: finland
+  region: finland,
 };
 
 export default svFI;

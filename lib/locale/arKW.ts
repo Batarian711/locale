@@ -15,7 +15,7 @@ export interface IArKw extends ILocale {
  */
 export const arKW: IArKw = {
   language: arabic,
-  region: kuwait
+  region: kuwait,
 };
 
 export default arKW;

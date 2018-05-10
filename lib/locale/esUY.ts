@@ -15,7 +15,7 @@ export interface IEsUy extends ILocale {
  */
 export const esUY: IEsUy = {
   language: spanish,
-  region: uruguay
+  region: uruguay,
 };
 
 export default esUY;

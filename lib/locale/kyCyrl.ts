@@ -15,7 +15,7 @@ export interface IKyCyrl extends ILocale {
  */
 export const kyCyrl: IKyCyrl = {
   language: kyrgyz,
-  script: cyrillic
+  script: cyrillic,
 };
 
 export default kyCyrl;

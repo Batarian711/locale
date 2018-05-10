@@ -15,7 +15,7 @@ export interface ICsCz extends ILocale {
  */
 export const csCZ: ICsCz = {
   language: czech,
-  region: czechRepublic
+  region: czechRepublic,
 };
 
 export default csCZ;

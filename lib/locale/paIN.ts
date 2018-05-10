@@ -15,7 +15,7 @@ export interface IPaIn extends ILocale {
  */
 export const paIN: IPaIn = {
   language: punjabi,
-  region: india
+  region: india,
 };
 
 export default paIN;

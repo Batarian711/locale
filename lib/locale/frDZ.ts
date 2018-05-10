@@ -15,7 +15,7 @@ export interface IFrDz extends ILocale {
  */
 export const frDZ: IFrDz = {
   language: french,
-  region: algeria
+  region: algeria,
 };
 
 export default frDZ;

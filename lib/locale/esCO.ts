@@ -15,7 +15,7 @@ export interface IEsCo extends ILocale {
  */
 export const esCO: IEsCo = {
   language: spanish,
-  region: colombia
+  region: colombia,
 };
 
 export default esCO;

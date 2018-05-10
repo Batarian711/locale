@@ -12,7 +12,7 @@ export interface IFf extends ILocale {
  * The locale variable for the Fula language
  */
 export const ff: IFf = {
-  language: fula
+  language: fula,
 };
 
 export default ff;

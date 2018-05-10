@@ -15,7 +15,7 @@ export interface ISoDj extends ILocale {
  */
 export const soDJ: ISoDj = {
   language: somali,
-  region: djibouti
+  region: djibouti,
 };
 
 export default soDJ;

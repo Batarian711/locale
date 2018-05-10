@@ -15,7 +15,7 @@ export interface IDeLi extends ILocale {
  */
 export const deLI: IDeLi = {
   language: german,
-  region: liechtenstein
+  region: liechtenstein,
 };
 
 export default deLI;

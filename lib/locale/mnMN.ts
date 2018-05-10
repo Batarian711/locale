@@ -15,7 +15,7 @@ export interface IMnMn extends ILocale {
  */
 export const mnMN: IMnMn = {
   language: mongolian,
-  region: mongolia
+  region: mongolia,
 };
 
 export default mnMN;

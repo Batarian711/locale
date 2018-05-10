@@ -15,7 +15,7 @@ export interface ISeFi extends ILocale {
  */
 export const seFI: ISeFi = {
   language: northernSami,
-  region: finland
+  region: finland,
 };
 
 export default seFI;

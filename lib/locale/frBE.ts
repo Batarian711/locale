@@ -15,7 +15,7 @@ export interface IFrBe extends ILocale {
  */
 export const frBE: IFrBe = {
   language: french,
-  region: belgium
+  region: belgium,
 };
 
 export default frBE;

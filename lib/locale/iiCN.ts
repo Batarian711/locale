@@ -15,7 +15,7 @@ export interface IIiCn extends ILocale {
  */
 export const iiCN: IIiCn = {
   language: nuosu,
-  region: china
+  region: china,
 };
 
 export default iiCN;

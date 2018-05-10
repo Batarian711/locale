@@ -15,7 +15,7 @@ export interface IRuKg extends ILocale {
  */
 export const ruKG: IRuKg = {
   language: russian,
-  region: kyrgyzstan
+  region: kyrgyzstan,
 };
 
 export default ruKG;

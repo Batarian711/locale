@@ -15,7 +15,7 @@ export interface IEtEe extends ILocale {
  */
 export const etEE: IEtEe = {
   language: estonian,
-  region: estonia
+  region: estonia,
 };
 
 export default etEE;

@@ -12,7 +12,7 @@ export interface IRo extends ILocale {
  * The locale variable for the Romanian language
  */
 export const ro: IRo = {
-  language: romanian
+  language: romanian,
 };
 
 export default ro;

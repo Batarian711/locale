@@ -15,7 +15,7 @@ export interface IArSa extends ILocale {
  */
 export const arSA: IArSa = {
   language: arabic,
-  region: saudiArabia
+  region: saudiArabia,
 };
 
 export default arSA;

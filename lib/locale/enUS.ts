@@ -15,7 +15,7 @@ export interface IEnUs extends ILocale {
  */
 export const enUS: IEnUs = {
   language: english,
-  region: unitedStatesOfAmerica
+  region: unitedStatesOfAmerica,
 };
 
 export default enUS;

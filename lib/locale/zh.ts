@@ -12,7 +12,7 @@ export interface IZh extends ILocale {
  * The locale variable for the Chinese language
  */
 export const zh: IZh = {
-  language: chinese
+  language: chinese,
 };
 
 export default zh;

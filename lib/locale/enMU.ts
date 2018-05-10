@@ -15,7 +15,7 @@ export interface IEnMu extends ILocale {
  */
 export const enMU: IEnMu = {
   language: english,
-  region: mauritius
+  region: mauritius,
 };
 
 export default enMU;

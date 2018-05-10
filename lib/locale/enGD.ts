@@ -15,7 +15,7 @@ export interface IEnGd extends ILocale {
  */
 export const enGD: IEnGd = {
   language: english,
-  region: grenada
+  region: grenada,
 };
 
 export default enGD;

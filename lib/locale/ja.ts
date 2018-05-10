@@ -12,7 +12,7 @@ export interface IJa extends ILocale {
  * The locale variable for the Japanese language
  */
 export const ja: IJa = {
-  language: japanese
+  language: japanese,
 };
 
 export default ja;

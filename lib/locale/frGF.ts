@@ -15,7 +15,7 @@ export interface IFrGf extends ILocale {
  */
 export const frGF: IFrGf = {
   language: french,
-  region: frenchGuiana
+  region: frenchGuiana,
 };
 
 export default frGF;

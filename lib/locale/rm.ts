@@ -12,7 +12,7 @@ export interface IRm extends ILocale {
  * The locale variable for the Romansh language
  */
 export const rm: IRm = {
-  language: romansh
+  language: romansh,
 };
 
 export default rm;

@@ -15,7 +15,7 @@ export interface IOsRu extends ILocale {
  */
 export const osRU: IOsRu = {
   language: ossetian,
-  region: russianFederation
+  region: russianFederation,
 };
 
 export default osRU;

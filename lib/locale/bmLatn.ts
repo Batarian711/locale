@@ -15,7 +15,7 @@ export interface IBmLatn extends ILocale {
  */
 export const bmLatn: IBmLatn = {
   language: bambara,
-  script: latin
+  script: latin,
 };
 
 export default bmLatn;

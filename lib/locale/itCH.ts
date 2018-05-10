@@ -15,7 +15,7 @@ export interface IItCh extends ILocale {
  */
 export const itCH: IItCh = {
   language: italian,
-  region: switzerland
+  region: switzerland,
 };
 
 export default itCH;

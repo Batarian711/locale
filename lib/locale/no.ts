@@ -12,7 +12,7 @@ export interface INo extends ILocale {
  * The locale variable for the Norwegian language
  */
 export const no: INo = {
-  language: norwegian
+  language: norwegian,
 };
 
 export default no;

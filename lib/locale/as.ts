@@ -12,7 +12,7 @@ export interface IAs extends ILocale {
  * The locale variable for the Assamese language
  */
 export const as: IAs = {
-  language: assamese
+  language: assamese,
 };
 
 export default as;

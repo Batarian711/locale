@@ -15,7 +15,7 @@ export interface IEnDm extends ILocale {
  */
 export const enDM: IEnDm = {
   language: english,
-  region: dominica
+  region: dominica,
 };
 
 export default enDM;

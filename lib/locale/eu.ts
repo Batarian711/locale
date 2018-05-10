@@ -12,7 +12,7 @@ export interface IEu extends ILocale {
  * The locale variable for the Basque language
  */
 export const eu: IEu = {
-  language: basque
+  language: basque,
 };
 
 export default eu;

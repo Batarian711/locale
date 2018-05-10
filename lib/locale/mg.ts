@@ -12,7 +12,7 @@ export interface IMg extends ILocale {
  * The locale variable for the Malagasy language
  */
 export const mg: IMg = {
-  language: malagasy
+  language: malagasy,
 };
 
 export default mg;

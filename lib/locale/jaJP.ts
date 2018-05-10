@@ -15,7 +15,7 @@ export interface IJaJp extends ILocale {
  */
 export const jaJP: IJaJp = {
   language: japanese,
-  region: japan
+  region: japan,
 };
 
 export default jaJP;

@@ -18,7 +18,7 @@ export interface ISrLatnMe extends ILocale {
 export const srLatnME: ISrLatnMe = {
   language: serbian,
   region: montenegro,
-  script: latin
+  script: latin,
 };
 
 export default srLatnME;

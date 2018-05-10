@@ -15,7 +15,7 @@ export interface IEnJe extends ILocale {
  */
 export const enJE: IEnJe = {
   language: english,
-  region: jersey
+  region: jersey,
 };
 
 export default enJE;

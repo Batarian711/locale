@@ -15,7 +15,7 @@ export interface IEnZm extends ILocale {
  */
 export const enZM: IEnZm = {
   language: english,
-  region: zambia
+  region: zambia,
 };
 
 export default enZM;

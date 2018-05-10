@@ -15,7 +15,7 @@ export interface ISeNo extends ILocale {
  */
 export const seNO: ISeNo = {
   language: northernSami,
-  region: norway
+  region: norway,
 };
 
 export default seNO;

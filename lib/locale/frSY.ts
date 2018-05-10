@@ -15,7 +15,7 @@ export interface IFrSy extends ILocale {
  */
 export const frSY: IFrSy = {
   language: french,
-  region: syrianArabRepublic
+  region: syrianArabRepublic,
 };
 
 export default frSY;

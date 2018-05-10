@@ -12,7 +12,7 @@ export interface IOr extends ILocale {
  * The locale variable for the Oriya language
  */
 export const or: IOr = {
-  language: oriya
+  language: oriya,
 };
 
 export default or;

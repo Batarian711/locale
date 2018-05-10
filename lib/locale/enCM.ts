@@ -15,7 +15,7 @@ export interface IEnCm extends ILocale {
  */
 export const enCM: IEnCm = {
   language: english,
-  region: cameroon
+  region: cameroon,
 };
 
 export default enCM;

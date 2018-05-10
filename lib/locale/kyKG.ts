@@ -15,7 +15,7 @@ export interface IKyKg extends ILocale {
  */
 export const kyKG: IKyKg = {
   language: kyrgyz,
-  region: kyrgyzstan
+  region: kyrgyzstan,
 };
 
 export default kyKG;

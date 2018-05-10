@@ -15,7 +15,7 @@ export interface IEsPy extends ILocale {
  */
 export const esPY: IEsPy = {
   language: spanish,
-  region: paraguay
+  region: paraguay,
 };
 
 export default esPY;

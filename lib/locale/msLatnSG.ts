@@ -18,7 +18,7 @@ export interface IMsLatnSg extends ILocale {
 export const msLatnSG: IMsLatnSg = {
   language: malay,
   region: singapore,
-  script: latin
+  script: latin,
 };
 
 export default msLatnSG;

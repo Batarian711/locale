@@ -15,7 +15,7 @@ export interface IHaNe extends ILocale {
  */
 export const haNE: IHaNe = {
   language: hausa,
-  region: niger
+  region: niger,
 };
 
 export default haNE;

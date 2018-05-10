@@ -15,7 +15,7 @@ export interface IFrKm extends ILocale {
  */
 export const frKM: IFrKm = {
   language: french,
-  region: comoros
+  region: comoros,
 };
 
 export default frKM;

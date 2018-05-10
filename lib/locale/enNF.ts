@@ -15,7 +15,7 @@ export interface IEnNf extends ILocale {
  */
 export const enNF: IEnNf = {
   language: english,
-  region: norfolkIsland
+  region: norfolkIsland,
 };
 
 export default enNF;

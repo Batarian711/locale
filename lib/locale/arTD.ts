@@ -15,7 +15,7 @@ export interface IArTd extends ILocale {
  */
 export const arTD: IArTd = {
   language: arabic,
-  region: chad
+  region: chad,
 };
 
 export default arTD;

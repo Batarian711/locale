@@ -12,7 +12,7 @@ export interface IAk extends ILocale {
  * The locale variable for the Akan language
  */
 export const ak: IAk = {
-  language: akan
+  language: akan,
 };
 
 export default ak;

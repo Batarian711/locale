@@ -15,7 +15,7 @@ export interface IFrCa extends ILocale {
  */
 export const frCA: IFrCa = {
   language: french,
-  region: canada
+  region: canada,
 };
 
 export default frCA;

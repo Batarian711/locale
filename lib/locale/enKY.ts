@@ -15,7 +15,7 @@ export interface IEnKy extends ILocale {
  */
 export const enKY: IEnKy = {
   language: english,
-  region: caymanIslands
+  region: caymanIslands,
 };
 
 export default enKY;

@@ -15,7 +15,7 @@ export interface IEnIn extends ILocale {
  */
 export const enIN: IEnIn = {
   language: english,
-  region: india
+  region: india,
 };
 
 export default enIN;

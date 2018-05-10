@@ -15,7 +15,7 @@ export interface ISwKe extends ILocale {
  */
 export const swKE: ISwKe = {
   language: swahili,
-  region: kenya
+  region: kenya,
 };
 
 export default swKE;

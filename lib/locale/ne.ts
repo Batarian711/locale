@@ -12,7 +12,7 @@ export interface INe extends ILocale {
  * The locale variable for the Nepali language
  */
 export const ne: INe = {
-  language: nepali
+  language: nepali,
 };
 
 export default ne;

@@ -15,7 +15,7 @@ export interface IEsEc extends ILocale {
  */
 export const esEC: IEsEc = {
   language: spanish,
-  region: ecuador
+  region: ecuador,
 };
 
 export default esEC;

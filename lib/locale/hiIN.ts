@@ -15,7 +15,7 @@ export interface IHiIn extends ILocale {
  */
 export const hiIN: IHiIn = {
   language: hindi,
-  region: india
+  region: india,
 };
 
 export default hiIN;

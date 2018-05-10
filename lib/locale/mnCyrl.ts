@@ -15,7 +15,7 @@ export interface IMnCyrl extends ILocale {
  */
 export const mnCyrl: IMnCyrl = {
   language: mongolian,
-  script: cyrillic
+  script: cyrillic,
 };
 
 export default mnCyrl;

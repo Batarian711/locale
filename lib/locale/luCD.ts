@@ -15,7 +15,7 @@ export interface ILuCd extends ILocale {
  */
 export const luCD: ILuCd = {
   language: lubaKatanga,
-  region: democraticRepublicOfTheCongo
+  region: democraticRepublicOfTheCongo,
 };
 
 export default luCD;

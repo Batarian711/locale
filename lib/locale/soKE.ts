@@ -15,7 +15,7 @@ export interface ISoKe extends ILocale {
  */
 export const soKE: ISoKe = {
   language: somali,
-  region: kenya
+  region: kenya,
 };
 
 export default soKE;

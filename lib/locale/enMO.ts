@@ -15,7 +15,7 @@ export interface IEnMo extends ILocale {
  */
 export const enMO: IEnMo = {
   language: english,
-  region: macao
+  region: macao,
 };
 
 export default enMO;

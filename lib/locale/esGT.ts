@@ -15,7 +15,7 @@ export interface IEsGt extends ILocale {
  */
 export const esGT: IEsGt = {
   language: spanish,
-  region: guatemala
+  region: guatemala,
 };
 
 export default esGT;

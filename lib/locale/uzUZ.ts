@@ -15,7 +15,7 @@ export interface IUzUz extends ILocale {
  */
 export const uzUZ: IUzUz = {
   language: uzbek,
-  region: uzbekistan
+  region: uzbekistan,
 };
 
 export default uzUZ;

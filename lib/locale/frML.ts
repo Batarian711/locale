@@ -15,7 +15,7 @@ export interface IFrMl extends ILocale {
  */
 export const frML: IFrMl = {
   language: french,
-  region: mali
+  region: mali,
 };
 
 export default frML;

@@ -12,7 +12,7 @@ export interface IDz extends ILocale {
  * The locale variable for the Dzongkha language
  */
 export const dz: IDz = {
-  language: dzongkha
+  language: dzongkha,
 };
 
 export default dz;

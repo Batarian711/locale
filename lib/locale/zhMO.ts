@@ -15,7 +15,7 @@ export interface IZhMo extends ILocale {
  */
 export const zhMO: IZhMo = {
   language: chinese,
-  region: macao
+  region: macao,
 };
 
 export default zhMO;

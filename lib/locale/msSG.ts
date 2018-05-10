@@ -15,7 +15,7 @@ export interface IMsSg extends ILocale {
  */
 export const msSG: IMsSg = {
   language: malay,
-  region: singapore
+  region: singapore,
 };
 
 export default msSG;

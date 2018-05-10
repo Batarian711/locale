@@ -15,7 +15,7 @@ export interface IFrCm extends ILocale {
  */
 export const frCM: IFrCm = {
   language: french,
-  region: cameroon
+  region: cameroon,
 };
 
 export default frCM;

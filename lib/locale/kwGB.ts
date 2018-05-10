@@ -1,7 +1,7 @@
 import ILocale from '@lib/ILocale';
 import {
   unitedKingdomOfGreatBritainAndNorthernIreland,
-  UnitedKingdomOfGreatBritainAndNorthernIreland
+  UnitedKingdomOfGreatBritainAndNorthernIreland,
 } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { cornish, Cornish } from '@lib/locale/Iso639/Part1';
 
@@ -18,7 +18,7 @@ export interface IKwGb extends ILocale {
  */
 export const kwGB: IKwGb = {
   language: cornish,
-  region: unitedKingdomOfGreatBritainAndNorthernIreland
+  region: unitedKingdomOfGreatBritainAndNorthernIreland,
 };
 
 export default kwGB;

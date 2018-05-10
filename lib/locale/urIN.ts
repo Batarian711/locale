@@ -15,7 +15,7 @@ export interface IUrIn extends ILocale {
  */
 export const urIN: IUrIn = {
   language: urdu,
-  region: india
+  region: india,
 };
 
 export default urIN;

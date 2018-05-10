@@ -15,7 +15,7 @@ export interface ISwUg extends ILocale {
  */
 export const swUG: ISwUg = {
   language: swahili,
-  region: uganda
+  region: uganda,
 };
 
 export default swUG;

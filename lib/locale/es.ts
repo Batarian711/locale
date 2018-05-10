@@ -12,7 +12,7 @@ export interface IEs extends ILocale {
  * The locale variable for the Spanish language
  */
 export const es: IEs = {
-  language: spanish
+  language: spanish,
 };
 
 export default es;

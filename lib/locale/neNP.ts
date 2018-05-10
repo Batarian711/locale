@@ -15,7 +15,7 @@ export interface INeNp extends ILocale {
  */
 export const neNP: INeNp = {
   language: nepali,
-  region: nepal
+  region: nepal,
 };
 
 export default neNP;

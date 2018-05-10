@@ -15,7 +15,7 @@ export interface INlBe extends ILocale {
  */
 export const nlBE: INlBe = {
   language: dutch,
-  region: belgium
+  region: belgium,
 };
 
 export default nlBE;

@@ -15,7 +15,7 @@ export interface IArEr extends ILocale {
  */
 export const arER: IArEr = {
   language: arabic,
-  region: eritrea
+  region: eritrea,
 };
 
 export default arER;

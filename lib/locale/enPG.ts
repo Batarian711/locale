@@ -15,7 +15,7 @@ export interface IEnPg extends ILocale {
  */
 export const enPG: IEnPg = {
   language: english,
-  region: papuaNewGuinea
+  region: papuaNewGuinea,
 };
 
 export default enPG;

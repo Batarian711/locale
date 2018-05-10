@@ -15,7 +15,7 @@ export interface ISqMk extends ILocale {
  */
 export const sqMK: ISqMk = {
   language: albanian,
-  region: macedonia
+  region: macedonia,
 };
 
 export default sqMK;

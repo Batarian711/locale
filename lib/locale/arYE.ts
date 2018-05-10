@@ -15,7 +15,7 @@ export interface IArYe extends ILocale {
  */
 export const arYE: IArYe = {
   language: arabic,
-  region: yemen
+  region: yemen,
 };
 
 export default arYE;

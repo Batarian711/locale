@@ -15,7 +15,7 @@ export interface IHrBa extends ILocale {
  */
 export const hrBA: IHrBa = {
   language: croatian,
-  region: bosniaAndHerzegovina
+  region: bosniaAndHerzegovina,
 };
 
 export default hrBA;

@@ -15,7 +15,7 @@ export interface IRoMd extends ILocale {
  */
 export const roMD: IRoMd = {
   language: romanian,
-  region: moldova
+  region: moldova,
 };
 
 export default roMD;

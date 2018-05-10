@@ -15,7 +15,7 @@ export interface IFrMf extends ILocale {
  */
 export const frMF: IFrMf = {
   language: french,
-  region: saintMartin
+  region: saintMartin,
 };
 
 export default frMF;

@@ -15,7 +15,7 @@ export interface ITeIn extends ILocale {
  */
 export const teIN: ITeIn = {
   language: telugu,
-  region: india
+  region: india,
 };
 
 export default teIN;

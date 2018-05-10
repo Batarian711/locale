@@ -12,7 +12,7 @@ export interface ILv extends ILocale {
  * The locale variable for the Latvian language
  */
 export const lv: ILv = {
-  language: latvian
+  language: latvian,
 };
 
 export default lv;

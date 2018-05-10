@@ -15,7 +15,7 @@ export interface IUkUa extends ILocale {
  */
 export const ukUA: IUkUa = {
   language: ukrainian,
-  region: ukraine
+  region: ukraine,
 };
 
 export default ukUA;

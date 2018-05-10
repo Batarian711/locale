@@ -15,7 +15,7 @@ export interface IArEg extends ILocale {
  */
 export const arEG: IArEg = {
   language: arabic,
-  region: egypt
+  region: egypt,
 };
 
 export default arEG;

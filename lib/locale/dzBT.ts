@@ -15,7 +15,7 @@ export interface IDzBt extends ILocale {
  */
 export const dzBT: IDzBt = {
   language: dzongkha,
-  region: bhutan
+  region: bhutan,
 };
 
 export default dzBT;

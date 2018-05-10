@@ -12,7 +12,7 @@ export interface IGa extends ILocale {
  * The locale variable for the Irish language
  */
 export const ga: IGa = {
-  language: irish
+  language: irish,
 };
 
 export default ga;

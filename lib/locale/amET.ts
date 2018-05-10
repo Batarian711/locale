@@ -15,7 +15,7 @@ export interface IAmEt extends ILocale {
  */
 export const amET: IAmEt = {
   language: amharic,
-  region: ethiopia
+  region: ethiopia,
 };
 
 export default amET;

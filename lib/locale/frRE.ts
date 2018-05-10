@@ -15,7 +15,7 @@ export interface IFrRe extends ILocale {
  */
 export const frRE: IFrRe = {
   language: french,
-  region: reunion
+  region: reunion,
 };
 
 export default frRE;

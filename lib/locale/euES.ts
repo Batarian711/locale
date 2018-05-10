@@ -15,7 +15,7 @@ export interface IEuEs extends ILocale {
  */
 export const euES: IEuEs = {
   language: basque,
-  region: spain
+  region: spain,
 };
 
 export default euES;

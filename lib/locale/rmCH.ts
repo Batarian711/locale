@@ -15,7 +15,7 @@ export interface IRmCh extends ILocale {
  */
 export const rmCH: IRmCh = {
   language: romansh,
-  region: switzerland
+  region: switzerland,
 };
 
 export default rmCH;

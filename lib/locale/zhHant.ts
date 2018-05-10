@@ -15,7 +15,7 @@ export interface IZhHant extends ILocale {
  */
 export const zhHant: IZhHant = {
   language: chinese,
-  script: hanTraditional
+  script: hanTraditional,
 };
 
 export default zhHant;

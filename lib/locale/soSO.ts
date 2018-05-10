@@ -15,7 +15,7 @@ export interface ISoSo extends ILocale {
  */
 export const soSO: ISoSo = {
   language: somali,
-  region: somalia
+  region: somalia,
 };
 
 export default soSO;

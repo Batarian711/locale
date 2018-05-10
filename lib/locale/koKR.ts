@@ -15,7 +15,7 @@ export interface IKoKr extends ILocale {
  */
 export const koKR: IKoKr = {
   language: korean,
-  region: republicOfKorea
+  region: republicOfKorea,
 };
 
 export default koKR;

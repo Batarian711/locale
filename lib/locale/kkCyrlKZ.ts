@@ -18,7 +18,7 @@ export interface IKkCyrlKz extends ILocale {
 export const kkCyrlKZ: IKkCyrlKz = {
   language: kazakh,
   region: kazakhstan,
-  script: cyrillic
+  script: cyrillic,
 };
 
 export default kkCyrlKZ;

@@ -39,15 +39,15 @@ const provider: Provider = async (): Promise<IData> => {
   const script = Object.entries<string>(data).map(parse).reduce(flatten, []).filter(unique).map(s => new Script(s));
   return {
     iso639: {
-      part1: []
+      part1: [],
     },
     iso3166: {
       part1: {
-        alpha2: []
-      }
+        alpha2: [],
+      },
     },
     script,
-    locale: []
+    locale: [],
   };
 };
 

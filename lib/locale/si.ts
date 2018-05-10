@@ -12,7 +12,7 @@ export interface ISi extends ILocale {
  * The locale variable for the Sinhalese language
  */
 export const si: ISi = {
-  language: sinhalese
+  language: sinhalese,
 };
 
 export default si;

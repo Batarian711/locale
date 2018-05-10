@@ -15,7 +15,7 @@ export interface IEsCl extends ILocale {
  */
 export const esCL: IEsCl = {
   language: spanish,
-  region: chile
+  region: chile,
 };
 
 export default esCL;

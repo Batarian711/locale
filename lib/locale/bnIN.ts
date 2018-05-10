@@ -15,7 +15,7 @@ export interface IBnIn extends ILocale {
  */
 export const bnIN: IBnIn = {
   language: bengali,
-  region: india
+  region: india,
 };
 
 export default bnIN;

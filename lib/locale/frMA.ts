@@ -15,7 +15,7 @@ export interface IFrMa extends ILocale {
  */
 export const frMA: IFrMa = {
   language: french,
-  region: morocco
+  region: morocco,
 };
 
 export default frMA;

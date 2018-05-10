@@ -15,7 +15,7 @@ export interface IQuPe extends ILocale {
  */
 export const quPE: IQuPe = {
   language: quechua,
-  region: peru
+  region: peru,
 };
 
 export default quPE;

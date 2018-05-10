@@ -15,7 +15,7 @@ export interface IThTh extends ILocale {
  */
 export const thTH: IThTh = {
   language: thai,
-  region: thailand
+  region: thailand,
 };
 
 export default thTH;

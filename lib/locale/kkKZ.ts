@@ -15,7 +15,7 @@ export interface IKkKz extends ILocale {
  */
 export const kkKZ: IKkKz = {
   language: kazakh,
-  region: kazakhstan
+  region: kazakhstan,
 };
 
 export default kkKZ;

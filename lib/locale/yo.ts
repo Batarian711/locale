@@ -12,7 +12,7 @@ export interface IYo extends ILocale {
  * The locale variable for the Yoruba language
  */
 export const yo: IYo = {
-  language: yoruba
+  language: yoruba,
 };
 
 export default yo;

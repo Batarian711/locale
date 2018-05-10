@@ -15,7 +15,7 @@ export interface IEsCu extends ILocale {
  */
 export const esCU: IEsCu = {
   language: spanish,
-  region: cuba
+  region: cuba,
 };
 
 export default esCU;

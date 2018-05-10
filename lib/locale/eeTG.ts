@@ -15,7 +15,7 @@ export interface IEeTg extends ILocale {
  */
 export const eeTG: IEeTg = {
   language: ewe,
-  region: togo
+  region: togo,
 };
 
 export default eeTG;

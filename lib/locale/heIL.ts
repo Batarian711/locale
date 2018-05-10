@@ -15,7 +15,7 @@ export interface IHeIl extends ILocale {
  */
 export const heIL: IHeIl = {
   language: hebrew,
-  region: israel
+  region: israel,
 };
 
 export default heIL;

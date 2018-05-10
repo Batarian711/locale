@@ -12,7 +12,7 @@ export interface IKl extends ILocale {
  * The locale variable for the Kalaallisut language
  */
 export const kl: IKl = {
-  language: kalaallisut
+  language: kalaallisut,
 };
 
 export default kl;

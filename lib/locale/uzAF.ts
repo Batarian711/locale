@@ -15,7 +15,7 @@ export interface IUzAf extends ILocale {
  */
 export const uzAF: IUzAf = {
   language: uzbek,
-  region: afghanistan
+  region: afghanistan,
 };
 
 export default uzAF;

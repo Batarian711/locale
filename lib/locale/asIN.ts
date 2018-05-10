@@ -15,7 +15,7 @@ export interface IAsIn extends ILocale {
  */
 export const asIN: IAsIn = {
   language: assamese,
-  region: india
+  region: india,
 };
 
 export default asIN;

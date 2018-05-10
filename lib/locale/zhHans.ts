@@ -15,7 +15,7 @@ export interface IZhHans extends ILocale {
  */
 export const zhHans: IZhHans = {
   language: chinese,
-  script: hanSimplified
+  script: hanSimplified,
 };
 
 export default zhHans;

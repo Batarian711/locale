@@ -15,7 +15,7 @@ export interface IEnSb extends ILocale {
  */
 export const enSB: IEnSb = {
   language: english,
-  region: solomonIslands
+  region: solomonIslands,
 };
 
 export default enSB;

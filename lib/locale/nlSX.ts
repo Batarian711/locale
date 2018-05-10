@@ -15,7 +15,7 @@ export interface INlSx extends ILocale {
  */
 export const nlSX: INlSx = {
   language: dutch,
-  region: sintMaarten
+  region: sintMaarten,
 };
 
 export default nlSX;

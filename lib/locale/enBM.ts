@@ -15,7 +15,7 @@ export interface IEnBm extends ILocale {
  */
 export const enBM: IEnBm = {
   language: english,
-  region: bermuda
+  region: bermuda,
 };
 
 export default enBM;

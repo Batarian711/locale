@@ -15,7 +15,7 @@ export interface IArDz extends ILocale {
  */
 export const arDZ: IArDz = {
   language: arabic,
-  region: algeria
+  region: algeria,
 };
 
 export default arDZ;

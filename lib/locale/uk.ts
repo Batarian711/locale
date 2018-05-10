@@ -12,7 +12,7 @@ export interface IUk extends ILocale {
  * The locale variable for the Ukrainian language
  */
 export const uk: IUk = {
-  language: ukrainian
+  language: ukrainian,
 };
 
 export default uk;

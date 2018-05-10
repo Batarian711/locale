@@ -15,7 +15,7 @@ export interface IFiFi extends ILocale {
  */
 export const fiFI: IFiFi = {
   language: finnish,
-  region: finland
+  region: finland,
 };
 
 export default fiFI;

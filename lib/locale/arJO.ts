@@ -15,7 +15,7 @@ export interface IArJo extends ILocale {
  */
 export const arJO: IArJo = {
   language: arabic,
-  region: jordan
+  region: jordan,
 };
 
 export default arJO;

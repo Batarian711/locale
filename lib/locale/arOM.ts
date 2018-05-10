@@ -15,7 +15,7 @@ export interface IArOm extends ILocale {
  */
 export const arOM: IArOm = {
   language: arabic,
-  region: oman
+  region: oman,
 };
 
 export default arOM;

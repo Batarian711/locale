@@ -15,7 +15,7 @@ export interface INlNl extends ILocale {
  */
 export const nlNL: INlNl = {
   language: dutch,
-  region: netherlands
+  region: netherlands,
 };
 
 export default nlNL;

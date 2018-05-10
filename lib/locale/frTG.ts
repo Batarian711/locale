@@ -15,7 +15,7 @@ export interface IFrTg extends ILocale {
  */
 export const frTG: IFrTg = {
   language: french,
-  region: togo
+  region: togo,
 };
 
 export default frTG;

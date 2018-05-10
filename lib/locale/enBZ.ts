@@ -15,7 +15,7 @@ export interface IEnBz extends ILocale {
  */
 export const enBZ: IEnBz = {
   language: english,
-  region: belize
+  region: belize,
 };
 
 export default enBZ;

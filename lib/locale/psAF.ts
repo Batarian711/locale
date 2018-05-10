@@ -15,7 +15,7 @@ export interface IPsAf extends ILocale {
  */
 export const psAF: IPsAf = {
   language: pashto,
-  region: afghanistan
+  region: afghanistan,
 };
 
 export default psAF;

@@ -15,7 +15,7 @@ export interface IDaDk extends ILocale {
  */
 export const daDK: IDaDk = {
   language: danish,
-  region: denmark
+  region: denmark,
 };
 
 export default daDK;

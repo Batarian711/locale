@@ -15,7 +15,7 @@ export interface IZhCn extends ILocale {
  */
 export const zhCN: IZhCn = {
   language: chinese,
-  region: china
+  region: china,
 };
 
 export default zhCN;

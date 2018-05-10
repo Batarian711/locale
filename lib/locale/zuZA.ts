@@ -15,7 +15,7 @@ export interface IZuZa extends ILocale {
  */
 export const zuZA: IZuZa = {
   language: zulu,
-  region: southAfrica
+  region: southAfrica,
 };
 
 export default zuZA;

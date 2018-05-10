@@ -15,7 +15,7 @@ export interface ILnCd extends ILocale {
  */
 export const lnCD: ILnCd = {
   language: lingala,
-  region: democraticRepublicOfTheCongo
+  region: democraticRepublicOfTheCongo,
 };
 
 export default lnCD;

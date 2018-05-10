@@ -15,7 +15,7 @@ export interface IEnGy extends ILocale {
  */
 export const enGY: IEnGy = {
   language: english,
-  region: guyana
+  region: guyana,
 };
 
 export default enGY;

@@ -15,7 +15,7 @@ export interface IFrCi extends ILocale {
  */
 export const frCI: IFrCi = {
   language: french,
-  region: coteDivoire
+  region: coteDivoire,
 };
 
 export default frCI;

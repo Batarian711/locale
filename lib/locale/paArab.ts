@@ -15,7 +15,7 @@ export interface IPaArab extends ILocale {
  */
 export const paArab: IPaArab = {
   language: punjabi,
-  script: arabic
+  script: arabic,
 };
 
 export default paArab;

@@ -15,7 +15,7 @@ export interface IAfZa extends ILocale {
  */
 export const afZA: IAfZa = {
   language: afrikaans,
-  region: southAfrica
+  region: southAfrica,
 };
 
 export default afZA;

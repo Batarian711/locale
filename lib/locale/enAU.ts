@@ -15,7 +15,7 @@ export interface IEnAu extends ILocale {
  */
 export const enAU: IEnAu = {
   language: english,
-  region: australia
+  region: australia,
 };
 
 export default enAU;

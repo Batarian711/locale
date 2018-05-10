@@ -15,7 +15,7 @@ export interface IEnMs extends ILocale {
  */
 export const enMS: IEnMs = {
   language: english,
-  region: montserrat
+  region: montserrat,
 };
 
 export default enMS;

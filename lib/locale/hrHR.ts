@@ -15,7 +15,7 @@ export interface IHrHr extends ILocale {
  */
 export const hrHR: IHrHr = {
   language: croatian,
-  region: croatia
+  region: croatia,
 };
 
 export default hrHR;

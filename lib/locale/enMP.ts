@@ -15,7 +15,7 @@ export interface IEnMp extends ILocale {
  */
 export const enMP: IEnMp = {
   language: english,
-  region: northernMarianaIslands
+  region: northernMarianaIslands,
 };
 
 export default enMP;

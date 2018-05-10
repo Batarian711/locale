@@ -15,7 +15,7 @@ export interface ICaEs extends ILocale {
  */
 export const caES: ICaEs = {
   language: catalan,
-  region: spain
+  region: spain,
 };
 
 export default caES;

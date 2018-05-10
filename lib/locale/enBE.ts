@@ -15,7 +15,7 @@ export interface IEnBe extends ILocale {
  */
 export const enBE: IEnBe = {
   language: english,
-  region: belgium
+  region: belgium,
 };
 
 export default enBE;

@@ -15,7 +15,7 @@ export interface IFrTn extends ILocale {
  */
 export const frTN: IFrTn = {
   language: french,
-  region: tunisia
+  region: tunisia,
 };
 
 export default frTN;

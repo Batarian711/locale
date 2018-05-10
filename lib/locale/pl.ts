@@ -12,7 +12,7 @@ export interface IPl extends ILocale {
  * The locale variable for the Polish language
  */
 export const pl: IPl = {
-  language: polish
+  language: polish,
 };
 
 export default pl;

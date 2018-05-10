@@ -15,7 +15,7 @@ export interface ICaAd extends ILocale {
  */
 export const caAD: ICaAd = {
   language: catalan,
-  region: andorra
+  region: andorra,
 };
 
 export default caAD;

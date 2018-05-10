@@ -15,7 +15,7 @@ export interface IUgArab extends ILocale {
  */
 export const ugArab: IUgArab = {
   language: uyghur,
-  script: arabic
+  script: arabic,
 };
 
 export default ugArab;

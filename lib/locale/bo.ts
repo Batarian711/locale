@@ -12,7 +12,7 @@ export interface IBo extends ILocale {
  * The locale variable for the Tibetan Standard language
  */
 export const bo: IBo = {
-  language: tibetanStandard
+  language: tibetanStandard,
 };
 
 export default bo;

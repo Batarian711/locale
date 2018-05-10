@@ -15,7 +15,7 @@ export interface IEnTk extends ILocale {
  */
 export const enTK: IEnTk = {
   language: english,
-  region: tokelau
+  region: tokelau,
 };
 
 export default enTK;

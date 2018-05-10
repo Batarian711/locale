@@ -73,7 +73,7 @@ function attachJavaScriptDocumentation<T extends ts.HasJSDoc>(node: T, comment: 
     kind: ts.SyntaxKind.MultiLineCommentTrivia,
     text: text.substring(2, text.length - 2),
     pos: -1,
-    end: -1
+    end: -1,
   };
 
   // `emitNode` is marked internal, but we need it to output comments so 🤷‍
@@ -87,7 +87,7 @@ function attachJavaScriptDocumentation<T extends ts.HasJSDoc>(node: T, comment: 
 function createExportedConstVariable(
   name: string,
   typename: string | ts.TypeNode,
-  value: number | string | ts.Expression
+  value: number | string | ts.Expression,
 ): ts.VariableStatement {
   const literal = (typeof value === 'string' || typeof value === 'number') ? ts.createLiteral(value) : value;
   const type = (typeof typename === 'string') ? ts.createTypeReferenceNode(typename, []) : typename;
@@ -147,7 +147,7 @@ async function* generateDeclarations({
   variableCommentCallback,
   typeAliasCommentCallback,
   unionCommentCallback,
-  setCommentCallback
+  setCommentCallback,
 }: {
     output: string;
     data: Array<IDeclaration>;
@@ -212,7 +212,7 @@ if (!part1.has('someRegionCode')) {
     variableCommentCallback: ({ name }) => ([`The variable for the ${name} ISO639-1 language code`, [see]]),
     typeAliasCommentCallback: ({ name }) => ([`The type declaration for the ${name} ISO639-1 region code`, [see]]),
     unionCommentCallback: () => (['All possible types for ISO639-1 region codes', [see]]),
-    setCommentCallback: () => (['All possible ISO639-1 region code values', [see, ['example', example]]])
+    setCommentCallback: () => (['All possible ISO639-1 region code values', [see, ['example', example]]]),
   });
 }
 
@@ -227,7 +227,7 @@ async function* generateIso639(output: string, data: IIso639): AsyncIterableIter
 
 async function* generateIso3166Part1Alpha2(
   output: string,
-  data: Array<IIso3166Part1Alpha2>
+  data: Array<IIso3166Part1Alpha2>,
 ): AsyncIterableIterator<string> {
   const location = join(output, 'locale', 'Iso3166', 'Part1', 'Alpha2.ts');
   const see: [string, string] = ['see', 'https://en.wikipedia.org/wiki/ISO_3166-1'];
@@ -243,7 +243,7 @@ if (!alpha2.has('someLanguageCode')) {
     typeAliasCommentCallback: ({ name }) =>
       ([`The type declaration for the ${name} ISO3166-1 alpha2 language code`, [see]]),
     unionCommentCallback: () => (['All possible types for ISO3166-1 alpha2 language codes', [see]]),
-    setCommentCallback: () => (['All possible ISO3166-1 alpha2 language code values', [see, ['example', example]]])
+    setCommentCallback: () => (['All possible ISO3166-1 alpha2 language code values', [see, ['example', example]]]),
   });
 }
 
@@ -305,7 +305,7 @@ async function* generateLocales(output: string, data: IData): AsyncIterableItera
 
     const ast: Array<ts.Statement> = [
       importDeclaration,
-      importLanguage
+      importLanguage,
     ];
 
     const languageVariableIdentifier = ts.createIdentifier(languageDeclaration.variable);
@@ -356,7 +356,7 @@ async function* generateLocales(output: string, data: IData): AsyncIterableItera
     }
 
     const heritageClause = ts.createHeritageClause(ts.SyntaxKind.ExtendsKeyword, [
-      ts.createExpressionWithTypeArguments([], ts.createIdentifier('ILocale'))
+      ts.createExpressionWithTypeArguments([], ts.createIdentifier('ILocale')),
     ]);
 
     const localeInterface = ts.createInterfaceDeclaration(
@@ -378,7 +378,7 @@ async function* generateLocales(output: string, data: IData): AsyncIterableItera
 
 async function* generateILocale(
   output: string,
-  data: IData
+  data: IData,
 ): AsyncIterableIterator<string> {
   const location = join(output, 'ILocale.ts');
 
@@ -394,7 +394,7 @@ async function* generateILocale(
 
   const imports = [createDefaultImport('Iso639', '@lib/locale/Iso639')];
   const interfaceTypes = [
-    ts.createTypeParameterDeclaration('L', undefined, ts.createTypeReferenceNode('Iso639', []))
+    ts.createTypeParameterDeclaration('L', undefined, ts.createTypeReferenceNode('Iso639', [])),
   ];
   const interfaceProperties = [languageSignature];
   const links: Array<[string, string]> = [['see', '{@link Iso639}']];
@@ -453,7 +453,7 @@ function flatten(array: Array<ts.Statement>, value: Array<ts.Statement> | ts.Sta
 
 async function* generateLocale(
   output: string,
-  data: IData
+  data: IData,
 ): AsyncIterableIterator<string> {
   const location = join(output, 'Locale.ts');
 
@@ -468,7 +468,7 @@ async function* generateLocale(
   // Import locales
   const imports = locales.map(d => [
     createDeclarationImport(d, `@lib/locale/${d.variable}`),
-    createDeclarationExport(d)
+    createDeclarationExport(d),
   ])
     .reduce(flatten, []);
 
@@ -501,7 +501,7 @@ if (!locale.has(someLocaleObject)) {
 
 async function* generateScript(
   output: string,
-  data: Array<IScript>
+  data: Array<IScript>,
 ): AsyncIterableIterator<string> {
   const location = join(output, 'locale', 'Script.ts');
   const see: [string, string] = ['see', 'https://en.wikipedia.org/wiki/IETF_language_tag'];
@@ -516,13 +516,13 @@ if (!script.has('someScriptTag')) {
     variableCommentCallback: ({ name }) => ([`The variable for the ${name} IETF script tag`, [see]]),
     typeAliasCommentCallback: ({ name }) => ([`The type declaration for the ${name} IETF script tag`, [see]]),
     unionCommentCallback: () => (['All possible types for  IETF script tags', [see]]),
-    setCommentCallback: () => (['All possible IETF script tags', [see, ['example', example]]])
+    setCommentCallback: () => (['All possible IETF script tags', [see, ['example', example]]]),
   });
 }
 
 async function* generate(
   output: string,
-  data: IData
+  data: IData,
 ): AsyncIterableIterator<string> {
   yield* generateLocales(output, data);
   yield* generateIso639(output, data.iso639);

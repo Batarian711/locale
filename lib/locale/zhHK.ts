@@ -15,7 +15,7 @@ export interface IZhHk extends ILocale {
  */
 export const zhHK: IZhHk = {
   language: chinese,
-  region: hongKong
+  region: hongKong,
 };
 
 export default zhHK;

@@ -18,7 +18,7 @@ export interface IUzLatnUz extends ILocale {
 export const uzLatnUZ: IUzLatnUz = {
   language: uzbek,
   region: uzbekistan,
-  script: latin
+  script: latin,
 };
 
 export default uzLatnUZ;

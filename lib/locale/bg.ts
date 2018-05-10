@@ -12,7 +12,7 @@ export interface IBg extends ILocale {
  * The locale variable for the Bulgarian language
  */
 export const bg: IBg = {
-  language: bulgarian
+  language: bulgarian,
 };
 
 export default bg;

@@ -15,7 +15,7 @@ export interface IEnTo extends ILocale {
  */
 export const enTO: IEnTo = {
   language: english,
-  region: tonga
+  region: tonga,
 };
 
 export default enTO;

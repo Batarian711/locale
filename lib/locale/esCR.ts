@@ -15,7 +15,7 @@ export interface IEsCr extends ILocale {
  */
 export const esCR: IEsCr = {
   language: spanish,
-  region: costaRica
+  region: costaRica,
 };
 
 export default esCR;

@@ -15,7 +15,7 @@ export interface IEsPr extends ILocale {
  */
 export const esPR: IEsPr = {
   language: spanish,
-  region: puertoRico
+  region: puertoRico,
 };
 
 export default esPR;

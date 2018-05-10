@@ -15,7 +15,7 @@ export interface IFrRw extends ILocale {
  */
 export const frRW: IFrRw = {
   language: french,
-  region: rwanda
+  region: rwanda,
 };
 
 export default frRW;

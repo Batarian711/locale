@@ -15,7 +15,7 @@ export interface IArTn extends ILocale {
  */
 export const arTN: IArTn = {
   language: arabic,
-  region: tunisia
+  region: tunisia,
 };
 
 export default arTN;

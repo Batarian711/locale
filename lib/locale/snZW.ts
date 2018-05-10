@@ -15,7 +15,7 @@ export interface ISnZw extends ILocale {
  */
 export const snZW: ISnZw = {
   language: shona,
-  region: zimbabwe
+  region: zimbabwe,
 };
 
 export default snZW;

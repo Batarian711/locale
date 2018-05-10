@@ -12,7 +12,7 @@ export interface ICy extends ILocale {
  * The locale variable for the Welsh language
  */
 export const cy: ICy = {
-  language: welsh
+  language: welsh,
 };
 
 export default cy;

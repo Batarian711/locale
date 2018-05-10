@@ -15,7 +15,7 @@ export interface IEnTv extends ILocale {
  */
 export const enTV: IEnTv = {
   language: english,
-  region: tuvalu
+  region: tuvalu,
 };
 
 export default enTV;

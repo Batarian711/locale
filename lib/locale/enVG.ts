@@ -15,7 +15,7 @@ export interface IEnVg extends ILocale {
  */
 export const enVG: IEnVg = {
   language: english,
-  region: britishVirginIslands
+  region: britishVirginIslands,
 };
 
 export default enVG;

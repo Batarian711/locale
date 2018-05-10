@@ -12,7 +12,7 @@ export interface ITa extends ILocale {
  * The locale variable for the Tamil language
  */
 export const ta: ITa = {
-  language: tamil
+  language: tamil,
 };
 
 export default ta;

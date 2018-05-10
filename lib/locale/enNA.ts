@@ -15,7 +15,7 @@ export interface IEnNa extends ILocale {
  */
 export const enNA: IEnNa = {
   language: english,
-  region: namibia
+  region: namibia,
 };
 
 export default enNA;

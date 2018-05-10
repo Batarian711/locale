@@ -15,7 +15,7 @@ export interface IMsBn extends ILocale {
  */
 export const msBN: IMsBn = {
   language: malay,
-  region: bruneiDarussalam
+  region: bruneiDarussalam,
 };
 
 export default msBN;

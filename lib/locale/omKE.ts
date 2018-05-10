@@ -15,7 +15,7 @@ export interface IOmKe extends ILocale {
  */
 export const omKE: IOmKe = {
   language: oromo,
-  region: kenya
+  region: kenya,
 };
 
 export default omKE;

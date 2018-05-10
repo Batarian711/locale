@@ -15,7 +15,7 @@ export interface IFrBf extends ILocale {
  */
 export const frBF: IFrBf = {
   language: french,
-  region: burkinaFaso
+  region: burkinaFaso,
 };
 
 export default frBF;

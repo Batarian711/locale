@@ -15,7 +15,7 @@ export interface IArQa extends ILocale {
  */
 export const arQA: IArQa = {
   language: arabic,
-  region: qatar
+  region: qatar,
 };
 
 export default arQA;

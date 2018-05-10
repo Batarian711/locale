@@ -15,7 +15,7 @@ export interface IArKm extends ILocale {
  */
 export const arKM: IArKm = {
   language: arabic,
-  region: comoros
+  region: comoros,
 };
 
 export default arKM;

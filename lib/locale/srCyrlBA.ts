@@ -18,7 +18,7 @@ export interface ISrCyrlBa extends ILocale {
 export const srCyrlBA: ISrCyrlBa = {
   language: serbian,
   region: bosniaAndHerzegovina,
-  script: cyrillic
+  script: cyrillic,
 };
 
 export default srCyrlBA;

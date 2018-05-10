@@ -15,7 +15,7 @@ export interface IEnVc extends ILocale {
  */
 export const enVC: IEnVc = {
   language: english,
-  region: saintVincentAndTheGrenadines
+  region: saintVincentAndTheGrenadines,
 };
 
 export default enVC;

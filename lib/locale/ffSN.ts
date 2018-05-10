@@ -15,7 +15,7 @@ export interface IFfSn extends ILocale {
  */
 export const ffSN: IFfSn = {
   language: fula,
-  region: senegal
+  region: senegal,
 };
 
 export default ffSN;

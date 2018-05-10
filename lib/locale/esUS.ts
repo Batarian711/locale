@@ -15,7 +15,7 @@ export interface IEsUs extends ILocale {
  */
 export const esUS: IEsUs = {
   language: spanish,
-  region: unitedStatesOfAmerica
+  region: unitedStatesOfAmerica,
 };
 
 export default esUS;

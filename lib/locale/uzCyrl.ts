@@ -15,7 +15,7 @@ export interface IUzCyrl extends ILocale {
  */
 export const uzCyrl: IUzCyrl = {
   language: uzbek,
-  script: cyrillic
+  script: cyrillic,
 };
 
 export default uzCyrl;

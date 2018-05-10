@@ -12,7 +12,7 @@ export interface IKm extends ILocale {
  * The locale variable for the Khmer language
  */
 export const km: IKm = {
-  language: khmer
+  language: khmer,
 };
 
 export default km;

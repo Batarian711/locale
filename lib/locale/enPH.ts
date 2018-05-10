@@ -15,7 +15,7 @@ export interface IEnPh extends ILocale {
  */
 export const enPH: IEnPh = {
   language: english,
-  region: philippines
+  region: philippines,
 };
 
 export default enPH;

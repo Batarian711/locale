@@ -15,7 +15,7 @@ export interface IFoFo extends ILocale {
  */
 export const foFO: IFoFo = {
   language: faroese,
-  region: faroeIslands
+  region: faroeIslands,
 };
 
 export default foFO;

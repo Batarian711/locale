@@ -12,7 +12,7 @@ export interface IIg extends ILocale {
  * The locale variable for the Igbo language
  */
 export const ig: IIg = {
-  language: igbo
+  language: igbo,
 };
 
 export default ig;

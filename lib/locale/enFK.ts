@@ -15,7 +15,7 @@ export interface IEnFk extends ILocale {
  */
 export const enFK: IEnFk = {
   language: english,
-  region: falklandIslands
+  region: falklandIslands,
 };
 
 export default enFK;

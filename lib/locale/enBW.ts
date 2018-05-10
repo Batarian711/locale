@@ -15,7 +15,7 @@ export interface IEnBw extends ILocale {
  */
 export const enBW: IEnBw = {
   language: english,
-  region: botswana
+  region: botswana,
 };
 
 export default enBW;

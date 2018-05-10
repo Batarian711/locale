@@ -2952,7 +2952,7 @@ export const part1: ReadonlySet<Part1> = new Set<Part1>([
   zhuang,
   chuang,
   chinese,
-  zulu
+  zulu,
 ]);
 
 export default Part1;

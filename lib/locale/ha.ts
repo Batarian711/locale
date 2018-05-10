@@ -12,7 +12,7 @@ export interface IHa extends ILocale {
  * The locale variable for the Hausa language
  */
 export const ha: IHa = {
-  language: hausa
+  language: hausa,
 };
 
 export default ha;

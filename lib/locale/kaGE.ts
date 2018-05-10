@@ -15,7 +15,7 @@ export interface IKaGe extends ILocale {
  */
 export const kaGE: IKaGe = {
   language: georgian,
-  region: georgia
+  region: georgia,
 };
 
 export default kaGE;

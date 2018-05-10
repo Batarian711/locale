@@ -1,7 +1,7 @@
 import ILocale from '@lib/ILocale';
 import {
   saintHelenaAscensionAndTristanDaCunha,
-  SaintHelenaAscensionAndTristanDaCunha
+  SaintHelenaAscensionAndTristanDaCunha,
 } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { english, English } from '@lib/locale/Iso639/Part1';
 
@@ -18,7 +18,7 @@ export interface IEnSh extends ILocale {
  */
 export const enSH: IEnSh = {
   language: english,
-  region: saintHelenaAscensionAndTristanDaCunha
+  region: saintHelenaAscensionAndTristanDaCunha,
 };
 
 export default enSH;

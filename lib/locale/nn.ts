@@ -12,7 +12,7 @@ export interface INn extends ILocale {
  * The locale variable for the Norwegian Nynorsk language
  */
 export const nn: INn = {
-  language: norwegianNynorsk
+  language: norwegianNynorsk,
 };
 
 export default nn;

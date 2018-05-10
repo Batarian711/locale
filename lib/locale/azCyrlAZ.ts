@@ -18,7 +18,7 @@ export interface IAzCyrlAz extends ILocale {
 export const azCyrlAZ: IAzCyrlAz = {
   language: azerbaijani,
   region: azerbaijan,
-  script: cyrillic
+  script: cyrillic,
 };
 
 export default azCyrlAZ;

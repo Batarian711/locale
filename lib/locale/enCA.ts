@@ -15,7 +15,7 @@ export interface IEnCa extends ILocale {
  */
 export const enCA: IEnCa = {
   language: english,
-  region: canada
+  region: canada,
 };
 
 export default enCA;

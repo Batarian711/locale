@@ -15,7 +15,7 @@ export interface IKnIn extends ILocale {
  */
 export const knIN: IKnIn = {
   language: kannada,
-  region: india
+  region: india,
 };
 
 export default knIN;

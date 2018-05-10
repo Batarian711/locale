@@ -15,7 +15,7 @@ export interface IPaPk extends ILocale {
  */
 export const paPK: IPaPk = {
   language: punjabi,
-  region: pakistan
+  region: pakistan,
 };
 
 export default paPK;

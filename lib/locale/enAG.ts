@@ -15,7 +15,7 @@ export interface IEnAg extends ILocale {
  */
 export const enAG: IEnAg = {
   language: english,
-  region: antiguaAndBarbuda
+  region: antiguaAndBarbuda,
 };
 
 export default enAG;

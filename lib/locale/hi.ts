@@ -12,7 +12,7 @@ export interface IHi extends ILocale {
  * The locale variable for the Hindi language
  */
 export const hi: IHi = {
-  language: hindi
+  language: hindi,
 };
 
 export default hi;

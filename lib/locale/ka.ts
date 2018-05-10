@@ -12,7 +12,7 @@ export interface IKa extends ILocale {
  * The locale variable for the Georgian language
  */
 export const ka: IKa = {
-  language: georgian
+  language: georgian,
 };
 
 export default ka;

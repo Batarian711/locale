@@ -12,7 +12,7 @@ export interface ILt extends ILocale {
  * The locale variable for the Lithuanian language
  */
 export const lt: ILt = {
-  language: lithuanian
+  language: lithuanian,
 };
 
 export default lt;

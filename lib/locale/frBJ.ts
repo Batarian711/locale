@@ -15,7 +15,7 @@ export interface IFrBj extends ILocale {
  */
 export const frBJ: IFrBj = {
   language: french,
-  region: benin
+  region: benin,
 };
 
 export default frBJ;

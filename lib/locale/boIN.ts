@@ -15,7 +15,7 @@ export interface IBoIn extends ILocale {
  */
 export const boIN: IBoIn = {
   language: tibetanStandard,
-  region: india
+  region: india,
 };
 
 export default boIN;

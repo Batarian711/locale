@@ -12,7 +12,7 @@ export interface IKy extends ILocale {
  * The locale variable for the Kyrgyz language
  */
 export const ky: IKy = {
-  language: kyrgyz
+  language: kyrgyz,
 };
 
 export default ky;

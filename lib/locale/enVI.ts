@@ -15,7 +15,7 @@ export interface IEnVi extends ILocale {
  */
 export const enVI: IEnVi = {
   language: english,
-  region: unitedStatesVirginIslands
+  region: unitedStatesVirginIslands,
 };
 
 export default enVI;

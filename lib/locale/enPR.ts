@@ -15,7 +15,7 @@ export interface IEnPr extends ILocale {
  */
 export const enPR: IEnPr = {
   language: english,
-  region: puertoRico
+  region: puertoRico,
 };
 
 export default enPR;

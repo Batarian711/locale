@@ -15,7 +15,7 @@ export interface IElCy extends ILocale {
  */
 export const elCY: IElCy = {
   language: greek,
-  region: cyprus
+  region: cyprus,
 };
 
 export default elCY;

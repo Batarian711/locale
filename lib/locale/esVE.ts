@@ -15,7 +15,7 @@ export interface IEsVe extends ILocale {
  */
 export const esVE: IEsVe = {
   language: spanish,
-  region: venezuela
+  region: venezuela,
 };
 
 export default esVE;

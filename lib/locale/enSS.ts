@@ -15,7 +15,7 @@ export interface IEnSs extends ILocale {
  */
 export const enSS: IEnSs = {
   language: english,
-  region: southSudan
+  region: southSudan,
 };
 
 export default enSS;

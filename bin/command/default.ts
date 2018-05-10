@@ -16,30 +16,30 @@ export class Options extends CliOptions {
     flag: 'p',
     description: 'the provider module to use',
     default: pathJoin(__dirname, '..', 'provider', 'index.cjs'),
-    validator: validateFileExists
+    validator: validateFileExists,
   })
   provider: string = '';  // tslint:disable-line:no-inferrable-types
   @option({
     flag: 'g',
     description: 'the generation module to use',
     default: pathJoin(__dirname, '..', 'generator', 'index.cjs'),
-    validator: validateFileExists
+    validator: validateFileExists,
   })
   generator: string = '';  // tslint:disable-line:no-inferrable-types
 }
 
 @command({
-  description: 'Command line interface for the EF chat bot framework'
+  description: 'Command line interface for the EF chat bot framework',
 })
 export default class extends Command {
   async execute(
     @param({
       name: 'output',
       description: 'The output location to give to the generator',
-      default: cwd()
+      default: cwd(),
     })
     output: string,
-    { provider, generator }: Options
+    { provider, generator }: Options,
   ): Promise<void> {
     const { green: g, blue: b, reset: _ } = colours;
     const { default: providing } = require(pathResolve(provider));

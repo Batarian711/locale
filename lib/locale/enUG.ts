@@ -15,7 +15,7 @@ export interface IEnUg extends ILocale {
  */
 export const enUG: IEnUg = {
   language: english,
-  region: uganda
+  region: uganda,
 };
 
 export default enUG;

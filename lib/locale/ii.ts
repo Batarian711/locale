@@ -12,7 +12,7 @@ export interface IIi extends ILocale {
  * The locale variable for the Nuosu language
  */
 export const ii: IIi = {
-  language: nuosu
+  language: nuosu,
 };
 
 export default ii;

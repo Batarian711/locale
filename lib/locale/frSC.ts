@@ -15,7 +15,7 @@ export interface IFrSc extends ILocale {
  */
 export const frSC: IFrSc = {
   language: french,
-  region: seychelles
+  region: seychelles,
 };
 
 export default frSC;

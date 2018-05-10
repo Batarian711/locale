@@ -15,7 +15,7 @@ export interface IFrMg extends ILocale {
  */
 export const frMG: IFrMg = {
   language: french,
-  region: madagascar
+  region: madagascar,
 };
 
 export default frMG;

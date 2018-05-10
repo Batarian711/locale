@@ -12,7 +12,7 @@ export interface IOm extends ILocale {
  * The locale variable for the Oromo language
  */
 export const om: IOm = {
-  language: oromo
+  language: oromo,
 };
 
 export default om;

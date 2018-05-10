@@ -12,7 +12,7 @@ export interface IIs extends ILocale {
  * The locale variable for the Icelandic language
  */
 export const is: IIs = {
-  language: icelandic
+  language: icelandic,
 };
 
 export default is;

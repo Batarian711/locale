@@ -15,7 +15,7 @@ export interface IRoRo extends ILocale {
  */
 export const roRO: IRoRo = {
   language: romanian,
-  region: romania
+  region: romania,
 };
 
 export default roRO;

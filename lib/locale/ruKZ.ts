@@ -15,7 +15,7 @@ export interface IRuKz extends ILocale {
  */
 export const ruKZ: IRuKz = {
   language: russian,
-  region: kazakhstan
+  region: kazakhstan,
 };
 
 export default ruKZ;

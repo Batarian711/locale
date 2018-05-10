@@ -15,7 +15,7 @@ export interface IFrYt extends ILocale {
  */
 export const frYT: IFrYt = {
   language: french,
-  region: mayotte
+  region: mayotte,
 };
 
 export default frYT;

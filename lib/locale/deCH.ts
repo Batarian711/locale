@@ -15,7 +15,7 @@ export interface IDeCh extends ILocale {
  */
 export const deCH: IDeCh = {
   language: german,
-  region: switzerland
+  region: switzerland,
 };
 
 export default deCH;

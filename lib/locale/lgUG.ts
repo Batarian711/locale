@@ -15,7 +15,7 @@ export interface ILgUg extends ILocale {
  */
 export const lgUG: ILgUg = {
   language: ganda,
-  region: uganda
+  region: uganda,
 };
 
 export default lgUG;

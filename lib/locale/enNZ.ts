@@ -15,7 +15,7 @@ export interface IEnNz extends ILocale {
  */
 export const enNZ: IEnNz = {
   language: english,
-  region: newZealand
+  region: newZealand,
 };
 
 export default enNZ;

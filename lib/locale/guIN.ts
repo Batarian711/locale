@@ -15,7 +15,7 @@ export interface IGuIn extends ILocale {
  */
 export const guIN: IGuIn = {
   language: gujarati,
-  region: india
+  region: india,
 };
 
 export default guIN;

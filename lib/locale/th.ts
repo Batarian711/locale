@@ -12,7 +12,7 @@ export interface ITh extends ILocale {
  * The locale variable for the Thai language
  */
 export const th: ITh = {
-  language: thai
+  language: thai,
 };
 
 export default th;

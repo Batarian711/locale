@@ -12,7 +12,7 @@ export interface IYi extends ILocale {
  * The locale variable for the Yiddish language
  */
 export const yi: IYi = {
-  language: yiddish
+  language: yiddish,
 };
 
 export default yi;

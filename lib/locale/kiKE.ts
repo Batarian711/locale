@@ -15,7 +15,7 @@ export interface IKiKe extends ILocale {
  */
 export const kiKE: IKiKe = {
   language: kikuyu,
-  region: kenya
+  region: kenya,
 };
 
 export default kiKE;

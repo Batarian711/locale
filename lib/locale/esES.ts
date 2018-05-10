@@ -15,7 +15,7 @@ export interface IEsEs extends ILocale {
  */
 export const esES: IEsEs = {
   language: spanish,
-  region: spain
+  region: spain,
 };
 
 export default esES;

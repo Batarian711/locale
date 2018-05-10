@@ -12,7 +12,7 @@ export interface INl extends ILocale {
  * The locale variable for the Dutch language
  */
 export const nl: INl = {
-  language: dutch
+  language: dutch,
 };
 
 export default nl;

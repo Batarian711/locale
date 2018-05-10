@@ -12,7 +12,7 @@ export interface IZu extends ILocale {
  * The locale variable for the Zulu language
  */
 export const zu: IZu = {
-  language: zulu
+  language: zulu,
 };
 
 export default zu;

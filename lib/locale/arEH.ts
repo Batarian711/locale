@@ -15,7 +15,7 @@ export interface IArEh extends ILocale {
  */
 export const arEH: IArEh = {
   language: arabic,
-  region: westernSahara
+  region: westernSahara,
 };
 
 export default arEH;

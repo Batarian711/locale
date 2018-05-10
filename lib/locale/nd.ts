@@ -12,7 +12,7 @@ export interface INd extends ILocale {
  * The locale variable for the Northern Ndebele language
  */
 export const nd: INd = {
-  language: northernNdebele
+  language: northernNdebele,
 };
 
 export default nd;

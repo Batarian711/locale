@@ -15,7 +15,7 @@ export interface IGaIe extends ILocale {
  */
 export const gaIE: IGaIe = {
   language: irish,
-  region: ireland
+  region: ireland,
 };
 
 export default gaIE;

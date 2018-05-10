@@ -15,7 +15,7 @@ export interface INeIn extends ILocale {
  */
 export const neIN: INeIn = {
   language: nepali,
-  region: india
+  region: india,
 };
 
 export default neIN;

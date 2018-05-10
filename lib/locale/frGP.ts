@@ -15,7 +15,7 @@ export interface IFrGp extends ILocale {
  */
 export const frGP: IFrGp = {
   language: french,
-  region: guadeloupe
+  region: guadeloupe,
 };
 
 export default frGP;

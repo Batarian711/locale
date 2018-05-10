@@ -12,7 +12,7 @@ export interface ILb extends ILocale {
  * The locale variable for the Luxembourgish language
  */
 export const lb: ILb = {
-  language: luxembourgish
+  language: luxembourgish,
 };
 
 export default lb;

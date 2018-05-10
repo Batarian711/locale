@@ -15,7 +15,7 @@ export interface IBrFr extends ILocale {
  */
 export const brFR: IBrFr = {
   language: breton,
-  region: france
+  region: france,
 };
 
 export default brFR;

@@ -15,7 +15,7 @@ export interface IEnSz extends ILocale {
  */
 export const enSZ: IEnSz = {
   language: english,
-  region: swaziland
+  region: swaziland,
 };
 
 export default enSZ;

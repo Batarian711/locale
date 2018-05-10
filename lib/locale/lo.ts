@@ -12,7 +12,7 @@ export interface ILo extends ILocale {
  * The locale variable for the Lao language
  */
 export const lo: ILo = {
-  language: lao
+  language: lao,
 };
 
 export default lo;

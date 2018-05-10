@@ -15,7 +15,7 @@ export interface IEnNg extends ILocale {
  */
 export const enNG: IEnNg = {
   language: english,
-  region: nigeria
+  region: nigeria,
 };
 
 export default enNG;

@@ -15,7 +15,7 @@ export interface IEnBs extends ILocale {
  */
 export const enBS: IEnBs = {
   language: english,
-  region: bahamas
+  region: bahamas,
 };
 
 export default enBS;

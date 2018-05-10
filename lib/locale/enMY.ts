@@ -15,7 +15,7 @@ export interface IEnMy extends ILocale {
  */
 export const enMY: IEnMy = {
   language: english,
-  region: malaysia
+  region: malaysia,
 };
 
 export default enMY;

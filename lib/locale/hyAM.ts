@@ -15,7 +15,7 @@ export interface IHyAm extends ILocale {
  */
 export const hyAM: IHyAm = {
   language: armenian,
-  region: armenia
+  region: armenia,
 };
 
 export default hyAM;

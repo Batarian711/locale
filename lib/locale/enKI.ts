@@ -15,7 +15,7 @@ export interface IEnKi extends ILocale {
  */
 export const enKI: IEnKi = {
   language: english,
-  region: kiribati
+  region: kiribati,
 };
 
 export default enKI;

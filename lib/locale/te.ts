@@ -12,7 +12,7 @@ export interface ITe extends ILocale {
  * The locale variable for the Telugu language
  */
 export const te: ITe = {
-  language: telugu
+  language: telugu,
 };
 
 export default te;

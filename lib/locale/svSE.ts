@@ -15,7 +15,7 @@ export interface ISvSe extends ILocale {
  */
 export const svSE: ISvSe = {
   language: swedish,
-  region: sweden
+  region: sweden,
 };
 
 export default svSE;

@@ -15,7 +15,7 @@ export interface IKsArab extends ILocale {
  */
 export const ksArab: IKsArab = {
   language: kashmiri,
-  script: arabic
+  script: arabic,
 };
 
 export default ksArab;

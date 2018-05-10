@@ -15,7 +15,7 @@ export interface IEsAr extends ILocale {
  */
 export const esAR: IEsAr = {
   language: spanish,
-  region: argentina
+  region: argentina,
 };
 
 export default esAR;

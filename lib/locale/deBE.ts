@@ -15,7 +15,7 @@ export interface IDeBe extends ILocale {
  */
 export const deBE: IDeBe = {
   language: german,
-  region: belgium
+  region: belgium,
 };
 
 export default deBE;

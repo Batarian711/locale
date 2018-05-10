@@ -15,7 +15,7 @@ export interface IEnMt extends ILocale {
  */
 export const enMT: IEnMt = {
   language: english,
-  region: malta
+  region: malta,
 };
 
 export default enMT;

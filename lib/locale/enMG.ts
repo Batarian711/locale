@@ -15,7 +15,7 @@ export interface IEnMg extends ILocale {
  */
 export const enMG: IEnMg = {
   language: english,
-  region: madagascar
+  region: madagascar,
 };
 
 export default enMG;

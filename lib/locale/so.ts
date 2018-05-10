@@ -12,7 +12,7 @@ export interface ISo extends ILocale {
  * The locale variable for the Somali language
  */
 export const so: ISo = {
-  language: somali
+  language: somali,
 };
 
 export default so;

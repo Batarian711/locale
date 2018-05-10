@@ -15,7 +15,7 @@ export interface IEnNu extends ILocale {
  */
 export const enNU: IEnNu = {
   language: english,
-  region: niue
+  region: niue,
 };
 
 export default enNU;

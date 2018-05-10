@@ -15,7 +15,7 @@ export interface IEnIo extends ILocale {
  */
 export const enIO: IEnIo = {
   language: english,
-  region: britishIndianOceanTerritory
+  region: britishIndianOceanTerritory,
 };
 
 export default enIO;

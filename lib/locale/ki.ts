@@ -12,7 +12,7 @@ export interface IKi extends ILocale {
  * The locale variable for the Kikuyu language
  */
 export const ki: IKi = {
-  language: kikuyu
+  language: kikuyu,
 };
 
 export default ki;

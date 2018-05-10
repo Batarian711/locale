@@ -15,7 +15,7 @@ export interface IFrCd extends ILocale {
  */
 export const frCD: IFrCd = {
   language: french,
-  region: democraticRepublicOfTheCongo
+  region: democraticRepublicOfTheCongo,
 };
 
 export default frCD;

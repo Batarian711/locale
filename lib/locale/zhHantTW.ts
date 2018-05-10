@@ -20,7 +20,7 @@ export interface IZhHantTw extends ILocale {
 export const zhHantTW: IZhHantTw = {
   language: chinese,
   region: taiwanProvinceOfChina,
-  script: hanTraditional
+  script: hanTraditional,
 };
 
 export default zhHantTW;

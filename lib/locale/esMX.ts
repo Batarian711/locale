@@ -15,7 +15,7 @@ export interface IEsMx extends ILocale {
  */
 export const esMX: IEsMx = {
   language: spanish,
-  region: mexico
+  region: mexico,
 };
 
 export default esMX;

@@ -15,7 +15,7 @@ export interface IEnSg extends ILocale {
  */
 export const enSG: IEnSg = {
   language: english,
-  region: singapore
+  region: singapore,
 };
 
 export default enSG;

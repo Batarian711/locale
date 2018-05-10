@@ -15,7 +15,7 @@ export interface ILoLa extends ILocale {
  */
 export const loLA: ILoLa = {
   language: lao,
-  region: laoPeoplesDemocraticRepublic
+  region: laoPeoplesDemocraticRepublic,
 };
 
 export default loLA;

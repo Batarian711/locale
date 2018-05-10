@@ -15,7 +15,7 @@ export interface IEnWs extends ILocale {
  */
 export const enWS: IEnWs = {
   language: english,
-  region: samoa
+  region: samoa,
 };
 
 export default enWS;

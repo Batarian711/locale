@@ -15,7 +15,7 @@ export interface IFrNc extends ILocale {
  */
 export const frNC: IFrNc = {
   language: french,
-  region: newCaledonia
+  region: newCaledonia,
 };
 
 export default frNC;

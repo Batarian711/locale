@@ -15,7 +15,7 @@ export interface IPtSt extends ILocale {
  */
 export const ptST: IPtSt = {
   language: portuguese,
-  region: saoTomeAndPrincipe
+  region: saoTomeAndPrincipe,
 };
 
 export default ptST;

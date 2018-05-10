@@ -15,7 +15,7 @@ export interface ILnAo extends ILocale {
  */
 export const lnAO: ILnAo = {
   language: lingala,
-  region: angola
+  region: angola,
 };
 
 export default lnAO;

@@ -15,7 +15,7 @@ export interface IFrMu extends ILocale {
  */
 export const frMU: IFrMu = {
   language: french,
-  region: mauritius
+  region: mauritius,
 };
 
 export default frMU;

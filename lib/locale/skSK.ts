@@ -15,7 +15,7 @@ export interface ISkSk extends ILocale {
  */
 export const skSK: ISkSk = {
   language: slovak,
-  region: slovakia
+  region: slovakia,
 };
 
 export default skSK;

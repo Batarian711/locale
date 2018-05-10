@@ -15,7 +15,7 @@ export interface IEnVu extends ILocale {
  */
 export const enVU: IEnVu = {
   language: english,
-  region: vanuatu
+  region: vanuatu,
 };
 
 export default enVU;

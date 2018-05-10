@@ -15,7 +15,7 @@ export interface IViVn extends ILocale {
  */
 export const viVN: IViVn = {
   language: vietnamese,
-  region: vietNam
+  region: vietNam,
 };
 
 export default viVN;

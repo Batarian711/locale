@@ -15,7 +15,7 @@ export interface IOmEt extends ILocale {
  */
 export const omET: IOmEt = {
   language: oromo,
-  region: ethiopia
+  region: ethiopia,
 };
 
 export default omET;

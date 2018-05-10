@@ -15,7 +15,7 @@ export interface ITlPh extends ILocale {
  */
 export const tlPH: ITlPh = {
   language: tagalog,
-  region: philippines
+  region: philippines,
 };
 
 export default tlPH;

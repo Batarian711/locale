@@ -15,7 +15,7 @@ export interface IArIl extends ILocale {
  */
 export const arIL: IArIl = {
   language: arabic,
-  region: israel
+  region: israel,
 };
 
 export default arIL;

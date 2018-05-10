@@ -12,7 +12,7 @@ export interface IEt extends ILocale {
  * The locale variable for the Estonian language
  */
 export const et: IEt = {
-  language: estonian
+  language: estonian,
 };
 
 export default et;

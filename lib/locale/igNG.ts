@@ -15,7 +15,7 @@ export interface IIgNg extends ILocale {
  */
 export const igNG: IIgNg = {
   language: igbo,
-  region: nigeria
+  region: nigeria,
 };
 
 export default igNG;

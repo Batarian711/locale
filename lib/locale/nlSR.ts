@@ -15,7 +15,7 @@ export interface INlSr extends ILocale {
  */
 export const nlSR: INlSr = {
   language: dutch,
-  region: suriname
+  region: suriname,
 };
 
 export default nlSR;

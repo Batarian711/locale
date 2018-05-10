@@ -15,7 +15,7 @@ export interface ITrCy extends ILocale {
  */
 export const trCY: ITrCy = {
   language: turkish,
-  region: cyprus
+  region: cyprus,
 };
 
 export default trCY;

@@ -12,7 +12,7 @@ export interface ITr extends ILocale {
  * The locale variable for the Turkish language
  */
 export const tr: ITr = {
-  language: turkish
+  language: turkish,
 };
 
 export default tr;

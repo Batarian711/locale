@@ -15,7 +15,7 @@ export interface IItSm extends ILocale {
  */
 export const itSM: IItSm = {
   language: italian,
-  region: sanMarino
+  region: sanMarino,
 };
 
 export default itSM;

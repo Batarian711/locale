@@ -12,7 +12,7 @@ export interface IPa extends ILocale {
  * The locale variable for the Punjabi language
  */
 export const pa: IPa = {
-  language: punjabi
+  language: punjabi,
 };
 
 export default pa;

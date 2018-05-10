@@ -12,7 +12,7 @@ export interface ISv extends ILocale {
  * The locale variable for the Swedish language
  */
 export const sv: ISv = {
-  language: swedish
+  language: swedish,
 };
 
 export default sv;

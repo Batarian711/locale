@@ -15,7 +15,7 @@ export interface IFrCg extends ILocale {
  */
 export const frCG: IFrCg = {
   language: french,
-  region: congo
+  region: congo,
 };
 
 export default frCG;

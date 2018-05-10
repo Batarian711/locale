@@ -15,7 +15,7 @@ export interface IHaNg extends ILocale {
  */
 export const haNG: IHaNg = {
   language: hausa,
-  region: nigeria
+  region: nigeria,
 };
 
 export default haNG;

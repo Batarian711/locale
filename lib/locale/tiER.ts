@@ -15,7 +15,7 @@ export interface ITiEr extends ILocale {
  */
 export const tiER: ITiEr = {
   language: tigrinya,
-  region: eritrea
+  region: eritrea,
 };
 
 export default tiER;

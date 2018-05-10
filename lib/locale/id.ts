@@ -12,7 +12,7 @@ export interface IId extends ILocale {
  * The locale variable for the Indonesian language
  */
 export const id: IId = {
-  language: indonesian
+  language: indonesian,
 };
 
 export default id;

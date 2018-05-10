@@ -15,7 +15,7 @@ export interface IEsDo extends ILocale {
  */
 export const esDO: IEsDo = {
   language: spanish,
-  region: dominicanRepublic
+  region: dominicanRepublic,
 };
 
 export default esDO;

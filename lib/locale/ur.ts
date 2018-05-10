@@ -12,7 +12,7 @@ export interface IUr extends ILocale {
  * The locale variable for the Urdu language
  */
 export const ur: IUr = {
-  language: urdu
+  language: urdu,
 };
 
 export default ur;

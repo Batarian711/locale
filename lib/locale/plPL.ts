@@ -15,7 +15,7 @@ export interface IPlPl extends ILocale {
  */
 export const plPL: IPlPl = {
   language: polish,
-  region: poland
+  region: poland,
 };
 
 export default plPL;

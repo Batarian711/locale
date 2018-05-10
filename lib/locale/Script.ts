@@ -96,7 +96,7 @@ export const script: ReadonlySet<Script> = new Set<Script>([
   hanSimplified,
   hanTraditional,
   arabic,
-  gurmukhi
+  gurmukhi,
 ]);
 
 export default Script;

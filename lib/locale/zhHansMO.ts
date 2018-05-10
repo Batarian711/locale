@@ -18,7 +18,7 @@ export interface IZhHansMo extends ILocale {
 export const zhHansMO: IZhHansMo = {
   language: chinese,
   region: macao,
-  script: hanSimplified
+  script: hanSimplified,
 };
 
 export default zhHansMO;

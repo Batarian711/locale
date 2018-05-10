@@ -15,7 +15,7 @@ export interface ILtLt extends ILocale {
  */
 export const ltLT: ILtLt = {
   language: lithuanian,
-  region: lithuania
+  region: lithuania,
 };
 
 export default ltLT;

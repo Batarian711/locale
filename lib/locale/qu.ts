@@ -12,7 +12,7 @@ export interface IQu extends ILocale {
  * The locale variable for the Quechua language
  */
 export const qu: IQu = {
-  language: quechua
+  language: quechua,
 };
 
 export default qu;

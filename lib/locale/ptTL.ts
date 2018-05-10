@@ -15,7 +15,7 @@ export interface IPtTl extends ILocale {
  */
 export const ptTL: IPtTl = {
   language: portuguese,
-  region: timorLeste
+  region: timorLeste,
 };
 
 export default ptTL;

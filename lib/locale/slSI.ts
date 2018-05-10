@@ -15,7 +15,7 @@ export interface ISlSi extends ILocale {
  */
 export const slSI: ISlSi = {
   language: slovene,
-  region: slovenia
+  region: slovenia,
 };
 
 export default slSI;

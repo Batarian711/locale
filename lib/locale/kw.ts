@@ -12,7 +12,7 @@ export interface IKw extends ILocale {
  * The locale variable for the Cornish language
  */
 export const kw: IKw = {
-  language: cornish
+  language: cornish,
 };
 
 export default kw;

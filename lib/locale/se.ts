@@ -12,7 +12,7 @@ export interface ISe extends ILocale {
  * The locale variable for the Northern Sami language
  */
 export const se: ISe = {
-  language: northernSami
+  language: northernSami,
 };
 
 export default se;

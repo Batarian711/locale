@@ -15,7 +15,7 @@ export interface INlCw extends ILocale {
  */
 export const nlCW: INlCw = {
   language: dutch,
-  region: curacao
+  region: curacao,
 };
 
 export default nlCW;

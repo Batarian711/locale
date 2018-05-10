@@ -15,7 +15,7 @@ export interface INlBq extends ILocale {
  */
 export const nlBQ: INlBq = {
   language: dutch,
-  region: bonaireSintEustatiusAndSaba
+  region: bonaireSintEustatiusAndSaba,
 };
 
 export default nlBQ;

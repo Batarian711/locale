@@ -15,7 +15,7 @@ export interface IFrHt extends ILocale {
  */
 export const frHT: IFrHt = {
   language: french,
-  region: haiti
+  region: haiti,
 };
 
 export default frHT;

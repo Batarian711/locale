@@ -15,7 +15,7 @@ export interface IMsMy extends ILocale {
  */
 export const msMY: IMsMy = {
   language: malay,
-  region: malaysia
+  region: malaysia,
 };
 
 export default msMY;

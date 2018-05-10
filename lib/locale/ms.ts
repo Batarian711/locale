@@ -12,7 +12,7 @@ export interface IMs extends ILocale {
  * The locale variable for the Malay language
  */
 export const ms: IMs = {
-  language: malay
+  language: malay,
 };
 
 export default ms;

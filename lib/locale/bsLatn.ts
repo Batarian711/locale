@@ -15,7 +15,7 @@ export interface IBsLatn extends ILocale {
  */
 export const bsLatn: IBsLatn = {
   language: bosnian,
-  script: latin
+  script: latin,
 };
 
 export default bsLatn;

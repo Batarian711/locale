@@ -15,7 +15,7 @@ export interface IEsGq extends ILocale {
  */
 export const esGQ: IEsGq = {
   language: spanish,
-  region: equatorialGuinea
+  region: equatorialGuinea,
 };
 
 export default esGQ;

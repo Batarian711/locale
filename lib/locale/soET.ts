@@ -15,7 +15,7 @@ export interface ISoEt extends ILocale {
  */
 export const soET: ISoEt = {
   language: somali,
-  region: ethiopia
+  region: ethiopia,
 };
 
 export default soET;

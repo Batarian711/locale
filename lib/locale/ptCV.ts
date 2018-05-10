@@ -15,7 +15,7 @@ export interface IPtCv extends ILocale {
  */
 export const ptCV: IPtCv = {
   language: portuguese,
-  region: caboVerde
+  region: caboVerde,
 };
 
 export default ptCV;

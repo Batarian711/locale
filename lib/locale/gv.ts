@@ -12,7 +12,7 @@ export interface IGv extends ILocale {
  * The locale variable for the Manx language
  */
 export const gv: IGv = {
-  language: manx
+  language: manx,
 };
 
 export default gv;

@@ -15,7 +15,7 @@ export interface IArSs extends ILocale {
  */
 export const arSS: IArSs = {
   language: arabic,
-  region: southSudan
+  region: southSudan,
 };
 
 export default arSS;

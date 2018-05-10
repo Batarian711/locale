@@ -15,7 +15,7 @@ export interface IAkGh extends ILocale {
  */
 export const akGH: IAkGh = {
   language: akan,
-  region: ghana
+  region: ghana,
 };
 
 export default akGH;

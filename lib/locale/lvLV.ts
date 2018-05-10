@@ -15,7 +15,7 @@ export interface ILvLv extends ILocale {
  */
 export const lvLV: ILvLv = {
   language: latvian,
-  region: latvia
+  region: latvia,
 };
 
 export default lvLV;

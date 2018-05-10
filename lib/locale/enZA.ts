@@ -15,7 +15,7 @@ export interface IEnZa extends ILocale {
  */
 export const enZA: IEnZa = {
   language: english,
-  region: southAfrica
+  region: southAfrica,
 };
 
 export default enZA;

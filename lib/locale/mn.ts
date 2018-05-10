@@ -12,7 +12,7 @@ export interface IMn extends ILocale {
  * The locale variable for the Mongolian language
  */
 export const mn: IMn = {
-  language: mongolian
+  language: mongolian,
 };
 
 export default mn;

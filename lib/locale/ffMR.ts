@@ -15,7 +15,7 @@ export interface IFfMr extends ILocale {
  */
 export const ffMR: IFfMr = {
   language: fula,
-  region: mauritania
+  region: mauritania,
 };
 
 export default ffMR;

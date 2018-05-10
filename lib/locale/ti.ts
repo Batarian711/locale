@@ -12,7 +12,7 @@ export interface ITi extends ILocale {
  * The locale variable for the Tigrinya language
  */
 export const ti: ITi = {
-  language: tigrinya
+  language: tigrinya,
 };
 
 export default ti;

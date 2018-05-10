@@ -12,7 +12,7 @@ export interface IUg extends ILocale {
  * The locale variable for the Uyghur language
  */
 export const ug: IUg = {
-  language: uyghur
+  language: uyghur,
 };
 
 export default ug;

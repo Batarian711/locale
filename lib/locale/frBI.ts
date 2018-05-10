@@ -15,7 +15,7 @@ export interface IFrBi extends ILocale {
  */
 export const frBI: IFrBi = {
   language: french,
-  region: burundi
+  region: burundi,
 };
 
 export default frBI;

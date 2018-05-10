@@ -15,7 +15,7 @@ export interface IEnSc extends ILocale {
  */
 export const enSC: IEnSc = {
   language: english,
-  region: seychelles
+  region: seychelles,
 };
 
 export default enSC;

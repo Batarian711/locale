@@ -15,7 +15,7 @@ export interface IEnLr extends ILocale {
  */
 export const enLR: IEnLr = {
   language: english,
-  region: liberia
+  region: liberia,
 };
 
 export default enLR;

@@ -15,7 +15,7 @@ export interface IArDj extends ILocale {
  */
 export const arDJ: IArDj = {
   language: arabic,
-  region: djibouti
+  region: djibouti,
 };
 
 export default arDJ;

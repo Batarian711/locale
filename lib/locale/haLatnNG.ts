@@ -18,7 +18,7 @@ export interface IHaLatnNg extends ILocale {
 export const haLatnNG: IHaLatnNg = {
   language: hausa,
   region: nigeria,
-  script: latin
+  script: latin,
 };
 
 export default haLatnNG;

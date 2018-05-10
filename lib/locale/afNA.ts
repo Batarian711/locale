@@ -15,7 +15,7 @@ export interface IAfNa extends ILocale {
  */
 export const afNA: IAfNa = {
   language: afrikaans,
-  region: namibia
+  region: namibia,
 };
 
 export default afNA;

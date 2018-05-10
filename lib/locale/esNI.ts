@@ -15,7 +15,7 @@ export interface IEsNi extends ILocale {
  */
 export const esNI: IEsNi = {
   language: spanish,
-  region: nicaragua
+  region: nicaragua,
 };
 
 export default esNI;

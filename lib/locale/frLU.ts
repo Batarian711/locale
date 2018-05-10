@@ -15,7 +15,7 @@ export interface IFrLu extends ILocale {
  */
 export const frLU: IFrLu = {
   language: french,
-  region: luxembourg
+  region: luxembourg,
 };
 
 export default frLU;

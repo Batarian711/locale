@@ -15,7 +15,7 @@ export interface IEnZw extends ILocale {
  */
 export const enZW: IEnZw = {
   language: english,
-  region: zimbabwe
+  region: zimbabwe,
 };
 
 export default enZW;

@@ -15,7 +15,7 @@ export interface ITaMy extends ILocale {
  */
 export const taMY: ITaMy = {
   language: tamil,
-  region: malaysia
+  region: malaysia,
 };
 
 export default taMY;

@@ -15,7 +15,7 @@ export interface ILbLu extends ILocale {
  */
 export const lbLU: ILbLu = {
   language: luxembourgish,
-  region: luxembourg
+  region: luxembourg,
 };
 
 export default lbLU;

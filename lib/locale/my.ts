@@ -12,7 +12,7 @@ export interface IMy extends ILocale {
  * The locale variable for the Burmese language
  */
 export const my: IMy = {
-  language: burmese
+  language: burmese,
 };
 
 export default my;

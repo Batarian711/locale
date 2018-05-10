@@ -15,7 +15,7 @@ export interface IFrCh extends ILocale {
  */
 export const frCH: IFrCh = {
   language: french,
-  region: switzerland
+  region: switzerland,
 };
 
 export default frCH;

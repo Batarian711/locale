@@ -12,7 +12,7 @@ export interface IFy extends ILocale {
  * The locale variable for the Western Frisian language
  */
 export const fy: IFy = {
-  language: westernFrisian
+  language: westernFrisian,
 };
 
 export default fy;

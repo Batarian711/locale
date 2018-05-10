@@ -15,7 +15,7 @@ export interface IEnEr extends ILocale {
  */
 export const enER: IEnEr = {
   language: english,
-  region: eritrea
+  region: eritrea,
 };
 
 export default enER;

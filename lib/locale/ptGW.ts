@@ -15,7 +15,7 @@ export interface IPtGw extends ILocale {
  */
 export const ptGW: IPtGw = {
   language: portuguese,
-  region: guineaBissau
+  region: guineaBissau,
 };
 
 export default ptGW;

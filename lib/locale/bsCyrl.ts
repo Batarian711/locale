@@ -15,7 +15,7 @@ export interface IBsCyrl extends ILocale {
  */
 export const bsCyrl: IBsCyrl = {
   language: bosnian,
-  script: cyrillic
+  script: cyrillic,
 };
 
 export default bsCyrl;

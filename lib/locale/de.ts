@@ -12,7 +12,7 @@ export interface IDe extends ILocale {
  * The locale variable for the German language
  */
 export const de: IDe = {
-  language: german
+  language: german,
 };
 
 export default de;

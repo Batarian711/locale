@@ -15,7 +15,7 @@ export interface INdZw extends ILocale {
  */
 export const ndZW: INdZw = {
   language: northernNdebele,
-  region: zimbabwe
+  region: zimbabwe,
 };
 
 export default ndZW;

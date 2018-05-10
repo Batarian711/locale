@@ -15,7 +15,7 @@ export interface IElGr extends ILocale {
  */
 export const elGR: IElGr = {
   language: greek,
-  region: greece
+  region: greece,
 };
 
 export default elGR;

@@ -15,7 +15,7 @@ export interface IEnKe extends ILocale {
  */
 export const enKE: IEnKe = {
   language: english,
-  region: kenya
+  region: kenya,
 };
 
 export default enKE;

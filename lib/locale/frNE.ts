@@ -15,7 +15,7 @@ export interface IFrNe extends ILocale {
  */
 export const frNE: IFrNe = {
   language: french,
-  region: niger
+  region: niger,
 };
 
 export default frNE;

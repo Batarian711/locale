@@ -15,7 +15,7 @@ export interface IEnBb extends ILocale {
  */
 export const enBB: IEnBb = {
   language: english,
-  region: barbados
+  region: barbados,
 };
 
 export default enBB;

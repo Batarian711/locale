@@ -15,7 +15,7 @@ export interface ILnCg extends ILocale {
  */
 export const lnCG: ILnCg = {
   language: lingala,
-  region: congo
+  region: congo,
 };
 
 export default lnCG;

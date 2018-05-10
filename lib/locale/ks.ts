@@ -12,7 +12,7 @@ export interface IKs extends ILocale {
  * The locale variable for the Kashmiri language
  */
 export const ks: IKs = {
-  language: kashmiri
+  language: kashmiri,
 };
 
 export default ks;

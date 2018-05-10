@@ -15,7 +15,7 @@ export interface IEnSx extends ILocale {
  */
 export const enSX: IEnSx = {
   language: english,
-  region: sintMaarten
+  region: sintMaarten,
 };
 
 export default enSX;

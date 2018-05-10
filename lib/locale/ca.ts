@@ -12,7 +12,7 @@ export interface ICa extends ILocale {
  * The locale variable for the Catalan language
  */
 export const ca: ICa = {
-  language: catalan
+  language: catalan,
 };
 
 export default ca;

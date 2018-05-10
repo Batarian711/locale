@@ -15,7 +15,7 @@ export interface IPtAo extends ILocale {
  */
 export const ptAO: IPtAo = {
   language: portuguese,
-  region: angola
+  region: angola,
 };
 
 export default ptAO;

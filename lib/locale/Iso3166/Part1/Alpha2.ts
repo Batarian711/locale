@@ -3625,7 +3625,7 @@ export const alpha2: ReadonlySet<Alpha2> = new Set<Alpha2>([
   westernSahara,
   yemen,
   zambia,
-  zimbabwe
+  zimbabwe,
 ]);
 
 export default Alpha2;

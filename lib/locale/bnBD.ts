@@ -15,7 +15,7 @@ export interface IBnBd extends ILocale {
  */
 export const bnBD: IBnBd = {
   language: bengali,
-  region: bangladesh
+  region: bangladesh,
 };
 
 export default bnBD;

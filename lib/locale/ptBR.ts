@@ -15,7 +15,7 @@ export interface IPtBr extends ILocale {
  */
 export const ptBR: IPtBr = {
   language: portuguese,
-  region: brazil
+  region: brazil,
 };
 
 export default ptBR;

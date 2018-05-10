@@ -12,7 +12,7 @@ export interface IBe extends ILocale {
  * The locale variable for the Belarusian language
  */
 export const be: IBe = {
-  language: belarusian
+  language: belarusian,
 };
 
 export default be;

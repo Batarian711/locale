@@ -18,7 +18,7 @@ export interface IBmLatnMl extends ILocale {
 export const bmLatnML: IBmLatnMl = {
   language: bambara,
   region: mali,
-  script: latin
+  script: latin,
 };
 
 export default bmLatnML;

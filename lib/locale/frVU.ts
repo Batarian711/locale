@@ -15,7 +15,7 @@ export interface IFrVu extends ILocale {
  */
 export const frVU: IFrVu = {
   language: french,
-  region: vanuatu
+  region: vanuatu,
 };
 
 export default frVU;

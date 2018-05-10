@@ -15,7 +15,7 @@ export interface IBoCn extends ILocale {
  */
 export const boCN: IBoCn = {
   language: tibetanStandard,
-  region: china
+  region: china,
 };
 
 export default boCN;

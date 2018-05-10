@@ -15,7 +15,7 @@ export interface IArBh extends ILocale {
  */
 export const arBH: IArBh = {
   language: arabic,
-  region: bahrain
+  region: bahrain,
 };
 
 export default arBH;

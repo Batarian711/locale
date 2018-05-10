@@ -15,7 +15,7 @@ export interface IDeAt extends ILocale {
  */
 export const deAT: IDeAt = {
   language: german,
-  region: austria
+  region: austria,
 };
 
 export default deAT;

@@ -12,7 +12,7 @@ export interface IAz extends ILocale {
  * The locale variable for the Azerbaijani language
  */
 export const az: IAz = {
-  language: azerbaijani
+  language: azerbaijani,
 };
 
 export default az;

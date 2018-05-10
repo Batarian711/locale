@@ -12,7 +12,7 @@ export interface IBm extends ILocale {
  * The locale variable for the Bambara language
  */
 export const bm: IBm = {
-  language: bambara
+  language: bambara,
 };
 
 export default bm;

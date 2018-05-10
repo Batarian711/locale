@@ -12,7 +12,7 @@ export interface IGd extends ILocale {
  * The locale variable for the Scottish Gaelic language
  */
 export const gd: IGd = {
-  language: scottishGaelic
+  language: scottishGaelic,
 };
 
 export default gd;

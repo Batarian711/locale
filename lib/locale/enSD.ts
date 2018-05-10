@@ -15,7 +15,7 @@ export interface IEnSd extends ILocale {
  */
 export const enSD: IEnSd = {
   language: english,
-  region: sudan
+  region: sudan,
 };
 
 export default enSD;

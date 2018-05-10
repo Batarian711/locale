@@ -15,7 +15,7 @@ export interface IEnGg extends ILocale {
  */
 export const enGG: IEnGg = {
   language: english,
-  region: guernsey
+  region: guernsey,
 };
 
 export default enGG;

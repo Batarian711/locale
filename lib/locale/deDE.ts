@@ -15,7 +15,7 @@ export interface IDeDe extends ILocale {
  */
 export const deDE: IDeDe = {
   language: german,
-  region: germany
+  region: germany,
 };
 
 export default deDE;

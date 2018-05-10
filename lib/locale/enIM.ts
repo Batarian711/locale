@@ -15,7 +15,7 @@ export interface IEnIm extends ILocale {
  */
 export const enIM: IEnIm = {
   language: english,
-  region: isleOfMan
+  region: isleOfMan,
 };
 
 export default enIM;

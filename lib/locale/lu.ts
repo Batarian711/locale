@@ -12,7 +12,7 @@ export interface ILu extends ILocale {
  * The locale variable for the Luba-Katanga language
  */
 export const lu: ILu = {
-  language: lubaKatanga
+  language: lubaKatanga,
 };
 
 export default lu;

@@ -18,7 +18,7 @@ export interface IAzLatnAz extends ILocale {
 export const azLatnAZ: IAzLatnAz = {
   language: azerbaijani,
   region: azerbaijan,
-  script: latin
+  script: latin,
 };
 
 export default azLatnAZ;

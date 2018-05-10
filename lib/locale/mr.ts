@@ -12,7 +12,7 @@ export interface IMr extends ILocale {
  * The locale variable for the Marathi language
  */
 export const mr: IMr = {
-  language: marathi
+  language: marathi,
 };
 
 export default mr;

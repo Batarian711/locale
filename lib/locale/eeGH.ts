@@ -15,7 +15,7 @@ export interface IEeGh extends ILocale {
  */
 export const eeGH: IEeGh = {
   language: ewe,
-  region: ghana
+  region: ghana,
 };
 
 export default eeGH;

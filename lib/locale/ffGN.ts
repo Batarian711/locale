@@ -15,7 +15,7 @@ export interface IFfGn extends ILocale {
  */
 export const ffGN: IFfGn = {
   language: fula,
-  region: guinea
+  region: guinea,
 };
 
 export default ffGN;

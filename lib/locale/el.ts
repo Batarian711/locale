@@ -12,7 +12,7 @@ export interface IEl extends ILocale {
  * The locale variable for the Greek language
  */
 export const el: IEl = {
-  language: greek
+  language: greek,
 };
 
 export default el;

@@ -12,7 +12,7 @@ export interface IKk extends ILocale {
  * The locale variable for the Kazakh language
  */
 export const kk: IKk = {
-  language: kazakh
+  language: kazakh,
 };
 
 export default kk;

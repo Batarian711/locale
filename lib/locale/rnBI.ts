@@ -15,7 +15,7 @@ export interface IRnBi extends ILocale {
  */
 export const rnBI: IRnBi = {
   language: kirundi,
-  region: burundi
+  region: burundi,
 };
 
 export default rnBI;

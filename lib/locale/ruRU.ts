@@ -15,7 +15,7 @@ export interface IRuRu extends ILocale {
  */
 export const ruRU: IRuRu = {
   language: russian,
-  region: russianFederation
+  region: russianFederation,
 };
 
 export default ruRU;

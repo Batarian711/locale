@@ -15,7 +15,7 @@ export interface ISvAx extends ILocale {
  */
 export const svAX: ISvAx = {
   language: swedish,
-  region: alandIslands
+  region: alandIslands,
 };
 
 export default svAX;

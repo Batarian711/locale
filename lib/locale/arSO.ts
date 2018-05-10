@@ -15,7 +15,7 @@ export interface IArSo extends ILocale {
  */
 export const arSO: IArSo = {
   language: arabic,
-  region: somalia
+  region: somalia,
 };
 
 export default arSO;

@@ -15,7 +15,7 @@ export interface IQuBo extends ILocale {
  */
 export const quBO: IQuBo = {
   language: quechua,
-  region: bolivia
+  region: bolivia,
 };
 
 export default quBO;

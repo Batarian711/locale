@@ -15,7 +15,7 @@ export interface IArIq extends ILocale {
  */
 export const arIQ: IArIq = {
   language: arabic,
-  region: iraq
+  region: iraq,
 };
 
 export default arIQ;

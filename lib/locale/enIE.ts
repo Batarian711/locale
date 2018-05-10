@@ -15,7 +15,7 @@ export interface IEnIe extends ILocale {
  */
 export const enIE: IEnIe = {
   language: english,
-  region: ireland
+  region: ireland,
 };
 
 export default enIE;

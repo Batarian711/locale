@@ -18,7 +18,7 @@ export interface ISrCyrlRs extends ILocale {
 export const srCyrlRS: ISrCyrlRs = {
   language: serbian,
   region: serbia,
-  script: cyrillic
+  script: cyrillic,
 };
 
 export default srCyrlRS;

@@ -15,7 +15,7 @@ export interface IQuEc extends ILocale {
  */
 export const quEC: IQuEc = {
   language: quechua,
-  region: ecuador
+  region: ecuador,
 };
 
 export default quEC;

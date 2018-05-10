@@ -15,7 +15,7 @@ export interface IFyNl extends ILocale {
  */
 export const fyNL: IFyNl = {
   language: westernFrisian,
-  region: netherlands
+  region: netherlands,
 };
 
 export default fyNL;

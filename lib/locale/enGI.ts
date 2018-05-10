@@ -15,7 +15,7 @@ export interface IEnGi extends ILocale {
  */
 export const enGI: IEnGi = {
   language: english,
-  region: gibraltar
+  region: gibraltar,
 };
 
 export default enGI;

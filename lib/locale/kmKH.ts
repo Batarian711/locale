@@ -15,7 +15,7 @@ export interface IKmKh extends ILocale {
  */
 export const kmKH: IKmKh = {
   language: khmer,
-  region: cambodia
+  region: cambodia,
 };
 
 export default kmKH;

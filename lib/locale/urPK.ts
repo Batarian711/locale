@@ -15,7 +15,7 @@ export interface IUrPk extends ILocale {
  */
 export const urPK: IUrPk = {
   language: urdu,
-  region: pakistan
+  region: pakistan,
 };
 
 export default urPK;

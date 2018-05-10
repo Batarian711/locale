@@ -12,7 +12,7 @@ export interface ISr extends ILocale {
  * The locale variable for the Serbian language
  */
 export const sr: ISr = {
-  language: serbian
+  language: serbian,
 };
 
 export default sr;

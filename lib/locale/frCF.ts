@@ -15,7 +15,7 @@ export interface IFrCf extends ILocale {
  */
 export const frCF: IFrCf = {
   language: french,
-  region: centralAfricanRepublic
+  region: centralAfricanRepublic,
 };
 
 export default frCF;

@@ -12,7 +12,7 @@ export interface IGl extends ILocale {
  * The locale variable for the Galician language
  */
 export const gl: IGl = {
-  language: galician
+  language: galician,
 };
 
 export default gl;

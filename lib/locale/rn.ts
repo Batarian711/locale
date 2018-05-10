@@ -12,7 +12,7 @@ export interface IRn extends ILocale {
  * The locale variable for the Kirundi language
  */
 export const rn: IRn = {
-  language: kirundi
+  language: kirundi,
 };
 
 export default rn;

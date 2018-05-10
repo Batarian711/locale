@@ -15,7 +15,7 @@ export interface INnNo extends ILocale {
  */
 export const nnNO: INnNo = {
   language: norwegianNynorsk,
-  region: norway
+  region: norway,
 };
 
 export default nnNO;

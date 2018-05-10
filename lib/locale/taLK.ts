@@ -15,7 +15,7 @@ export interface ITaLk extends ILocale {
  */
 export const taLK: ITaLk = {
   language: tamil,
-  region: sriLanka
+  region: sriLanka,
 };
 
 export default taLK;

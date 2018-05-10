@@ -12,7 +12,7 @@ export interface IBr extends ILocale {
  * The locale variable for the Breton language
  */
 export const br: IBr = {
-  language: breton
+  language: breton,
 };
 
 export default br;

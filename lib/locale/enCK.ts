@@ -15,7 +15,7 @@ export interface IEnCk extends ILocale {
  */
 export const enCK: IEnCk = {
   language: english,
-  region: cookIslands
+  region: cookIslands,
 };
 
 export default enCK;

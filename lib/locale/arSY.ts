@@ -15,7 +15,7 @@ export interface IArSy extends ILocale {
  */
 export const arSY: IArSy = {
   language: arabic,
-  region: syrianArabRepublic
+  region: syrianArabRepublic,
 };
 
 export default arSY;

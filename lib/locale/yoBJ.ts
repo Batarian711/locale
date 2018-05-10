@@ -15,7 +15,7 @@ export interface IYoBj extends ILocale {
  */
 export const yoBJ: IYoBj = {
   language: yoruba,
-  region: benin
+  region: benin,
 };
 
 export default yoBJ;

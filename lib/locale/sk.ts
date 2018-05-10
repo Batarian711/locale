@@ -12,7 +12,7 @@ export interface ISk extends ILocale {
  * The locale variable for the Slovak language
  */
 export const sk: ISk = {
-  language: slovak
+  language: slovak,
 };
 
 export default sk;

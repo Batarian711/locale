@@ -15,7 +15,7 @@ export interface IEnSl extends ILocale {
  */
 export const enSL: IEnSl = {
   language: english,
-  region: sierraLeone
+  region: sierraLeone,
 };
 
 export default enSL;

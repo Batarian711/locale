@@ -15,7 +15,7 @@ export interface IEnHk extends ILocale {
  */
 export const enHK: IEnHk = {
   language: english,
-  region: hongKong
+  region: hongKong,
 };
 
 export default enHK;

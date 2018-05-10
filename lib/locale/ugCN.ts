@@ -15,7 +15,7 @@ export interface IUgCn extends ILocale {
  */
 export const ugCN: IUgCn = {
   language: uyghur,
-  region: china
+  region: china,
 };
 
 export default ugCN;

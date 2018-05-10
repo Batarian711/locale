@@ -12,7 +12,7 @@ export interface IRu extends ILocale {
  * The locale variable for the Russian language
  */
 export const ru: IRu = {
-  language: russian
+  language: russian,
 };
 
 export default ru;

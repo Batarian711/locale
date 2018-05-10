@@ -15,7 +15,7 @@ export interface IHuHu extends ILocale {
  */
 export const huHU: IHuHu = {
   language: hungarian,
-  region: hungary
+  region: hungary,
 };
 
 export default huHU;

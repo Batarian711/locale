@@ -15,7 +15,7 @@ export interface IArMr extends ILocale {
  */
 export const arMR: IArMr = {
   language: arabic,
-  region: mauritania
+  region: mauritania,
 };
 
 export default arMR;

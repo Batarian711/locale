@@ -12,7 +12,7 @@ export interface IEo extends ILocale {
  * The locale variable for the Esperanto language
  */
 export const eo: IEo = {
-  language: esperanto
+  language: esperanto,
 };
 
 export default eo;

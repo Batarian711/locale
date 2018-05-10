@@ -15,7 +15,7 @@ export interface IFrDj extends ILocale {
  */
 export const frDJ: IFrDj = {
   language: french,
-  region: djibouti
+  region: djibouti,
 };
 
 export default frDJ;

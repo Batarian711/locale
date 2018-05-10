@@ -12,7 +12,7 @@ export interface IAm extends ILocale {
  * The locale variable for the Amharic language
  */
 export const am: IAm = {
-  language: amharic
+  language: amharic,
 };
 
 export default am;

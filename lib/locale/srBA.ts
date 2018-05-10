@@ -15,7 +15,7 @@ export interface ISrBa extends ILocale {
  */
 export const srBA: ISrBa = {
   language: serbian,
-  region: bosniaAndHerzegovina
+  region: bosniaAndHerzegovina,
 };
 
 export default srBA;

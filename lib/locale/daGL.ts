@@ -15,7 +15,7 @@ export interface IDaGl extends ILocale {
  */
 export const daGL: IDaGl = {
   language: danish,
-  region: greenland
+  region: greenland,
 };
 
 export default daGL;

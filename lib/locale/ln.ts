@@ -12,7 +12,7 @@ export interface ILn extends ILocale {
  * The locale variable for the Lingala language
  */
 export const ln: ILn = {
-  language: lingala
+  language: lingala,
 };
 
 export default ln;

@@ -15,7 +15,7 @@ export interface IGvIm extends ILocale {
  */
 export const gvIM: IGvIm = {
   language: manx,
-  region: isleOfMan
+  region: isleOfMan,
 };
 
 export default gvIM;

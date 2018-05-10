@@ -15,7 +15,7 @@ export interface ISwTz extends ILocale {
  */
 export const swTZ: ISwTz = {
   language: swahili,
-  region: tanzaniaUnitedRepublicOf
+  region: tanzaniaUnitedRepublicOf,
 };
 
 export default swTZ;

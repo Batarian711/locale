@@ -12,7 +12,7 @@ export interface ISn extends ILocale {
  * The locale variable for the Shona language
  */
 export const sn: ISn = {
-  language: shona
+  language: shona,
 };
 
 export default sn;

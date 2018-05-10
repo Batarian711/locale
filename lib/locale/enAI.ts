@@ -15,7 +15,7 @@ export interface IEnAi extends ILocale {
  */
 export const enAI: IEnAi = {
   language: english,
-  region: anguilla
+  region: anguilla,
 };
 
 export default enAI;

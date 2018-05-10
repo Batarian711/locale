@@ -15,7 +15,7 @@ export interface IEnLs extends ILocale {
  */
 export const enLS: IEnLs = {
   language: english,
-  region: lesotho
+  region: lesotho,
 };
 
 export default enLS;

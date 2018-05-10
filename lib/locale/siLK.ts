@@ -15,7 +15,7 @@ export interface ISiLk extends ILocale {
  */
 export const siLK: ISiLk = {
   language: sinhalese,
-  region: sriLanka
+  region: sriLanka,
 };
 
 export default siLK;

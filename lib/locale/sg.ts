@@ -12,7 +12,7 @@ export interface ISg extends ILocale {
  * The locale variable for the Sango language
  */
 export const sg: ISg = {
-  language: sango
+  language: sango,
 };
 
 export default sg;

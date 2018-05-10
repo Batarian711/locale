@@ -12,7 +12,7 @@ export interface IBn extends ILocale {
  * The locale variable for the Bengali language
  */
 export const bn: IBn = {
-  language: bengali
+  language: bengali,
 };
 
 export default bn;

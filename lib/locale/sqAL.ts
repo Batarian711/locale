@@ -15,7 +15,7 @@ export interface ISqAl extends ILocale {
  */
 export const sqAL: ISqAl = {
   language: albanian,
-  region: albania
+  region: albania,
 };
 
 export default sqAL;

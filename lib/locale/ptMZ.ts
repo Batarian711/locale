@@ -15,7 +15,7 @@ export interface IPtMz extends ILocale {
  */
 export const ptMZ: IPtMz = {
   language: portuguese,
-  region: mozambique
+  region: mozambique,
 };
 
 export default ptMZ;

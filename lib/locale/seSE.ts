@@ -15,7 +15,7 @@ export interface ISeSe extends ILocale {
  */
 export const seSE: ISeSe = {
   language: northernSami,
-  region: sweden
+  region: sweden,
 };
 
 export default seSE;

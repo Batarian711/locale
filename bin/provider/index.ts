@@ -11,7 +11,7 @@ const provider: Provider = async (): Promise<IData> =>
     iso639: (await iso639()).iso639,
     iso3166: (await iso3166()).iso3166,
     script: (await script()).script,
-    locale: (await locale()).locale
+    locale: (await locale()).locale,
   });
 
 export default provider;

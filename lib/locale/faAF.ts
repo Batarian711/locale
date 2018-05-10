@@ -15,7 +15,7 @@ export interface IFaAf extends ILocale {
  */
 export const faAF: IFaAf = {
   language: persian,
-  region: afghanistan
+  region: afghanistan,
 };
 
 export default faAF;

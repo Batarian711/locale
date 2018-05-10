@@ -15,7 +15,7 @@ export interface IEnTc extends ILocale {
  */
 export const enTC: IEnTc = {
   language: english,
-  region: turksAndCaicosIslands
+  region: turksAndCaicosIslands,
 };
 
 export default enTC;

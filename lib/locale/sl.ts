@@ -12,7 +12,7 @@ export interface ISl extends ILocale {
  * The locale variable for the Slovene language
  */
 export const sl: ISl = {
-  language: slovene
+  language: slovene,
 };
 
 export default sl;

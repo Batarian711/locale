@@ -15,7 +15,7 @@ export interface IArLb extends ILocale {
  */
 export const arLB: IArLb = {
   language: arabic,
-  region: lebanon
+  region: lebanon,
 };
 
 export default arLB;

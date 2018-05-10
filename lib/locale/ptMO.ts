@@ -15,7 +15,7 @@ export interface IPtMo extends ILocale {
  */
 export const ptMO: IPtMo = {
   language: portuguese,
-  region: macao
+  region: macao,
 };
 
 export default ptMO;

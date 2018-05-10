@@ -15,7 +15,7 @@ export interface IOsGe extends ILocale {
  */
 export const osGE: IOsGe = {
   language: ossetian,
-  region: georgia
+  region: georgia,
 };
 
 export default osGE;

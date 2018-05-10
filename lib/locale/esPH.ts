@@ -15,7 +15,7 @@ export interface IEsPh extends ILocale {
  */
 export const esPH: IEsPh = {
   language: spanish,
-  region: philippines
+  region: philippines,
 };
 
 export default esPH;

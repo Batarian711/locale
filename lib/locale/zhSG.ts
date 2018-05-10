@@ -15,7 +15,7 @@ export interface IZhSg extends ILocale {
  */
 export const zhSG: IZhSg = {
   language: chinese,
-  region: singapore
+  region: singapore,
 };
 
 export default zhSG;

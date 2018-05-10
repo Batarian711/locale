@@ -15,7 +15,7 @@ export interface IEnTz extends ILocale {
  */
 export const enTZ: IEnTz = {
   language: english,
-  region: tanzaniaUnitedRepublicOf
+  region: tanzaniaUnitedRepublicOf,
 };
 
 export default enTZ;

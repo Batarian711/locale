@@ -15,7 +15,7 @@ export interface IPaGuru extends ILocale {
  */
 export const paGuru: IPaGuru = {
   language: punjabi,
-  script: gurmukhi
+  script: gurmukhi,
 };
 
 export default paGuru;

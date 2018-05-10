@@ -15,7 +15,7 @@ export interface IEnTt extends ILocale {
  */
 export const enTT: IEnTt = {
   language: english,
-  region: trinidadAndTobago
+  region: trinidadAndTobago,
 };
 
 export default enTT;

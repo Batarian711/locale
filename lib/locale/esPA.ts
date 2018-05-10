@@ -15,7 +15,7 @@ export interface IEsPa extends ILocale {
  */
 export const esPA: IEsPa = {
   language: spanish,
-  region: panama
+  region: panama,
 };
 
 export default esPA;

@@ -12,7 +12,7 @@ export interface IIt extends ILocale {
  * The locale variable for the Italian language
  */
 export const it: IIt = {
-  language: italian
+  language: italian,
 };
 
 export default it;

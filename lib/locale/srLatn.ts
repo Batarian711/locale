@@ -15,7 +15,7 @@ export interface ISrLatn extends ILocale {
  */
 export const srLatn: ISrLatn = {
   language: serbian,
-  script: latin
+  script: latin,
 };
 
 export default srLatn;

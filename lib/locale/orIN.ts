@@ -15,7 +15,7 @@ export interface IOrIn extends ILocale {
  */
 export const orIN: IOrIn = {
   language: oriya,
-  region: india
+  region: india,
 };
 
 export default orIN;

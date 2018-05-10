@@ -15,7 +15,7 @@ export interface INbNo extends ILocale {
  */
 export const nbNO: INbNo = {
   language: norwegianBokmal,
-  region: norway
+  region: norway,
 };
 
 export default nbNO;

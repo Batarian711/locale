@@ -15,7 +15,7 @@ export interface ILnCf extends ILocale {
  */
 export const lnCF: ILnCf = {
   language: lingala,
-  region: centralAfricanRepublic
+  region: centralAfricanRepublic,
 };
 
 export default lnCF;

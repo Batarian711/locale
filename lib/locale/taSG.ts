@@ -15,7 +15,7 @@ export interface ITaSg extends ILocale {
  */
 export const taSG: ITaSg = {
   language: tamil,
-  region: singapore
+  region: singapore,
 };
 
 export default taSG;

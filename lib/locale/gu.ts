@@ -12,7 +12,7 @@ export interface IGu extends ILocale {
  * The locale variable for the Gujarati language
  */
 export const gu: IGu = {
-  language: gujarati
+  language: gujarati,
 };
 
 export default gu;

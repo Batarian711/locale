@@ -15,7 +15,7 @@ export interface IFrMc extends ILocale {
  */
 export const frMC: IFrMc = {
   language: french,
-  region: monaco
+  region: monaco,
 };
 
 export default frMC;

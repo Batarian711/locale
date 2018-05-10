@@ -12,7 +12,7 @@ export interface IEn extends ILocale {
  * The locale variable for the English language
  */
 export const en: IEn = {
-  language: english
+  language: english,
 };
 
 export default en;

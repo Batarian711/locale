@@ -15,7 +15,7 @@ export interface IArPs extends ILocale {
  */
 export const arPS: IArPs = {
   language: arabic,
-  region: palestineStateOf
+  region: palestineStateOf,
 };
 
 export default arPS;

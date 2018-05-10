@@ -12,7 +12,7 @@ export interface IAf extends ILocale {
  * The locale variable for the Afrikaans language
  */
 export const af: IAf = {
-  language: afrikaans
+  language: afrikaans,
 };
 
 export default af;

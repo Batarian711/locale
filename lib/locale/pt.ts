@@ -12,7 +12,7 @@ export interface IPt extends ILocale {
  * The locale variable for the Portuguese language
  */
 export const pt: IPt = {
-  language: portuguese
+  language: portuguese,
 };
 
 export default pt;

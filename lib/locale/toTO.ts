@@ -15,7 +15,7 @@ export interface IToTo extends ILocale {
  */
 export const toTO: IToTo = {
   language: tongan,
-  region: tonga
+  region: tonga,
 };
 
 export default toTO;

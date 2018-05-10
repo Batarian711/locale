@@ -12,7 +12,7 @@ export interface ITo extends ILocale {
  * The locale variable for the Tongan language
  */
 export const to: ITo = {
-  language: tongan
+  language: tongan,
 };
 
 export default to;

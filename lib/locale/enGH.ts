@@ -15,7 +15,7 @@ export interface IEnGh extends ILocale {
  */
 export const enGH: IEnGh = {
   language: english,
-  region: ghana
+  region: ghana,
 };
 
 export default enGH;

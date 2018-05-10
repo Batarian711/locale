@@ -15,7 +15,7 @@ export interface IEsSv extends ILocale {
  */
 export const esSV: IEsSv = {
   language: spanish,
-  region: elSalvador
+  region: elSalvador,
 };
 
 export default esSV;

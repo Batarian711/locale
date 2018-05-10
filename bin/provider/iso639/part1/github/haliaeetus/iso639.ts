@@ -51,11 +51,11 @@ const provider: Provider = async (): Promise<IData> => {
     iso639: new Iso639({ part1 }),
     iso3166: {
       part1: {
-        alpha2: []
-      }
+        alpha2: [],
+      },
     },
     script: [],
-    locale: []
+    locale: [],
   };
 };
 

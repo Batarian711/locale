@@ -15,7 +15,7 @@ export interface ISrRs extends ILocale {
  */
 export const srRS: ISrRs = {
   language: serbian,
-  region: serbia
+  region: serbia,
 };
 
 export default srRS;

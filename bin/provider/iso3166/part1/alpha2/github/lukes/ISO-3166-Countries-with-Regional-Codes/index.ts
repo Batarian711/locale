@@ -56,15 +56,15 @@ const provider: Provider = async (): Promise<IData> => {
   const alpha2 = Object.values<IJson>(data).map(parse).reduce(flatten, []).map(o => new Alpha2(o));
   return {
     iso639: {
-      part1: []
+      part1: [],
     },
     iso3166: {
       part1: {
-        alpha2
-      }
+        alpha2,
+      },
     },
     script: [],
-    locale: []
+    locale: [],
   };
 };
 
