@@ -1110,7 +1110,7 @@ export { zuZA, IZuZa };
 /**
  * The supported locales
  */
-type Locale = IAf
+export type Locale = IAf
   | IAfNa
   | IAfZa
   | IAk

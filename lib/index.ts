@@ -5,8 +5,6 @@ export {
   IImmutable as IReadonlyLocale,
 } from '@lib/ILocale';
 
-import Locale from '@lib/Locale';
 export * from '@lib/Locale';
-export { Locale };
-
+import Locale from '@lib/Locale';
 export default Locale;
