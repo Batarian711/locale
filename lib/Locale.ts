@@ -1108,12 +1108,7 @@ import { IZuZa, zuZA } from '@lib/locale/zuZA';
 export { zuZA, IZuZa };
 
 /**
- * A set of the supported locale values.
- * @example <caption>Validation</caption>
- * import { locale } from 'Locale';
- * if (!locale.has(someLocaleObject)) {
- *   throw new TypeError('Unsupported locale');
- * }
+ * The supported locales
  */
 type Locale = IAf
   | IAfNa
@@ -1670,6 +1665,14 @@ type Locale = IAf
   | IZu
   | IZuZa;
 
+/**
+ * A set of the supported locale values.
+ * @example <caption>Validation</caption>
+ * import { locale } from 'Locale';
+ * if (!locale.has(someLocaleObject)) {
+ *   throw new TypeError('Unsupported locale');
+ * }
+ */
 export const locale: ReadonlySet<Locale> = new Set<Locale>([
   af,
   afNA,
