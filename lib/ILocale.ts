@@ -11,14 +11,14 @@ import Script from '@lib/locale/Script';
  * @see {@link Iso3166}
  * @see {@link Script}
  */
-export default interface ILocale<L = Iso639, R = Iso3166, S = Script> {
+export interface IImmutable<L = Iso639, R = Iso3166, S = Script> {
   /**
    * Used to help identify languages, whether spoken, written, signed, or otherwise signaled, for the purpose of
    * communication.  This includes constructed and artificial languages but excludes languages not intended
    * primarily for human communication, such as programming languages.
    * @see {@link Iso639}
    */
-  language: L;
+  readonly language: L;
 
   /**
    * Used to indicate linguistic variations associated with or appropriate to a specific country, territory, or
@@ -28,12 +28,20 @@ export default interface ILocale<L = Iso639, R = Iso3166, S = Script> {
    * Latin America.
    * @see {@link Iso3166}
    */
-  region?: R;
+  readonly region?: R;
 
   /**
    * Used to indicate the script or writing system variations that distinguish the written forms of a language or
    * its dialects
    * @see {@link Script}
    */
+  readonly script?: S;
+}
+
+export interface IMutable<L = Iso639, R = Iso3166, S = Script> extends IImmutable<L, R, S> {
+  language: L;
+  region?: R;
   script?: S;
 }
+
+export default IMutable;

@@ -1,6 +1,9 @@
-import ILocale from '@lib/ILocale';
-export * from '@lib/ILocale';
-export { ILocale };
+export {
+  IMutable as ILocaleMutable,
+  IMutable as ILocale,
+  IImmutable as ILocaleImmutable,
+  IImmutable as IReadonlyLocale,
+} from '@lib/ILocale';
 
 import Locale from '@lib/Locale';
 export * from '@lib/Locale';
