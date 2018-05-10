@@ -18,4 +18,6 @@ export const srME: ISrMe = {
   region: montenegro,
 };
 
+Object.freeze(srME);
+
 export default srME;

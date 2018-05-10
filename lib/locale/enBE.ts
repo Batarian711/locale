@@ -18,4 +18,6 @@ export const enBE: IEnBe = {
   region: belgium,
 };
 
+Object.freeze(enBE);
+
 export default enBE;

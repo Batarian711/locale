@@ -18,4 +18,6 @@ export const yoBJ: IYoBj = {
   region: benin,
 };
 
+Object.freeze(yoBJ);
+
 export default yoBJ;

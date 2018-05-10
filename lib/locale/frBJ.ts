@@ -18,4 +18,6 @@ export const frBJ: IFrBj = {
   region: benin,
 };
 
+Object.freeze(frBJ);
+
 export default frBJ;

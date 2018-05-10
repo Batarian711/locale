@@ -15,4 +15,6 @@ export const vi: IVi = {
   language: vietnamese,
 };
 
+Object.freeze(vi);
+
 export default vi;

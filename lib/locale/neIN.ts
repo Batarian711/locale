@@ -18,4 +18,6 @@ export const neIN: INeIn = {
   region: india,
 };
 
+Object.freeze(neIN);
+
 export default neIN;

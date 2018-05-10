@@ -18,4 +18,6 @@ export const etEE: IEtEe = {
   region: estonia,
 };
 
+Object.freeze(etEE);
+
 export default etEE;

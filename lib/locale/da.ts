@@ -15,4 +15,6 @@ export const da: IDa = {
   language: danish,
 };
 
+Object.freeze(da);
+
 export default da;

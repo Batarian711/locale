@@ -15,4 +15,6 @@ export const ga: IGa = {
   language: irish,
 };
 
+Object.freeze(ga);
+
 export default ga;

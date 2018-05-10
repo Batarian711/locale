@@ -18,4 +18,6 @@ export const esES: IEsEs = {
   region: spain,
 };
 
+Object.freeze(esES);
+
 export default esES;

@@ -18,4 +18,6 @@ export const taLK: ITaLk = {
   region: sriLanka,
 };
 
+Object.freeze(taLK);
+
 export default taLK;

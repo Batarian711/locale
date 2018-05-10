@@ -18,4 +18,6 @@ export const seFI: ISeFi = {
   region: finland,
 };
 
+Object.freeze(seFI);
+
 export default seFI;

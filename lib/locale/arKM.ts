@@ -18,4 +18,6 @@ export const arKM: IArKm = {
   region: comoros,
 };
 
+Object.freeze(arKM);
+
 export default arKM;

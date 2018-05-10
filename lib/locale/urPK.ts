@@ -18,4 +18,6 @@ export const urPK: IUrPk = {
   region: pakistan,
 };
 
+Object.freeze(urPK);
+
 export default urPK;

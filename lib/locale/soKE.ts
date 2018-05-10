@@ -18,4 +18,6 @@ export const soKE: ISoKe = {
   region: kenya,
 };
 
+Object.freeze(soKE);
+
 export default soKE;

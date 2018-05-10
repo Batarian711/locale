@@ -15,4 +15,6 @@ export const ky: IKy = {
   language: kyrgyz,
 };
 
+Object.freeze(ky);
+
 export default ky;

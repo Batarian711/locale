@@ -18,4 +18,6 @@ export const enBS: IEnBs = {
   region: bahamas,
 };
 
+Object.freeze(enBS);
+
 export default enBS;

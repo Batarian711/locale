@@ -18,4 +18,6 @@ export const tiET: ITiEt = {
   region: ethiopia,
 };
 
+Object.freeze(tiET);
+
 export default tiET;

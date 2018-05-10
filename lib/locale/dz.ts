@@ -15,4 +15,6 @@ export const dz: IDz = {
   language: dzongkha,
 };
 
+Object.freeze(dz);
+
 export default dz;

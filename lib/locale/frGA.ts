@@ -18,4 +18,6 @@ export const frGA: IFrGa = {
   region: gabon,
 };
 
+Object.freeze(frGA);
+
 export default frGA;

@@ -15,4 +15,6 @@ export const nl: INl = {
   language: dutch,
 };
 
+Object.freeze(nl);
+
 export default nl;

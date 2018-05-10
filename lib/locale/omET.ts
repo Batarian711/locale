@@ -18,4 +18,6 @@ export const omET: IOmEt = {
   region: ethiopia,
 };
 
+Object.freeze(omET);
+
 export default omET;

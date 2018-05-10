@@ -18,4 +18,6 @@ export const enVU: IEnVu = {
   region: vanuatu,
 };
 
+Object.freeze(enVU);
+
 export default enVU;

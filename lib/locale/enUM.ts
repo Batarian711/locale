@@ -18,4 +18,6 @@ export const enUM: IEnUm = {
   region: unitedStatesMinorOutlyingIslands,
 };
 
+Object.freeze(enUM);
+
 export default enUM;

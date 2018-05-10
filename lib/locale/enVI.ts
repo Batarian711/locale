@@ -18,4 +18,6 @@ export const enVI: IEnVi = {
   region: unitedStatesVirginIslands,
 };
 
+Object.freeze(enVI);
+
 export default enVI;

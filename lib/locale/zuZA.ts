@@ -18,4 +18,6 @@ export const zuZA: IZuZa = {
   region: southAfrica,
 };
 
+Object.freeze(zuZA);
+
 export default zuZA;

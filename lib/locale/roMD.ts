@@ -18,4 +18,6 @@ export const roMD: IRoMd = {
   region: moldova,
 };
 
+Object.freeze(roMD);
+
 export default roMD;

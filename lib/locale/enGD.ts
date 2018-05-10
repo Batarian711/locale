@@ -18,4 +18,6 @@ export const enGD: IEnGd = {
   region: grenada,
 };
 
+Object.freeze(enGD);
+
 export default enGD;

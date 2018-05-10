@@ -18,4 +18,6 @@ export const enTV: IEnTv = {
   region: tuvalu,
 };
 
+Object.freeze(enTV);
+
 export default enTV;

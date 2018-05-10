@@ -18,4 +18,6 @@ export const kkKZ: IKkKz = {
   region: kazakhstan,
 };
 
+Object.freeze(kkKZ);
+
 export default kkKZ;

@@ -18,4 +18,6 @@ export const frCF: IFrCf = {
   region: centralAfricanRepublic,
 };
 
+Object.freeze(frCF);
+
 export default frCF;

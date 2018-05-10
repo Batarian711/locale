@@ -15,4 +15,6 @@ export const sv: ISv = {
   language: swedish,
 };
 
+Object.freeze(sv);
+
 export default sv;

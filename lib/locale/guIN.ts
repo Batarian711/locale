@@ -18,4 +18,6 @@ export const guIN: IGuIn = {
   region: india,
 };
 
+Object.freeze(guIN);
+
 export default guIN;

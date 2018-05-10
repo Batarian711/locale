@@ -18,4 +18,6 @@ export const enZW: IEnZw = {
   region: zimbabwe,
 };
 
+Object.freeze(enZW);
+
 export default enZW;

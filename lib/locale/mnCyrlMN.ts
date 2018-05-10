@@ -21,4 +21,6 @@ export const mnCyrlMN: IMnCyrlMn = {
   script: cyrillic,
 };
 
+Object.freeze(mnCyrlMN);
+
 export default mnCyrlMN;

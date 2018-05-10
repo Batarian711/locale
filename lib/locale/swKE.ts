@@ -18,4 +18,6 @@ export const swKE: ISwKe = {
   region: kenya,
 };
 
+Object.freeze(swKE);
+
 export default swKE;

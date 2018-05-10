@@ -18,4 +18,6 @@ export const ptBR: IPtBr = {
   region: brazil,
 };
 
+Object.freeze(ptBR);
+
 export default ptBR;

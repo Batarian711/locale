@@ -18,4 +18,6 @@ export const euES: IEuEs = {
   region: spain,
 };
 
+Object.freeze(euES);
+
 export default euES;

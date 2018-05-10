@@ -18,4 +18,6 @@ export const myMM: IMyMm = {
   region: myanmar,
 };
 
+Object.freeze(myMM);
+
 export default myMM;

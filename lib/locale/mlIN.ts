@@ -18,4 +18,6 @@ export const mlIN: IMlIn = {
   region: india,
 };
 
+Object.freeze(mlIN);
+
 export default mlIN;

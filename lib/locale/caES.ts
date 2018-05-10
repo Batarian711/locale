@@ -18,4 +18,6 @@ export const caES: ICaEs = {
   region: spain,
 };
 
+Object.freeze(caES);
+
 export default caES;

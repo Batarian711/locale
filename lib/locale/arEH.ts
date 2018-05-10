@@ -18,4 +18,6 @@ export const arEH: IArEh = {
   region: westernSahara,
 };
 
+Object.freeze(arEH);
+
 export default arEH;

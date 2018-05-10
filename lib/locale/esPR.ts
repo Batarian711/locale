@@ -18,4 +18,6 @@ export const esPR: IEsPr = {
   region: puertoRico,
 };
 
+Object.freeze(esPR);
+
 export default esPR;

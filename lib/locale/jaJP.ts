@@ -18,4 +18,6 @@ export const jaJP: IJaJp = {
   region: japan,
 };
 
+Object.freeze(jaJP);
+
 export default jaJP;

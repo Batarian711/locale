@@ -18,4 +18,6 @@ export const enLR: IEnLr = {
   region: liberia,
 };
 
+Object.freeze(enLR);
+
 export default enLR;

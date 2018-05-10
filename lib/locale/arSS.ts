@@ -18,4 +18,6 @@ export const arSS: IArSs = {
   region: southSudan,
 };
 
+Object.freeze(arSS);
+
 export default arSS;

@@ -18,4 +18,6 @@ export const arDJ: IArDj = {
   region: djibouti,
 };
 
+Object.freeze(arDJ);
+
 export default arDJ;

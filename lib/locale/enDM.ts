@@ -18,4 +18,6 @@ export const enDM: IEnDm = {
   region: dominica,
 };
 
+Object.freeze(enDM);
+
 export default enDM;

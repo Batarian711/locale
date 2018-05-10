@@ -18,4 +18,6 @@ export const paPK: IPaPk = {
   region: pakistan,
 };
 
+Object.freeze(paPK);
+
 export default paPK;

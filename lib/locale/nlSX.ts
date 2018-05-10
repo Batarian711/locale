@@ -18,4 +18,6 @@ export const nlSX: INlSx = {
   region: sintMaarten,
 };
 
+Object.freeze(nlSX);
+
 export default nlSX;

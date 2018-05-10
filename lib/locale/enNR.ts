@@ -18,4 +18,6 @@ export const enNR: IEnNr = {
   region: nauru,
 };
 
+Object.freeze(enNR);
+
 export default enNR;

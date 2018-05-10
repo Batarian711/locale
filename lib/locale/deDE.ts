@@ -18,4 +18,6 @@ export const deDE: IDeDe = {
   region: germany,
 };
 
+Object.freeze(deDE);
+
 export default deDE;

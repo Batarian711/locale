@@ -18,4 +18,6 @@ export const enSS: IEnSs = {
   region: southSudan,
 };
 
+Object.freeze(enSS);
+
 export default enSS;

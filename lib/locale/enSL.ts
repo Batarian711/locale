@@ -18,4 +18,6 @@ export const enSL: IEnSl = {
   region: sierraLeone,
 };
 
+Object.freeze(enSL);
+
 export default enSL;

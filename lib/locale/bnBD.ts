@@ -18,4 +18,6 @@ export const bnBD: IBnBd = {
   region: bangladesh,
 };
 
+Object.freeze(bnBD);
+
 export default bnBD;

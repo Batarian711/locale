@@ -18,4 +18,6 @@ export const enGM: IEnGm = {
   region: gambia,
 };
 
+Object.freeze(enGM);
+
 export default enGM;

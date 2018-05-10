@@ -18,4 +18,6 @@ export const arEG: IArEg = {
   region: egypt,
 };
 
+Object.freeze(arEG);
+
 export default arEG;

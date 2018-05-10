@@ -15,4 +15,6 @@ export const ig: IIg = {
   language: igbo,
 };
 
+Object.freeze(ig);
+
 export default ig;

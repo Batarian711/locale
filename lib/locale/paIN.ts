@@ -18,4 +18,6 @@ export const paIN: IPaIn = {
   region: india,
 };
 
+Object.freeze(paIN);
+
 export default paIN;

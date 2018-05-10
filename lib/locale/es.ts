@@ -15,4 +15,6 @@ export const es: IEs = {
   language: spanish,
 };
 
+Object.freeze(es);
+
 export default es;

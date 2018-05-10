@@ -18,4 +18,6 @@ export const esPY: IEsPy = {
   region: paraguay,
 };
 
+Object.freeze(esPY);
+
 export default esPY;

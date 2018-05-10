@@ -15,4 +15,6 @@ export const pa: IPa = {
   language: punjabi,
 };
 
+Object.freeze(pa);
+
 export default pa;

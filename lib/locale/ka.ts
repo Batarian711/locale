@@ -15,4 +15,6 @@ export const ka: IKa = {
   language: georgian,
 };
 
+Object.freeze(ka);
+
 export default ka;

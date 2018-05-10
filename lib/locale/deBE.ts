@@ -18,4 +18,6 @@ export const deBE: IDeBe = {
   region: belgium,
 };
 
+Object.freeze(deBE);
+
 export default deBE;

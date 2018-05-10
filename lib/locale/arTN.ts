@@ -18,4 +18,6 @@ export const arTN: IArTn = {
   region: tunisia,
 };
 
+Object.freeze(arTN);
+
 export default arTN;

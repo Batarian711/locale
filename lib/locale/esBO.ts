@@ -18,4 +18,6 @@ export const esBO: IEsBo = {
   region: bolivia,
 };
 
+Object.freeze(esBO);
+
 export default esBO;

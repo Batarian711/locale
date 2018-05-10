@@ -18,4 +18,6 @@ export const frBL: IFrBl = {
   region: saintBarthelemy,
 };
 
+Object.freeze(frBL);
+
 export default frBL;

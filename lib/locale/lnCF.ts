@@ -18,4 +18,6 @@ export const lnCF: ILnCf = {
   region: centralAfricanRepublic,
 };
 
+Object.freeze(lnCF);
+
 export default lnCF;

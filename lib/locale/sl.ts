@@ -15,4 +15,6 @@ export const sl: ISl = {
   language: slovene,
 };
 
+Object.freeze(sl);
+
 export default sl;

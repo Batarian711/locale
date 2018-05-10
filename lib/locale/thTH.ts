@@ -18,4 +18,6 @@ export const thTH: IThTh = {
   region: thailand,
 };
 
+Object.freeze(thTH);
+
 export default thTH;

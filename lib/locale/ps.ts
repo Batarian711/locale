@@ -15,4 +15,6 @@ export const ps: IPs = {
   language: pashto,
 };
 
+Object.freeze(ps);
+
 export default ps;

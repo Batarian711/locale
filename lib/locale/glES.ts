@@ -18,4 +18,6 @@ export const glES: IGlEs = {
   region: spain,
 };
 
+Object.freeze(glES);
+
 export default glES;

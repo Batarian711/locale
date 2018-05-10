@@ -18,4 +18,6 @@ export const afNA: IAfNa = {
   region: namibia,
 };
 
+Object.freeze(afNA);
+
 export default afNA;

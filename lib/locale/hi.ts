@@ -15,4 +15,6 @@ export const hi: IHi = {
   language: hindi,
 };
 
+Object.freeze(hi);
+
 export default hi;

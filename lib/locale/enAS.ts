@@ -18,4 +18,6 @@ export const enAS: IEnAs = {
   region: americanSamoa,
 };
 
+Object.freeze(enAS);
+
 export default enAS;

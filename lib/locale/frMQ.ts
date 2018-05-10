@@ -18,4 +18,6 @@ export const frMQ: IFrMq = {
   region: martinique,
 };
 
+Object.freeze(frMQ);
+
 export default frMQ;

@@ -18,4 +18,6 @@ export const frMF: IFrMf = {
   region: saintMartin,
 };
 
+Object.freeze(frMF);
+
 export default frMF;

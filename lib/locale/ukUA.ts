@@ -18,4 +18,6 @@ export const ukUA: IUkUa = {
   region: ukraine,
 };
 
+Object.freeze(ukUA);
+
 export default ukUA;

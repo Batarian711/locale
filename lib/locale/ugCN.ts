@@ -18,4 +18,6 @@ export const ugCN: IUgCn = {
   region: china,
 };
 
+Object.freeze(ugCN);
+
 export default ugCN;

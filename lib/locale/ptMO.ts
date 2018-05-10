@@ -18,4 +18,6 @@ export const ptMO: IPtMo = {
   region: macao,
 };
 
+Object.freeze(ptMO);
+
 export default ptMO;

@@ -15,4 +15,6 @@ export const ms: IMs = {
   language: malay,
 };
 
+Object.freeze(ms);
+
 export default ms;

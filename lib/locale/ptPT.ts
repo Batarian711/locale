@@ -18,4 +18,6 @@ export const ptPT: IPtPt = {
   region: portugal,
 };
 
+Object.freeze(ptPT);
+
 export default ptPT;

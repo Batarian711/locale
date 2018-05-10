@@ -18,4 +18,6 @@ export const enFM: IEnFm = {
   region: micronesia,
 };
 
+Object.freeze(enFM);
+
 export default enFM;

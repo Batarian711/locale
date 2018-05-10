@@ -21,4 +21,6 @@ export const srCyrlME: ISrCyrlMe = {
   script: cyrillic,
 };
 
+Object.freeze(srCyrlME);
+
 export default srCyrlME;

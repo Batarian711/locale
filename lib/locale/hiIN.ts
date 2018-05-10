@@ -18,4 +18,6 @@ export const hiIN: IHiIn = {
   region: india,
 };
 
+Object.freeze(hiIN);
+
 export default hiIN;

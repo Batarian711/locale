@@ -15,4 +15,6 @@ export const ln: ILn = {
   language: lingala,
 };
 
+Object.freeze(ln);
+
 export default ln;

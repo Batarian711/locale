@@ -18,4 +18,6 @@ export const foFO: IFoFo = {
   region: faroeIslands,
 };
 
+Object.freeze(foFO);
+
 export default foFO;

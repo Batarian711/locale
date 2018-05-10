@@ -18,4 +18,6 @@ export const caAD: ICaAd = {
   region: andorra,
 };
 
+Object.freeze(caAD);
+
 export default caAD;

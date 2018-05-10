@@ -18,4 +18,6 @@ export const heIL: IHeIl = {
   region: israel,
 };
 
+Object.freeze(heIL);
+
 export default heIL;

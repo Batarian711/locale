@@ -18,4 +18,6 @@ export const enJE: IEnJe = {
   region: jersey,
 };
 
+Object.freeze(enJE);
+
 export default enJE;

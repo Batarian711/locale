@@ -15,4 +15,6 @@ export const ks: IKs = {
   language: kashmiri,
 };
 
+Object.freeze(ks);
+
 export default ks;

@@ -18,4 +18,6 @@ export const enGI: IEnGi = {
   region: gibraltar,
 };
 
+Object.freeze(enGI);
+
 export default enGI;

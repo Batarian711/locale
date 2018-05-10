@@ -18,4 +18,6 @@ export const frMA: IFrMa = {
   region: morocco,
 };
 
+Object.freeze(frMA);
+
 export default frMA;

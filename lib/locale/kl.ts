@@ -15,4 +15,6 @@ export const kl: IKl = {
   language: kalaallisut,
 };
 
+Object.freeze(kl);
+
 export default kl;

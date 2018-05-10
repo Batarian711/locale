@@ -18,4 +18,6 @@ export const amET: IAmEt = {
   region: ethiopia,
 };
 
+Object.freeze(amET);
+
 export default amET;

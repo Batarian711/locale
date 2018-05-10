@@ -18,4 +18,6 @@ export const enTO: IEnTo = {
   region: tonga,
 };
 
+Object.freeze(enTO);
+
 export default enTO;

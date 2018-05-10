@@ -18,4 +18,6 @@ export const frBI: IFrBi = {
   region: burundi,
 };
 
+Object.freeze(frBI);
+
 export default frBI;

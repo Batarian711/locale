@@ -23,4 +23,6 @@ export const zhHantTW: IZhHantTw = {
   script: hanTraditional,
 };
 
+Object.freeze(zhHantTW);
+
 export default zhHantTW;

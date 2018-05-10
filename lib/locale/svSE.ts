@@ -18,4 +18,6 @@ export const svSE: ISvSe = {
   region: sweden,
 };
 
+Object.freeze(svSE);
+
 export default svSE;

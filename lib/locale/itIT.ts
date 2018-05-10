@@ -18,4 +18,6 @@ export const itIT: IItIt = {
   region: italy,
 };
 
+Object.freeze(itIT);
+
 export default itIT;

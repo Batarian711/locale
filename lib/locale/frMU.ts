@@ -18,4 +18,6 @@ export const frMU: IFrMu = {
   region: mauritius,
 };
 
+Object.freeze(frMU);
+
 export default frMU;

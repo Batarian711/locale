@@ -18,4 +18,6 @@ export const enBW: IEnBw = {
   region: botswana,
 };
 
+Object.freeze(enBW);
+
 export default enBW;

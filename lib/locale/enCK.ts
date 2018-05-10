@@ -18,4 +18,6 @@ export const enCK: IEnCk = {
   region: cookIslands,
 };
 
+Object.freeze(enCK);
+
 export default enCK;

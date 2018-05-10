@@ -18,4 +18,6 @@ export const frHT: IFrHt = {
   region: haiti,
 };
 
+Object.freeze(frHT);
+
 export default frHT;

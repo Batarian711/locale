@@ -18,4 +18,6 @@ export const hyAM: IHyAm = {
   region: armenia,
 };
 
+Object.freeze(hyAM);
+
 export default hyAM;

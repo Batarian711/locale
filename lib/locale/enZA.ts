@@ -18,4 +18,6 @@ export const enZA: IEnZa = {
   region: southAfrica,
 };
 
+Object.freeze(enZA);
+
 export default enZA;

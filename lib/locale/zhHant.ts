@@ -18,4 +18,6 @@ export const zhHant: IZhHant = {
   script: hanTraditional,
 };
 
+Object.freeze(zhHant);
+
 export default zhHant;

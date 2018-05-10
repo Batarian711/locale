@@ -15,4 +15,6 @@ export const ta: ITa = {
   language: tamil,
 };
 
+Object.freeze(ta);
+
 export default ta;

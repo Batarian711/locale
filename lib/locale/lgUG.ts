@@ -18,4 +18,6 @@ export const lgUG: ILgUg = {
   region: uganda,
 };
 
+Object.freeze(lgUG);
+
 export default lgUG;

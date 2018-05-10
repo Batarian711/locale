@@ -15,4 +15,6 @@ export const rw: IRw = {
   language: kinyarwanda,
 };
 
+Object.freeze(rw);
+
 export default rw;

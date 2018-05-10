@@ -18,4 +18,6 @@ export const esDO: IEsDo = {
   region: dominicanRepublic,
 };
 
+Object.freeze(esDO);
+
 export default esDO;

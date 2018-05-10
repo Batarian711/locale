@@ -18,4 +18,6 @@ export const frTG: IFrTg = {
   region: togo,
 };
 
+Object.freeze(frTG);
+
 export default frTG;

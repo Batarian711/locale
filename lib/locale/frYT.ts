@@ -18,4 +18,6 @@ export const frYT: IFrYt = {
   region: mayotte,
 };
 
+Object.freeze(frYT);
+
 export default frYT;

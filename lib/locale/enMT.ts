@@ -18,4 +18,6 @@ export const enMT: IEnMt = {
   region: malta,
 };
 
+Object.freeze(enMT);
+
 export default enMT;

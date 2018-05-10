@@ -15,4 +15,6 @@ export const hy: IHy = {
   language: armenian,
 };
 
+Object.freeze(hy);
+
 export default hy;

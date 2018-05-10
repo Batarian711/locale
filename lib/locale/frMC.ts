@@ -18,4 +18,6 @@ export const frMC: IFrMc = {
   region: monaco,
 };
 
+Object.freeze(frMC);
+
 export default frMC;

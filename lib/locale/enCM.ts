@@ -18,4 +18,6 @@ export const enCM: IEnCm = {
   region: cameroon,
 };
 
+Object.freeze(enCM);
+
 export default enCM;

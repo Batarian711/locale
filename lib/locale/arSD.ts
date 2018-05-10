@@ -18,4 +18,6 @@ export const arSD: IArSd = {
   region: sudan,
 };
 
+Object.freeze(arSD);
+
 export default arSD;

@@ -15,4 +15,6 @@ export const sr: ISr = {
   language: serbian,
 };
 
+Object.freeze(sr);
+
 export default sr;

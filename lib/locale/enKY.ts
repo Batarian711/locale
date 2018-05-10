@@ -18,4 +18,6 @@ export const enKY: IEnKy = {
   region: caymanIslands,
 };
 
+Object.freeze(enKY);
+
 export default enKY;

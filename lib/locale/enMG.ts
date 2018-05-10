@@ -18,4 +18,6 @@ export const enMG: IEnMg = {
   region: madagascar,
 };
 
+Object.freeze(enMG);
+
 export default enMG;

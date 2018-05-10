@@ -18,4 +18,6 @@ export const koKR: IKoKr = {
   region: republicOfKorea,
 };
 
+Object.freeze(koKR);
+
 export default koKR;

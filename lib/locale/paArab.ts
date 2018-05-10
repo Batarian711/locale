@@ -18,4 +18,6 @@ export const paArab: IPaArab = {
   script: arabic,
 };
 
+Object.freeze(paArab);
+
 export default paArab;

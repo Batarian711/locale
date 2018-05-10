@@ -18,4 +18,6 @@ export const uzUZ: IUzUz = {
   region: uzbekistan,
 };
 
+Object.freeze(uzUZ);
+
 export default uzUZ;

@@ -21,4 +21,6 @@ export const uzArabAF: IUzArabAf = {
   script: arabic,
 };
 
+Object.freeze(uzArabAF);
+
 export default uzArabAF;

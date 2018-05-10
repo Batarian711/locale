@@ -15,4 +15,6 @@ export const se: ISe = {
   language: northernSami,
 };
 
+Object.freeze(se);
+
 export default se;

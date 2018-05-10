@@ -15,4 +15,6 @@ export const sk: ISk = {
   language: slovak,
 };
 
+Object.freeze(sk);
+
 export default sk;

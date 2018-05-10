@@ -18,4 +18,6 @@ export const esCR: IEsCr = {
   region: costaRica,
 };
 
+Object.freeze(esCR);
+
 export default esCR;

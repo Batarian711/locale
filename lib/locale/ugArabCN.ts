@@ -21,4 +21,6 @@ export const ugArabCN: IUgArabCn = {
   script: arabic,
 };
 
+Object.freeze(ugArabCN);
+
 export default ugArabCN;

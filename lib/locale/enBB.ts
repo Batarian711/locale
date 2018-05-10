@@ -18,4 +18,6 @@ export const enBB: IEnBb = {
   region: barbados,
 };
 
+Object.freeze(enBB);
+
 export default enBB;

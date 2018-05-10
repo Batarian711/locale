@@ -18,4 +18,6 @@ export const arQA: IArQa = {
   region: qatar,
 };
 
+Object.freeze(arQA);
+
 export default arQA;

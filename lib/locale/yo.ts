@@ -15,4 +15,6 @@ export const yo: IYo = {
   language: yoruba,
 };
 
+Object.freeze(yo);
+
 export default yo;

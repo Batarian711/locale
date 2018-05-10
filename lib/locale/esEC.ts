@@ -18,4 +18,6 @@ export const esEC: IEsEc = {
   region: ecuador,
 };
 
+Object.freeze(esEC);
+
 export default esEC;

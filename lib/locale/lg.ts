@@ -15,4 +15,6 @@ export const lg: ILg = {
   language: ganda,
 };
 
+Object.freeze(lg);
+
 export default lg;

@@ -18,4 +18,6 @@ export const enER: IEnEr = {
   region: eritrea,
 };
 
+Object.freeze(enER);
+
 export default enER;

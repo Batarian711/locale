@@ -18,4 +18,6 @@ export const enMP: IEnMp = {
   region: northernMarianaIslands,
 };
 
+Object.freeze(enMP);
+
 export default enMP;

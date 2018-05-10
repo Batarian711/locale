@@ -15,4 +15,6 @@ export const ar: IAr = {
   language: arabic,
 };
 
+Object.freeze(ar);
+
 export default ar;

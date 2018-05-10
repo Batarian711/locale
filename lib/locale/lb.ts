@@ -15,4 +15,6 @@ export const lb: ILb = {
   language: luxembourgish,
 };
 
+Object.freeze(lb);
+
 export default lb;

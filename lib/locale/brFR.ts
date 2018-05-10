@@ -18,4 +18,6 @@ export const brFR: IBrFr = {
   region: france,
 };
 
+Object.freeze(brFR);
+
 export default brFR;

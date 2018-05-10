@@ -15,4 +15,6 @@ export const fr: IFr = {
   language: french,
 };
 
+Object.freeze(fr);
+
 export default fr;

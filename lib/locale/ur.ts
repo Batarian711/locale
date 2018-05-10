@@ -15,4 +15,6 @@ export const ur: IUr = {
   language: urdu,
 };
 
+Object.freeze(ur);
+
 export default ur;

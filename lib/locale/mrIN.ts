@@ -18,4 +18,6 @@ export const mrIN: IMrIn = {
   region: india,
 };
 
+Object.freeze(mrIN);
+
 export default mrIN;

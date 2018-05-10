@@ -15,4 +15,6 @@ export const si: ISi = {
   language: sinhalese,
 };
 
+Object.freeze(si);
+
 export default si;

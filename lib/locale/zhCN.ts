@@ -18,4 +18,6 @@ export const zhCN: IZhCn = {
   region: china,
 };
 
+Object.freeze(zhCN);
+
 export default zhCN;

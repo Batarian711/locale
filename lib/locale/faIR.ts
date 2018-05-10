@@ -18,4 +18,6 @@ export const faIR: IFaIr = {
   region: iran,
 };
 
+Object.freeze(faIR);
+
 export default faIR;

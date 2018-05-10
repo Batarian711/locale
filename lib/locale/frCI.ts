@@ -18,4 +18,6 @@ export const frCI: IFrCi = {
   region: coteDivoire,
 };
 
+Object.freeze(frCI);
+
 export default frCI;

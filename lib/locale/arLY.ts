@@ -18,4 +18,6 @@ export const arLY: IArLy = {
   region: libya,
 };
 
+Object.freeze(arLY);
+
 export default arLY;

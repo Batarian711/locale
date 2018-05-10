@@ -18,4 +18,6 @@ export const caFR: ICaFr = {
   region: france,
 };
 
+Object.freeze(caFR);
+
 export default caFR;

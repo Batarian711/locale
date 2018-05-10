@@ -15,4 +15,6 @@ export const bn: IBn = {
   language: bengali,
 };
 
+Object.freeze(bn);
+
 export default bn;

@@ -18,4 +18,6 @@ export const enPR: IEnPr = {
   region: puertoRico,
 };
 
+Object.freeze(enPR);
+
 export default enPR;

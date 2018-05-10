@@ -18,4 +18,6 @@ export const enLC: IEnLc = {
   region: saintLucia,
 };
 
+Object.freeze(enLC);
+
 export default enLC;

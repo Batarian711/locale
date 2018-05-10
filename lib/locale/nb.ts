@@ -15,4 +15,6 @@ export const nb: INb = {
   language: norwegianBokmal,
 };
 
+Object.freeze(nb);
+
 export default nb;

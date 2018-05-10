@@ -18,4 +18,6 @@ export const ruRU: IRuRu = {
   region: russianFederation,
 };
 
+Object.freeze(ruRU);
+
 export default ruRU;

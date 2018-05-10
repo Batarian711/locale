@@ -15,4 +15,6 @@ export const eo: IEo = {
   language: esperanto,
 };
 
+Object.freeze(eo);
+
 export default eo;

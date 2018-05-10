@@ -18,4 +18,6 @@ export const frFR: IFrFr = {
   region: france,
 };
 
+Object.freeze(frFR);
+
 export default frFR;

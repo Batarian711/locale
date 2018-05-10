@@ -21,4 +21,6 @@ export const kwGB: IKwGb = {
   region: unitedKingdomOfGreatBritainAndNorthernIreland,
 };
 
+Object.freeze(kwGB);
+
 export default kwGB;

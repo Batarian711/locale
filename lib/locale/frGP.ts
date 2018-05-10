@@ -18,4 +18,6 @@ export const frGP: IFrGp = {
   region: guadeloupe,
 };
 
+Object.freeze(frGP);
+
 export default frGP;

@@ -18,4 +18,6 @@ export const tiER: ITiEr = {
   region: eritrea,
 };
 
+Object.freeze(tiER);
+
 export default tiER;

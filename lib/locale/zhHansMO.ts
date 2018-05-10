@@ -21,4 +21,6 @@ export const zhHansMO: IZhHansMo = {
   script: hanSimplified,
 };
 
+Object.freeze(zhHansMO);
+
 export default zhHansMO;

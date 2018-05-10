@@ -18,4 +18,6 @@ export const enMW: IEnMw = {
   region: malawi,
 };
 
+Object.freeze(enMW);
+
 export default enMW;

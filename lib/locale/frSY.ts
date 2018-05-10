@@ -18,4 +18,6 @@ export const frSY: IFrSy = {
   region: syrianArabRepublic,
 };
 
+Object.freeze(frSY);
+
 export default frSY;

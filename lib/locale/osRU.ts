@@ -18,4 +18,6 @@ export const osRU: IOsRu = {
   region: russianFederation,
 };
 
+Object.freeze(osRU);
+
 export default osRU;

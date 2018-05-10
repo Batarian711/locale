@@ -15,4 +15,6 @@ export const ja: IJa = {
   language: japanese,
 };
 
+Object.freeze(ja);
+
 export default ja;

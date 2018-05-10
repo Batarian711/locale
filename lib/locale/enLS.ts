@@ -18,4 +18,6 @@ export const enLS: IEnLs = {
   region: lesotho,
 };
 
+Object.freeze(enLS);
+
 export default enLS;

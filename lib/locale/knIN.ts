@@ -18,4 +18,6 @@ export const knIN: IKnIn = {
   region: india,
 };
 
+Object.freeze(knIN);
+
 export default knIN;

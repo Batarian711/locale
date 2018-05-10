@@ -18,4 +18,6 @@ export const svAX: ISvAx = {
   region: alandIslands,
 };
 
+Object.freeze(svAX);
+
 export default svAX;

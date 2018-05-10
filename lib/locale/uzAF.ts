@@ -18,4 +18,6 @@ export const uzAF: IUzAf = {
   region: afghanistan,
 };
 
+Object.freeze(uzAF);
+
 export default uzAF;

@@ -18,4 +18,6 @@ export const omKE: IOmKe = {
   region: kenya,
 };
 
+Object.freeze(omKE);
+
 export default omKE;

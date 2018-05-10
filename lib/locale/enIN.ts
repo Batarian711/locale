@@ -18,4 +18,6 @@ export const enIN: IEnIn = {
   region: india,
 };
 
+Object.freeze(enIN);
+
 export default enIN;

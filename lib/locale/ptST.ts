@@ -18,4 +18,6 @@ export const ptST: IPtSt = {
   region: saoTomeAndPrincipe,
 };
 
+Object.freeze(ptST);
+
 export default ptST;

@@ -18,4 +18,6 @@ export const enSD: IEnSd = {
   region: sudan,
 };
 
+Object.freeze(enSD);
+
 export default enSD;

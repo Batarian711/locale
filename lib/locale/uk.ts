@@ -15,4 +15,6 @@ export const uk: IUk = {
   language: ukrainian,
 };
 
+Object.freeze(uk);
+
 export default uk;

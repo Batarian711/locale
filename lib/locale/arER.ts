@@ -18,4 +18,6 @@ export const arER: IArEr = {
   region: eritrea,
 };
 
+Object.freeze(arER);
+
 export default arER;

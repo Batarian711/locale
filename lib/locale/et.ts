@@ -15,4 +15,6 @@ export const et: IEt = {
   language: estonian,
 };
 
+Object.freeze(et);
+
 export default et;

@@ -18,4 +18,6 @@ export const arBH: IArBh = {
   region: bahrain,
 };
 
+Object.freeze(arBH);
+
 export default arBH;

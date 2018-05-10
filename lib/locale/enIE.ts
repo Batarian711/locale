@@ -18,4 +18,6 @@ export const enIE: IEnIe = {
   region: ireland,
 };
 
+Object.freeze(enIE);
+
 export default enIE;

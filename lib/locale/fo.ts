@@ -15,4 +15,6 @@ export const fo: IFo = {
   language: faroese,
 };
 
+Object.freeze(fo);
+
 export default fo;

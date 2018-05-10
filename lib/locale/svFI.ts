@@ -18,4 +18,6 @@ export const svFI: ISvFi = {
   region: finland,
 };
 
+Object.freeze(svFI);
+
 export default svFI;

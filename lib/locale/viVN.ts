@@ -18,4 +18,6 @@ export const viVN: IViVn = {
   region: vietNam,
 };
 
+Object.freeze(viVN);
+
 export default viVN;

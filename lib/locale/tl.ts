@@ -15,4 +15,6 @@ export const tl: ITl = {
   language: tagalog,
 };
 
+Object.freeze(tl);
+
 export default tl;

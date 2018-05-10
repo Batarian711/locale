@@ -15,4 +15,6 @@ export const sg: ISg = {
   language: sango,
 };
 
+Object.freeze(sg);
+
 export default sg;

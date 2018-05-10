@@ -15,4 +15,6 @@ export const be: IBe = {
   language: belarusian,
 };
 
+Object.freeze(be);
+
 export default be;

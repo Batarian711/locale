@@ -18,4 +18,6 @@ export const trTR: ITrTr = {
   region: turkey,
 };
 
+Object.freeze(trTR);
+
 export default trTR;

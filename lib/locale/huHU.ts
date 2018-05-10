@@ -18,4 +18,6 @@ export const huHU: IHuHu = {
   region: hungary,
 };
 
+Object.freeze(huHU);
+
 export default huHU;

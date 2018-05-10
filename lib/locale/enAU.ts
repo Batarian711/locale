@@ -18,4 +18,6 @@ export const enAU: IEnAu = {
   region: australia,
 };
 
+Object.freeze(enAU);
+
 export default enAU;

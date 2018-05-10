@@ -18,4 +18,6 @@ export const frNC: IFrNc = {
   region: newCaledonia,
 };
 
+Object.freeze(frNC);
+
 export default frNC;

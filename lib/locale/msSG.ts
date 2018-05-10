@@ -18,4 +18,6 @@ export const msSG: IMsSg = {
   region: singapore,
 };
 
+Object.freeze(msSG);
+
 export default msSG;

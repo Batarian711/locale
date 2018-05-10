@@ -18,4 +18,6 @@ export const arMR: IArMr = {
   region: mauritania,
 };
 
+Object.freeze(arMR);
+
 export default arMR;

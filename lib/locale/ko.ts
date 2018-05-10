@@ -15,4 +15,6 @@ export const ko: IKo = {
   language: korean,
 };
 
+Object.freeze(ko);
+
 export default ko;

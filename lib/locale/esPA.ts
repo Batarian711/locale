@@ -18,4 +18,6 @@ export const esPA: IEsPa = {
   region: panama,
 };
 
+Object.freeze(esPA);
+
 export default esPA;

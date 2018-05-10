@@ -18,4 +18,6 @@ export const arAE: IArAe = {
   region: unitedArabEmirates,
 };
 
+Object.freeze(arAE);
+
 export default arAE;

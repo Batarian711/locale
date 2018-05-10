@@ -18,4 +18,6 @@ export const esUS: IEsUs = {
   region: unitedStatesOfAmerica,
 };
 
+Object.freeze(esUS);
+
 export default esUS;

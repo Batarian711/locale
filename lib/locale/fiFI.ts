@@ -18,4 +18,6 @@ export const fiFI: IFiFi = {
   region: finland,
 };
 
+Object.freeze(fiFI);
+
 export default fiFI;

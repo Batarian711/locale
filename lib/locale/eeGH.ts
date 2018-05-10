@@ -18,4 +18,6 @@ export const eeGH: IEeGh = {
   region: ghana,
 };
 
+Object.freeze(eeGH);
+
 export default eeGH;

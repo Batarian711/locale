@@ -18,4 +18,6 @@ export const azCyrl: IAzCyrl = {
   script: cyrillic,
 };
 
+Object.freeze(azCyrl);
+
 export default azCyrl;

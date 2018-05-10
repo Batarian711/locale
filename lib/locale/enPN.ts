@@ -18,4 +18,6 @@ export const enPN: IEnPn = {
   region: pitcairn,
 };
 
+Object.freeze(enPN);
+
 export default enPN;

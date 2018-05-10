@@ -18,4 +18,6 @@ export const enMS: IEnMs = {
   region: montserrat,
 };
 
+Object.freeze(enMS);
+
 export default enMS;

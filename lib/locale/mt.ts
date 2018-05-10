@@ -15,4 +15,6 @@ export const mt: IMt = {
   language: maltese,
 };
 
+Object.freeze(mt);
+
 export default mt;

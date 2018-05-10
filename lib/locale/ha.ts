@@ -15,4 +15,6 @@ export const ha: IHa = {
   language: hausa,
 };
 
+Object.freeze(ha);
+
 export default ha;

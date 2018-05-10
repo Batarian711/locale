@@ -18,4 +18,6 @@ export const loLA: ILoLa = {
   region: laoPeoplesDemocraticRepublic,
 };
 
+Object.freeze(loLA);
+
 export default loLA;

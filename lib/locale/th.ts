@@ -15,4 +15,6 @@ export const th: ITh = {
   language: thai,
 };
 
+Object.freeze(th);
+
 export default th;

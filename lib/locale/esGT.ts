@@ -18,4 +18,6 @@ export const esGT: IEsGt = {
   region: guatemala,
 };
 
+Object.freeze(esGT);
+
 export default esGT;

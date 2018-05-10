@@ -18,4 +18,6 @@ export const nlAW: INlAw = {
   region: aruba,
 };
 
+Object.freeze(nlAW);
+
 export default nlAW;

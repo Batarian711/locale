@@ -18,4 +18,6 @@ export const enKE: IEnKe = {
   region: kenya,
 };
 
+Object.freeze(enKE);
+
 export default enKE;

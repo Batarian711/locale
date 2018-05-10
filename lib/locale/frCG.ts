@@ -18,4 +18,6 @@ export const frCG: IFrCg = {
   region: congo,
 };
 
+Object.freeze(frCG);
+
 export default frCG;

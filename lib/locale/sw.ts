@@ -15,4 +15,6 @@ export const sw: ISw = {
   language: swahili,
 };
 
+Object.freeze(sw);
+
 export default sw;

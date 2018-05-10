@@ -21,4 +21,6 @@ export const srLatnME: ISrLatnMe = {
   script: latin,
 };
 
+Object.freeze(srLatnME);
+
 export default srLatnME;

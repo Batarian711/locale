@@ -18,4 +18,6 @@ export const enMO: IEnMo = {
   region: macao,
 };
 
+Object.freeze(enMO);
+
 export default enMO;

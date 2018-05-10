@@ -18,4 +18,6 @@ export const lbLU: ILbLu = {
   region: luxembourg,
 };
 
+Object.freeze(lbLU);
+
 export default lbLU;

@@ -18,4 +18,6 @@ export const quPE: IQuPe = {
   region: peru,
 };
 
+Object.freeze(quPE);
+
 export default quPE;

@@ -18,4 +18,6 @@ export const frPM: IFrPm = {
   region: saintPierreAndMiquelon,
 };
 
+Object.freeze(frPM);
+
 export default frPM;

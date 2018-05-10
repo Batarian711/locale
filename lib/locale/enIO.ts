@@ -18,4 +18,6 @@ export const enIO: IEnIo = {
   region: britishIndianOceanTerritory,
 };
 
+Object.freeze(enIO);
+
 export default enIO;

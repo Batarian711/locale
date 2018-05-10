@@ -18,4 +18,6 @@ export const bnIN: IBnIn = {
   region: india,
 };
 
+Object.freeze(bnIN);
+
 export default bnIN;

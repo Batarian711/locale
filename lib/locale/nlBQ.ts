@@ -18,4 +18,6 @@ export const nlBQ: INlBq = {
   region: bonaireSintEustatiusAndSaba,
 };
 
+Object.freeze(nlBQ);
+
 export default nlBQ;

@@ -18,4 +18,6 @@ export const ptCV: IPtCv = {
   region: caboVerde,
 };
 
+Object.freeze(ptCV);
+
 export default ptCV;

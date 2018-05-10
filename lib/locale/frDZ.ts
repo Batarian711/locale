@@ -18,4 +18,6 @@ export const frDZ: IFrDz = {
   region: algeria,
 };
 
+Object.freeze(frDZ);
+
 export default frDZ;

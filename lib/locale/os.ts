@@ -15,4 +15,6 @@ export const os: IOs = {
   language: ossetian,
 };
 
+Object.freeze(os);
+
 export default os;

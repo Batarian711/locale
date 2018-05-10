@@ -18,4 +18,6 @@ export const esUY: IEsUy = {
   region: uruguay,
 };
 
+Object.freeze(esUY);
+
 export default esUY;

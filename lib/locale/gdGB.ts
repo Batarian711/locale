@@ -23,4 +23,6 @@ export const gdGB: IGdGb = {
   region: unitedKingdomOfGreatBritainAndNorthernIreland,
 };
 
+Object.freeze(gdGB);
+
 export default gdGB;

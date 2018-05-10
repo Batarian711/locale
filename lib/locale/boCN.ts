@@ -18,4 +18,6 @@ export const boCN: IBoCn = {
   region: china,
 };
 
+Object.freeze(boCN);
+
 export default boCN;

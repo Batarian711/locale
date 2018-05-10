@@ -18,4 +18,6 @@ export const srCyrl: ISrCyrl = {
   script: cyrillic,
 };
 
+Object.freeze(srCyrl);
+
 export default srCyrl;

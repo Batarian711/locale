@@ -18,4 +18,6 @@ export const ltLT: ILtLt = {
   region: lithuania,
 };
 
+Object.freeze(ltLT);
+
 export default ltLT;

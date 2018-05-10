@@ -18,4 +18,6 @@ export const tlPH: ITlPh = {
   region: philippines,
 };
 
+Object.freeze(tlPH);
+
 export default tlPH;

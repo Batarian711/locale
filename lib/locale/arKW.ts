@@ -18,4 +18,6 @@ export const arKW: IArKw = {
   region: kuwait,
 };
 
+Object.freeze(arKW);
+
 export default arKW;

@@ -21,4 +21,6 @@ export const enSH: IEnSh = {
   region: saintHelenaAscensionAndTristanDaCunha,
 };
 
+Object.freeze(enSH);
+
 export default enSH;

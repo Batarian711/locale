@@ -18,4 +18,6 @@ export const quEC: IQuEc = {
   region: ecuador,
 };
 
+Object.freeze(quEC);
+
 export default quEC;

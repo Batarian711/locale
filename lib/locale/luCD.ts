@@ -18,4 +18,6 @@ export const luCD: ILuCd = {
   region: democraticRepublicOfTheCongo,
 };
 
+Object.freeze(luCD);
+
 export default luCD;

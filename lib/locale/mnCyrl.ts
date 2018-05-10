@@ -18,4 +18,6 @@ export const mnCyrl: IMnCyrl = {
   script: cyrillic,
 };
 
+Object.freeze(mnCyrl);
+
 export default mnCyrl;

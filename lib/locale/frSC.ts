@@ -18,4 +18,6 @@ export const frSC: IFrSc = {
   region: seychelles,
 };
 
+Object.freeze(frSC);
+
 export default frSC;

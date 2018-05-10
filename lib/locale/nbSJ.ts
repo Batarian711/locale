@@ -18,4 +18,6 @@ export const nbSJ: INbSj = {
   region: svalbardAndJanMayen,
 };
 
+Object.freeze(nbSJ);
+
 export default nbSJ;

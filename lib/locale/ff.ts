@@ -15,4 +15,6 @@ export const ff: IFf = {
   language: fula,
 };
 
+Object.freeze(ff);
+
 export default ff;

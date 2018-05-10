@@ -18,4 +18,6 @@ export const elCY: IElCy = {
   region: cyprus,
 };
 
+Object.freeze(elCY);
+
 export default elCY;

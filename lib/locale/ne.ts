@@ -15,4 +15,6 @@ export const ne: INe = {
   language: nepali,
 };
 
+Object.freeze(ne);
+
 export default ne;

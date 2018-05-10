@@ -18,4 +18,6 @@ export const enMY: IEnMy = {
   region: malaysia,
 };
 
+Object.freeze(enMY);
+
 export default enMY;

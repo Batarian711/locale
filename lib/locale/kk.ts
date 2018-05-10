@@ -15,4 +15,6 @@ export const kk: IKk = {
   language: kazakh,
 };
 
+Object.freeze(kk);
+
 export default kk;

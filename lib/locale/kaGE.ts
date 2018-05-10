@@ -18,4 +18,6 @@ export const kaGE: IKaGe = {
   region: georgia,
 };
 
+Object.freeze(kaGE);
+
 export default kaGE;

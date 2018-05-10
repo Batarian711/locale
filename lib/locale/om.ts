@@ -15,4 +15,6 @@ export const om: IOm = {
   language: oromo,
 };
 
+Object.freeze(om);
+
 export default om;

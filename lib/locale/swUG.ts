@@ -18,4 +18,6 @@ export const swUG: ISwUg = {
   region: uganda,
 };
 
+Object.freeze(swUG);
+
 export default swUG;

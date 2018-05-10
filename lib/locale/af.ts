@@ -15,4 +15,6 @@ export const af: IAf = {
   language: afrikaans,
 };
 
+Object.freeze(af);
+
 export default af;

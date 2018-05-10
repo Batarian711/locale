@@ -15,4 +15,6 @@ export const hr: IHr = {
   language: croatian,
 };
 
+Object.freeze(hr);
+
 export default hr;

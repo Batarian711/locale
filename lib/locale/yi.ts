@@ -15,4 +15,6 @@ export const yi: IYi = {
   language: yiddish,
 };
 
+Object.freeze(yi);
+
 export default yi;

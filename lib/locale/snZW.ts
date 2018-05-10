@@ -18,4 +18,6 @@ export const snZW: ISnZw = {
   region: zimbabwe,
 };
 
+Object.freeze(snZW);
+
 export default snZW;

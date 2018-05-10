@@ -18,4 +18,6 @@ export const sqMK: ISqMk = {
   region: macedonia,
 };
 
+Object.freeze(sqMK);
+
 export default sqMK;

@@ -15,4 +15,6 @@ export const rn: IRn = {
   language: kirundi,
 };
 
+Object.freeze(rn);
+
 export default rn;

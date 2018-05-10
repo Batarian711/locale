@@ -18,4 +18,6 @@ export const enSZ: IEnSz = {
   region: swaziland,
 };
 
+Object.freeze(enSZ);
+
 export default enSZ;

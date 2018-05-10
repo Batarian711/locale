@@ -18,4 +18,6 @@ export const nlNL: INlNl = {
   region: netherlands,
 };
 
+Object.freeze(nlNL);
+
 export default nlNL;

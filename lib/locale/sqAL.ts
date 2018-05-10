@@ -18,4 +18,6 @@ export const sqAL: ISqAl = {
   region: albania,
 };
 
+Object.freeze(sqAL);
+
 export default sqAL;

@@ -15,4 +15,6 @@ export const ee: IEe = {
   language: ewe,
 };
 
+Object.freeze(ee);
+
 export default ee;

@@ -18,4 +18,6 @@ export const soSO: ISoSo = {
   region: somalia,
 };
 
+Object.freeze(soSO);
+
 export default soSO;

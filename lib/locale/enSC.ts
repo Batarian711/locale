@@ -18,4 +18,6 @@ export const enSC: IEnSc = {
   region: seychelles,
 };
 
+Object.freeze(enSC);
+
 export default enSC;

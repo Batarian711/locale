@@ -18,4 +18,6 @@ export const enTT: IEnTt = {
   region: trinidadAndTobago,
 };
 
+Object.freeze(enTT);
+
 export default enTT;

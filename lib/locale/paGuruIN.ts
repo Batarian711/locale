@@ -21,4 +21,6 @@ export const paGuruIN: IPaGuruIn = {
   script: gurmukhi,
 };
 
+Object.freeze(paGuruIN);
+
 export default paGuruIN;

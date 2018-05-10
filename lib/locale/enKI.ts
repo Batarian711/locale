@@ -18,4 +18,6 @@ export const enKI: IEnKi = {
   region: kiribati,
 };
 
+Object.freeze(enKI);
+
 export default enKI;

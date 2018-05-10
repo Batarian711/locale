@@ -18,4 +18,6 @@ export const enAI: IEnAi = {
   region: anguilla,
 };
 
+Object.freeze(enAI);
+
 export default enAI;

@@ -15,4 +15,6 @@ export const lv: ILv = {
   language: latvian,
 };
 
+Object.freeze(lv);
+
 export default lv;

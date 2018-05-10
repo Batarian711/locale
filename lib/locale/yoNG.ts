@@ -18,4 +18,6 @@ export const yoNG: IYoNg = {
   region: nigeria,
 };
 
+Object.freeze(yoNG);
+
 export default yoNG;

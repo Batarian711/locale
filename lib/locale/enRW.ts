@@ -18,4 +18,6 @@ export const enRW: IEnRw = {
   region: rwanda,
 };
 
+Object.freeze(enRW);
+
 export default enRW;

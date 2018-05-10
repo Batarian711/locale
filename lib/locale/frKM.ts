@@ -18,4 +18,6 @@ export const frKM: IFrKm = {
   region: comoros,
 };
 
+Object.freeze(frKM);
+
 export default frKM;

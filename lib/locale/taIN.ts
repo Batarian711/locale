@@ -18,4 +18,6 @@ export const taIN: ITaIn = {
   region: india,
 };
 
+Object.freeze(taIN);
+
 export default taIN;

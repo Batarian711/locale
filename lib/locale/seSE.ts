@@ -18,4 +18,6 @@ export const seSE: ISeSe = {
   region: sweden,
 };
 
+Object.freeze(seSE);
+
 export default seSE;

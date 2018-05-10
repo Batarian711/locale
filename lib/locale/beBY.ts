@@ -18,4 +18,6 @@ export const beBY: IBeBy = {
   region: belarus,
 };
 
+Object.freeze(beBY);
+
 export default beBY;

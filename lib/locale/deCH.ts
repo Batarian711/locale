@@ -18,4 +18,6 @@ export const deCH: IDeCh = {
   region: switzerland,
 };
 
+Object.freeze(deCH);
+
 export default deCH;

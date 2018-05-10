@@ -18,4 +18,6 @@ export const slSI: ISlSi = {
   region: slovenia,
 };
 
+Object.freeze(slSI);
+
 export default slSI;

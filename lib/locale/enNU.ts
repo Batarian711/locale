@@ -18,4 +18,6 @@ export const enNU: IEnNu = {
   region: niue,
 };
 
+Object.freeze(enNU);
+
 export default enNU;

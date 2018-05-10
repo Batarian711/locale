@@ -18,4 +18,6 @@ export const enIM: IEnIm = {
   region: isleOfMan,
 };
 
+Object.freeze(enIM);
+
 export default enIM;

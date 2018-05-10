@@ -18,4 +18,6 @@ export const msBN: IMsBn = {
   region: bruneiDarussalam,
 };
 
+Object.freeze(msBN);
+
 export default msBN;

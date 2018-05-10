@@ -18,4 +18,6 @@ export const esVE: IEsVe = {
   region: venezuela,
 };
 
+Object.freeze(esVE);
+
 export default esVE;

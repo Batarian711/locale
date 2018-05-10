@@ -18,4 +18,6 @@ export const arSY: IArSy = {
   region: syrianArabRepublic,
 };
 
+Object.freeze(arSY);
+
 export default arSY;

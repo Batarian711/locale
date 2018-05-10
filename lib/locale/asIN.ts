@@ -18,4 +18,6 @@ export const asIN: IAsIn = {
   region: india,
 };
 
+Object.freeze(asIN);
+
 export default asIN;

@@ -18,4 +18,6 @@ export const igNG: IIgNg = {
   region: nigeria,
 };
 
+Object.freeze(igNG);
+
 export default igNG;

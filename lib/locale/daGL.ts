@@ -18,4 +18,6 @@ export const daGL: IDaGl = {
   region: greenland,
 };
 
+Object.freeze(daGL);
+
 export default daGL;

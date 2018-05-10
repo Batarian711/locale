@@ -18,4 +18,6 @@ export const enSB: IEnSb = {
   region: solomonIslands,
 };
 
+Object.freeze(enSB);
+
 export default enSB;

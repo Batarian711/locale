@@ -15,4 +15,6 @@ export const sn: ISn = {
   language: shona,
 };
 
+Object.freeze(sn);
+
 export default sn;

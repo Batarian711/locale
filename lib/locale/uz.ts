@@ -15,4 +15,6 @@ export const uz: IUz = {
   language: uzbek,
 };
 
+Object.freeze(uz);
+
 export default uz;

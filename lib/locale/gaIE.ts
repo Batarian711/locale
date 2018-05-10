@@ -18,4 +18,6 @@ export const gaIE: IGaIe = {
   region: ireland,
 };
 
+Object.freeze(gaIE);
+
 export default gaIE;

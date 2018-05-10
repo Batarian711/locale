@@ -15,4 +15,6 @@ export const mg: IMg = {
   language: malagasy,
 };
 
+Object.freeze(mg);
+
 export default mg;

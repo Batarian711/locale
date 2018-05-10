@@ -18,4 +18,6 @@ export const enTC: IEnTc = {
   region: turksAndCaicosIslands,
 };
 
+Object.freeze(enTC);
+
 export default enTC;

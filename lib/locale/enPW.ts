@@ -18,4 +18,6 @@ export const enPW: IEnPw = {
   region: palau,
 };
 
+Object.freeze(enPW);
+
 export default enPW;

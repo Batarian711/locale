@@ -15,4 +15,6 @@ export const gl: IGl = {
   language: galician,
 };
 
+Object.freeze(gl);
+
 export default gl;

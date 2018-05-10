@@ -18,4 +18,6 @@ export const enUG: IEnUg = {
   region: uganda,
 };
 
+Object.freeze(enUG);
+
 export default enUG;

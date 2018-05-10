@@ -18,4 +18,6 @@ export const haNG: IHaNg = {
   region: nigeria,
 };
 
+Object.freeze(haNG);
+
 export default haNG;

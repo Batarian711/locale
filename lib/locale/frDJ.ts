@@ -18,4 +18,6 @@ export const frDJ: IFrDj = {
   region: djibouti,
 };
 
+Object.freeze(frDJ);
+
 export default frDJ;

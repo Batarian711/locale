@@ -18,4 +18,6 @@ export const arLB: IArLb = {
   region: lebanon,
 };
 
+Object.freeze(arLB);
+
 export default arLB;

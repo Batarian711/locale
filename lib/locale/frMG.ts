@@ -18,4 +18,6 @@ export const frMG: IFrMg = {
   region: madagascar,
 };
 
+Object.freeze(frMG);
+
 export default frMG;

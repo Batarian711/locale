@@ -18,4 +18,6 @@ export const zhHK: IZhHk = {
   region: hongKong,
 };
 
+Object.freeze(zhHK);
+
 export default zhHK;

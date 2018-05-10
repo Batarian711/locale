@@ -18,4 +18,6 @@ export const mnMN: IMnMn = {
   region: mongolia,
 };
 
+Object.freeze(mnMN);
+
 export default mnMN;

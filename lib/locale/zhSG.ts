@@ -18,4 +18,6 @@ export const zhSG: IZhSg = {
   region: singapore,
 };
 
+Object.freeze(zhSG);
+
 export default zhSG;

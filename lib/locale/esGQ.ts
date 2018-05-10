@@ -18,4 +18,6 @@ export const esGQ: IEsGq = {
   region: equatorialGuinea,
 };
 
+Object.freeze(esGQ);
+
 export default esGQ;

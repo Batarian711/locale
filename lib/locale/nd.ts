@@ -15,4 +15,6 @@ export const nd: INd = {
   language: northernNdebele,
 };
 
+Object.freeze(nd);
+
 export default nd;

@@ -18,4 +18,6 @@ export const esCO: IEsCo = {
   region: colombia,
 };
 
+Object.freeze(esCO);
+
 export default esCO;

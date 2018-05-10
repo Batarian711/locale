@@ -18,4 +18,6 @@ export const ruKG: IRuKg = {
   region: kyrgyzstan,
 };
 
+Object.freeze(ruKG);
+
 export default ruKG;

@@ -15,4 +15,6 @@ export const gu: IGu = {
   language: gujarati,
 };
 
+Object.freeze(gu);
+
 export default gu;

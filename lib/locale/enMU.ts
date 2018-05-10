@@ -18,4 +18,6 @@ export const enMU: IEnMu = {
   region: mauritius,
 };
 
+Object.freeze(enMU);
+
 export default enMU;

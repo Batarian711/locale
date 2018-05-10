@@ -18,4 +18,6 @@ export const caIT: ICaIt = {
   region: italy,
 };
 
+Object.freeze(caIT);
+
 export default caIT;

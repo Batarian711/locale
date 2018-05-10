@@ -15,4 +15,6 @@ export const ak: IAk = {
   language: akan,
 };
 
+Object.freeze(ak);
+
 export default ak;

@@ -18,4 +18,6 @@ export const frCD: IFrCd = {
   region: democraticRepublicOfTheCongo,
 };
 
+Object.freeze(frCD);
+
 export default frCD;

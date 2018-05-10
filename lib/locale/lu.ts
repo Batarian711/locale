@@ -15,4 +15,6 @@ export const lu: ILu = {
   language: lubaKatanga,
 };
 
+Object.freeze(lu);
+
 export default lu;

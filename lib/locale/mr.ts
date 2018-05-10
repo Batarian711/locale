@@ -15,4 +15,6 @@ export const mr: IMr = {
   language: marathi,
 };
 
+Object.freeze(mr);
+
 export default mr;

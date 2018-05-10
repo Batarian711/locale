@@ -21,4 +21,6 @@ export const ksArabIN: IKsArabIn = {
   script: arabic,
 };
 
+Object.freeze(ksArabIN);
+
 export default ksArabIN;

@@ -15,4 +15,6 @@ export const ml: IMl = {
   language: malayalam,
 };
 
+Object.freeze(ml);
+
 export default ml;

@@ -15,4 +15,6 @@ export const as: IAs = {
   language: assamese,
 };
 
+Object.freeze(as);
+
 export default as;

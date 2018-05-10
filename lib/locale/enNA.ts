@@ -18,4 +18,6 @@ export const enNA: IEnNa = {
   region: namibia,
 };
 
+Object.freeze(enNA);
+
 export default enNA;

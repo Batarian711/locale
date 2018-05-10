@@ -15,4 +15,6 @@ export const cy: ICy = {
   language: welsh,
 };
 
+Object.freeze(cy);
+
 export default cy;

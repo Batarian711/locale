@@ -18,4 +18,6 @@ export const bsLatn: IBsLatn = {
   script: latin,
 };
 
+Object.freeze(bsLatn);
+
 export default bsLatn;

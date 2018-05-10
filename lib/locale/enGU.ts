@@ -18,4 +18,6 @@ export const enGU: IEnGu = {
   region: guam,
 };
 
+Object.freeze(enGU);
+
 export default enGU;

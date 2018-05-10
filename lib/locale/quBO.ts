@@ -18,4 +18,6 @@ export const quBO: IQuBo = {
   region: bolivia,
 };
 
+Object.freeze(quBO);
+
 export default quBO;

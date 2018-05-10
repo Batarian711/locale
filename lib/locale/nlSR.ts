@@ -18,4 +18,6 @@ export const nlSR: INlSr = {
   region: suriname,
 };
 
+Object.freeze(nlSR);
+
 export default nlSR;

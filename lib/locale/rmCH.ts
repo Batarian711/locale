@@ -18,4 +18,6 @@ export const rmCH: IRmCh = {
   region: switzerland,
 };
 
+Object.freeze(rmCH);
+
 export default rmCH;

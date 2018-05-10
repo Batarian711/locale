@@ -18,4 +18,6 @@ export const enGY: IEnGy = {
   region: guyana,
 };
 
+Object.freeze(enGY);
+
 export default enGY;

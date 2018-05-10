@@ -18,4 +18,6 @@ export const mkMK: IMkMk = {
   region: macedonia,
 };
 
+Object.freeze(mkMK);
+
 export default mkMK;

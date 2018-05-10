@@ -18,4 +18,6 @@ export const enCC: IEnCc = {
   region: cocosKeelingIslands,
 };
 
+Object.freeze(enCC);
+
 export default enCC;

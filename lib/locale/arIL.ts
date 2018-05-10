@@ -18,4 +18,6 @@ export const arIL: IArIl = {
   region: israel,
 };
 
+Object.freeze(arIL);
+
 export default arIL;

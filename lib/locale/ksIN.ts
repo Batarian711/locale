@@ -18,4 +18,6 @@ export const ksIN: IKsIn = {
   region: india,
 };
 
+Object.freeze(ksIN);
+
 export default ksIN;

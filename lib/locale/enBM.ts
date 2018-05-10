@@ -18,4 +18,6 @@ export const enBM: IEnBm = {
   region: bermuda,
 };
 
+Object.freeze(enBM);
+
 export default enBM;

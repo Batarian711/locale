@@ -18,4 +18,6 @@ export const srBA: ISrBa = {
   region: bosniaAndHerzegovina,
 };
 
+Object.freeze(srBA);
+
 export default srBA;

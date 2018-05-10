@@ -18,4 +18,6 @@ export const esAR: IEsAr = {
   region: argentina,
 };
 
+Object.freeze(esAR);
+
 export default esAR;

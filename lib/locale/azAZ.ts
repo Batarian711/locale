@@ -18,4 +18,6 @@ export const azAZ: IAzAz = {
   region: azerbaijan,
 };
 
+Object.freeze(azAZ);
+
 export default azAZ;

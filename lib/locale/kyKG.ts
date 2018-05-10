@@ -18,4 +18,6 @@ export const kyKG: IKyKg = {
   region: kyrgyzstan,
 };
 
+Object.freeze(kyKG);
+
 export default kyKG;

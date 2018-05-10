@@ -21,4 +21,6 @@ export const msLatnSG: IMsLatnSg = {
   script: latin,
 };
 
+Object.freeze(msLatnSG);
+
 export default msLatnSG;

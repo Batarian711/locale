@@ -18,4 +18,6 @@ export const daDK: IDaDk = {
   region: denmark,
 };
 
+Object.freeze(daDK);
+
 export default daDK;

@@ -18,4 +18,6 @@ export const dzBT: IDzBt = {
   region: bhutan,
 };
 
+Object.freeze(dzBT);
+
 export default dzBT;

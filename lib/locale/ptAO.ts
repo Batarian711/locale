@@ -18,4 +18,6 @@ export const ptAO: IPtAo = {
   region: angola,
 };
 
+Object.freeze(ptAO);
+
 export default ptAO;

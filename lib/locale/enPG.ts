@@ -18,4 +18,6 @@ export const enPG: IEnPg = {
   region: papuaNewGuinea,
 };
 
+Object.freeze(enPG);
+
 export default enPG;

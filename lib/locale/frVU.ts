@@ -18,4 +18,6 @@ export const frVU: IFrVu = {
   region: vanuatu,
 };
 
+Object.freeze(frVU);
+
 export default frVU;

@@ -21,4 +21,6 @@ export const bsLatnBA: IBsLatnBa = {
   script: latin,
 };
 
+Object.freeze(bsLatnBA);
+
 export default bsLatnBA;

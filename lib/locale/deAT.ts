@@ -18,4 +18,6 @@ export const deAT: IDeAt = {
   region: austria,
 };
 
+Object.freeze(deAT);
+
 export default deAT;

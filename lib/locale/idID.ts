@@ -18,4 +18,6 @@ export const idID: IIdId = {
   region: indonesia,
 };
 
+Object.freeze(idID);
+
 export default idID;

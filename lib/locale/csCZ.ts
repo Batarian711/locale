@@ -18,4 +18,6 @@ export const csCZ: ICsCz = {
   region: czechRepublic,
 };
 
+Object.freeze(csCZ);
+
 export default csCZ;

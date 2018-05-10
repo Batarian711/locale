@@ -18,4 +18,6 @@ export const ruKZ: IRuKz = {
   region: kazakhstan,
 };
 
+Object.freeze(ruKZ);
+
 export default ruKZ;

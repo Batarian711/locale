@@ -18,4 +18,6 @@ export const ptMZ: IPtMz = {
   region: mozambique,
 };
 
+Object.freeze(ptMZ);
+
 export default ptMZ;

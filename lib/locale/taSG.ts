@@ -18,4 +18,6 @@ export const taSG: ITaSg = {
   region: singapore,
 };
 
+Object.freeze(taSG);
+
 export default taSG;

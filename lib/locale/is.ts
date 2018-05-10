@@ -15,4 +15,6 @@ export const is: IIs = {
   language: icelandic,
 };
 
+Object.freeze(is);
+
 export default is;

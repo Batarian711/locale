@@ -18,4 +18,6 @@ export const zhHans: IZhHans = {
   script: hanSimplified,
 };
 
+Object.freeze(zhHans);
+
 export default zhHans;

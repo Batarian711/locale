@@ -18,4 +18,6 @@ export const enTK: IEnTk = {
   region: tokelau,
 };
 
+Object.freeze(enTK);
+
 export default enTK;

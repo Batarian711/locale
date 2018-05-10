@@ -18,4 +18,6 @@ export const msMY: IMsMy = {
   region: malaysia,
 };
 
+Object.freeze(msMY);
+
 export default msMY;

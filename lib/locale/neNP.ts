@@ -18,4 +18,6 @@ export const neNP: INeNp = {
   region: nepal,
 };
 
+Object.freeze(neNP);
+
 export default neNP;

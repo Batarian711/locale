@@ -18,4 +18,6 @@ export const toTO: IToTo = {
   region: tonga,
 };
 
+Object.freeze(toTO);
+
 export default toTO;

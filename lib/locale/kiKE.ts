@@ -18,4 +18,6 @@ export const kiKE: IKiKe = {
   region: kenya,
 };
 
+Object.freeze(kiKE);
+
 export default kiKE;

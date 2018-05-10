@@ -18,4 +18,6 @@ export const faAF: IFaAf = {
   region: afghanistan,
 };
 
+Object.freeze(faAF);
+
 export default faAF;

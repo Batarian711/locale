@@ -18,4 +18,6 @@ export const zhMO: IZhMo = {
   region: macao,
 };
 
+Object.freeze(zhMO);
+
 export default zhMO;

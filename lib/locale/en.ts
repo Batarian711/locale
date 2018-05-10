@@ -15,4 +15,6 @@ export const en: IEn = {
   language: english,
 };
 
+Object.freeze(en);
+
 export default en;

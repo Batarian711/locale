@@ -15,4 +15,6 @@ export const am: IAm = {
   language: amharic,
 };
 
+Object.freeze(am);
+
 export default am;

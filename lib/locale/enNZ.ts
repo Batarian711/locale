@@ -18,4 +18,6 @@ export const enNZ: IEnNz = {
   region: newZealand,
 };
 
+Object.freeze(enNZ);
+
 export default enNZ;

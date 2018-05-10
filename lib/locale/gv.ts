@@ -15,4 +15,6 @@ export const gv: IGv = {
   language: manx,
 };
 
+Object.freeze(gv);
+
 export default gv;

@@ -18,4 +18,6 @@ export const ptGW: IPtGw = {
   region: guineaBissau,
 };
 
+Object.freeze(ptGW);
+
 export default ptGW;

@@ -18,4 +18,6 @@ export const frPF: IFrPf = {
   region: frenchPolynesia,
 };
 
+Object.freeze(frPF);
+
 export default frPF;

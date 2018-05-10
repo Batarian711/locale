@@ -15,4 +15,6 @@ export const eu: IEu = {
   language: basque,
 };
 
+Object.freeze(eu);
+
 export default eu;

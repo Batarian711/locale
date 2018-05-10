@@ -15,4 +15,6 @@ export const bm: IBm = {
   language: bambara,
 };
 
+Object.freeze(bm);
+
 export default bm;

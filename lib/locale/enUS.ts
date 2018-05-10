@@ -18,4 +18,6 @@ export const enUS: IEnUs = {
   region: unitedStatesOfAmerica,
 };
 
+Object.freeze(enUS);
+
 export default enUS;

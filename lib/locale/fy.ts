@@ -15,4 +15,6 @@ export const fy: IFy = {
   language: westernFrisian,
 };
 
+Object.freeze(fy);
+
 export default fy;

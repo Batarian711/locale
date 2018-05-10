@@ -18,4 +18,6 @@ export const trCY: ITrCy = {
   region: cyprus,
 };
 
+Object.freeze(trCY);
+
 export default trCY;

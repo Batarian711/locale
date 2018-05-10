@@ -15,4 +15,6 @@ export const ug: IUg = {
   language: uyghur,
 };
 
+Object.freeze(ug);
+
 export default ug;

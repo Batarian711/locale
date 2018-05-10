@@ -15,4 +15,6 @@ export const el: IEl = {
   language: greek,
 };
 
+Object.freeze(el);
+
 export default el;

@@ -18,4 +18,6 @@ export const koKP: IKoKp = {
   region: democraticPeoplesRepublicOfKorea,
 };
 
+Object.freeze(koKP);
+
 export default koKP;

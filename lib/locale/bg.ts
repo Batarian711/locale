@@ -15,4 +15,6 @@ export const bg: IBg = {
   language: bulgarian,
 };
 
+Object.freeze(bg);
+
 export default bg;

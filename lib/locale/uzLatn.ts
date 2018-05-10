@@ -18,4 +18,6 @@ export const uzLatn: IUzLatn = {
   script: latin,
 };
 
+Object.freeze(uzLatn);
+
 export default uzLatn;

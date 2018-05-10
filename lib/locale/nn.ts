@@ -15,4 +15,6 @@ export const nn: INn = {
   language: norwegianNynorsk,
 };
 
+Object.freeze(nn);
+
 export default nn;

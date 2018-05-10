@@ -15,4 +15,6 @@ export const kn: IKn = {
   language: kannada,
 };
 
+Object.freeze(kn);
+
 export default kn;

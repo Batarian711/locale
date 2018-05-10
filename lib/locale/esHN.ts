@@ -18,4 +18,6 @@ export const esHN: IEsHn = {
   region: honduras,
 };
 
+Object.freeze(esHN);
+
 export default esHN;

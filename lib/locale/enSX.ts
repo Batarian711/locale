@@ -18,4 +18,6 @@ export const enSX: IEnSx = {
   region: sintMaarten,
 };
 
+Object.freeze(enSX);
+
 export default enSX;

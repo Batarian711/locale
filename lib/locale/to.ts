@@ -15,4 +15,6 @@ export const to: ITo = {
   language: tongan,
 };
 
+Object.freeze(to);
+
 export default to;

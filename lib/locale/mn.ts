@@ -15,4 +15,6 @@ export const mn: IMn = {
   language: mongolian,
 };
 
+Object.freeze(mn);
+
 export default mn;

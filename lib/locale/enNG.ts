@@ -18,4 +18,6 @@ export const enNG: IEnNg = {
   region: nigeria,
 };
 
+Object.freeze(enNG);
+
 export default enNG;

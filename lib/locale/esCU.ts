@@ -18,4 +18,6 @@ export const esCU: IEsCu = {
   region: cuba,
 };
 
+Object.freeze(esCU);
+
 export default esCU;

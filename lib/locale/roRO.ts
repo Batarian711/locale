@@ -18,4 +18,6 @@ export const roRO: IRoRo = {
   region: romania,
 };
 
+Object.freeze(roRO);
+
 export default roRO;

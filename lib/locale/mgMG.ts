@@ -18,4 +18,6 @@ export const mgMG: IMgMg = {
   region: madagascar,
 };
 
+Object.freeze(mgMG);
+
 export default mgMG;

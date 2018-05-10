@@ -18,4 +18,6 @@ export const arTD: IArTd = {
   region: chad,
 };
 
+Object.freeze(arTD);
+
 export default arTD;

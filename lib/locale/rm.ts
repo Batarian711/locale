@@ -15,4 +15,6 @@ export const rm: IRm = {
   language: romansh,
 };
 
+Object.freeze(rm);
+
 export default rm;

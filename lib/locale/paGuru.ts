@@ -18,4 +18,6 @@ export const paGuru: IPaGuru = {
   script: gurmukhi,
 };
 
+Object.freeze(paGuru);
+
 export default paGuru;

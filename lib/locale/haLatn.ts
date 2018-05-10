@@ -18,4 +18,6 @@ export const haLatn: IHaLatn = {
   script: latin,
 };
 
+Object.freeze(haLatn);
+
 export default haLatn;

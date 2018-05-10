@@ -18,4 +18,6 @@ export const teIN: ITeIn = {
   region: india,
 };
 
+Object.freeze(teIN);
+
 export default teIN;

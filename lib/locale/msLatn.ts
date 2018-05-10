@@ -18,4 +18,6 @@ export const msLatn: IMsLatn = {
   script: latin,
 };
 
+Object.freeze(msLatn);
+
 export default msLatn;

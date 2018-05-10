@@ -18,4 +18,6 @@ export const enBZ: IEnBz = {
   region: belize,
 };
 
+Object.freeze(enBZ);
+
 export default enBZ;

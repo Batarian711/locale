@@ -18,4 +18,6 @@ export const enAG: IEnAg = {
   region: antiguaAndBarbuda,
 };
 
+Object.freeze(enAG);
+
 export default enAG;

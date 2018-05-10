@@ -15,4 +15,6 @@ export const te: ITe = {
   language: telugu,
 };
 
+Object.freeze(te);
+
 export default te;

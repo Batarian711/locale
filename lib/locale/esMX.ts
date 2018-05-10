@@ -18,4 +18,6 @@ export const esMX: IEsMx = {
   region: mexico,
 };
 
+Object.freeze(esMX);
+
 export default esMX;

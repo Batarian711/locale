@@ -18,4 +18,6 @@ export const seNO: ISeNo = {
   region: norway,
 };
 
+Object.freeze(seNO);
+
 export default seNO;

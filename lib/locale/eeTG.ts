@@ -18,4 +18,6 @@ export const eeTG: IEeTg = {
   region: togo,
 };
 
+Object.freeze(eeTG);
+
 export default eeTG;

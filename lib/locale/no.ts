@@ -15,4 +15,6 @@ export const no: INo = {
   language: norwegian,
 };
 
+Object.freeze(no);
+
 export default no;

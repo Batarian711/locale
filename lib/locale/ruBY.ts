@@ -18,4 +18,6 @@ export const ruBY: IRuBy = {
   region: belarus,
 };
 
+Object.freeze(ruBY);
+
 export default ruBY;

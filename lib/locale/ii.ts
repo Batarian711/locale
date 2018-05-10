@@ -15,4 +15,6 @@ export const ii: IIi = {
   language: nuosu,
 };
 
+Object.freeze(ii);
+
 export default ii;

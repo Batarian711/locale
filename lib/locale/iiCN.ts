@@ -18,4 +18,6 @@ export const iiCN: IIiCn = {
   region: china,
 };
 
+Object.freeze(iiCN);
+
 export default iiCN;

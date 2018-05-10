@@ -18,4 +18,6 @@ export const arIQ: IArIq = {
   region: iraq,
 };
 
+Object.freeze(arIQ);
+
 export default arIQ;

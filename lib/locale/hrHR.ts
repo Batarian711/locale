@@ -18,4 +18,6 @@ export const hrHR: IHrHr = {
   region: croatia,
 };
 
+Object.freeze(hrHR);
+
 export default hrHR;

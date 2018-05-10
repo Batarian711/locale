@@ -18,4 +18,6 @@ export const bgBG: IBgBg = {
   region: bulgaria,
 };
 
+Object.freeze(bgBG);
+
 export default bgBG;

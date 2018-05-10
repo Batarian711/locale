@@ -15,4 +15,6 @@ export const ro: IRo = {
   language: romanian,
 };
 
+Object.freeze(ro);
+
 export default ro;

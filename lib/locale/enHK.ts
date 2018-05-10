@@ -18,4 +18,6 @@ export const enHK: IEnHk = {
   region: hongKong,
 };
 
+Object.freeze(enHK);
+
 export default enHK;

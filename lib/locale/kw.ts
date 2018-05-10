@@ -15,4 +15,6 @@ export const kw: IKw = {
   language: cornish,
 };
 
+Object.freeze(kw);
+
 export default kw;

@@ -15,4 +15,6 @@ export const zh: IZh = {
   language: chinese,
 };
 
+Object.freeze(zh);
+
 export default zh;

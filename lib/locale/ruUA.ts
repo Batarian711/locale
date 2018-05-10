@@ -18,4 +18,6 @@ export const ruUA: IRuUa = {
   region: ukraine,
 };
 
+Object.freeze(ruUA);
+
 export default ruUA;

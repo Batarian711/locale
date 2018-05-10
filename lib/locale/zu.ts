@@ -15,4 +15,6 @@ export const zu: IZu = {
   language: zulu,
 };
 
+Object.freeze(zu);
+
 export default zu;

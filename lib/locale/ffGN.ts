@@ -18,4 +18,6 @@ export const ffGN: IFfGn = {
   region: guinea,
 };
 
+Object.freeze(ffGN);
+
 export default ffGN;

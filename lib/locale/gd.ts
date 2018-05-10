@@ -15,4 +15,6 @@ export const gd: IGd = {
   language: scottishGaelic,
 };
 
+Object.freeze(gd);
+
 export default gd;

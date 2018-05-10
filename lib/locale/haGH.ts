@@ -18,4 +18,6 @@ export const haGH: IHaGh = {
   region: ghana,
 };
 
+Object.freeze(haGH);
+
 export default haGH;

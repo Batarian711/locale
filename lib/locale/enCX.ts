@@ -18,4 +18,6 @@ export const enCX: IEnCx = {
   region: christmasIsland,
 };
 
+Object.freeze(enCX);
+
 export default enCX;

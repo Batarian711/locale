@@ -15,4 +15,6 @@ export const ru: IRu = {
   language: russian,
 };
 
+Object.freeze(ru);
+
 export default ru;

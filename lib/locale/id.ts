@@ -15,4 +15,6 @@ export const id: IId = {
   language: indonesian,
 };
 
+Object.freeze(id);
+
 export default id;

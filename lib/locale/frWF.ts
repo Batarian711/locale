@@ -18,4 +18,6 @@ export const frWF: IFrWf = {
   region: wallisAndFutuna,
 };
 
+Object.freeze(frWF);
+
 export default frWF;

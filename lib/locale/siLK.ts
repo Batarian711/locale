@@ -18,4 +18,6 @@ export const siLK: ISiLk = {
   region: sriLanka,
 };
 
+Object.freeze(siLK);
+
 export default siLK;

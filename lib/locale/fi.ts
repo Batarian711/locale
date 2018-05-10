@@ -15,4 +15,6 @@ export const fi: IFi = {
   language: finnish,
 };
 
+Object.freeze(fi);
+
 export default fi;

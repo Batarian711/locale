@@ -15,4 +15,6 @@ export const az: IAz = {
   language: azerbaijani,
 };
 
+Object.freeze(az);
+
 export default az;

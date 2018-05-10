@@ -15,4 +15,6 @@ export const hu: IHu = {
   language: hungarian,
 };
 
+Object.freeze(hu);
+
 export default hu;

@@ -21,4 +21,6 @@ export const haLatnNE: IHaLatnNe = {
   script: latin,
 };
 
+Object.freeze(haLatnNE);
+
 export default haLatnNE;

@@ -18,4 +18,6 @@ export const klGL: IKlGl = {
   region: greenland,
 };
 
+Object.freeze(klGL);
+
 export default klGL;

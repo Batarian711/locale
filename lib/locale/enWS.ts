@@ -18,4 +18,6 @@ export const enWS: IEnWs = {
   region: samoa,
 };
 
+Object.freeze(enWS);
+
 export default enWS;

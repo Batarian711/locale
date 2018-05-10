@@ -18,4 +18,6 @@ export const enSG: IEnSg = {
   region: singapore,
 };
 
+Object.freeze(enSG);
+
 export default enSG;

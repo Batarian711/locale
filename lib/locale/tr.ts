@@ -15,4 +15,6 @@ export const tr: ITr = {
   language: turkish,
 };
 
+Object.freeze(tr);
+
 export default tr;

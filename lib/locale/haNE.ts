@@ -18,4 +18,6 @@ export const haNE: IHaNe = {
   region: niger,
 };
 
+Object.freeze(haNE);
+
 export default haNE;

@@ -18,4 +18,6 @@ export const isIS: IIsIs = {
   region: iceland,
 };
 
+Object.freeze(isIS);
+
 export default isIS;

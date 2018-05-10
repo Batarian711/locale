@@ -18,4 +18,6 @@ export const soET: ISoEt = {
   region: ethiopia,
 };
 
+Object.freeze(soET);
+
 export default soET;

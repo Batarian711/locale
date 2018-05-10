@@ -18,4 +18,6 @@ export const frNE: IFrNe = {
   region: niger,
 };
 
+Object.freeze(frNE);
+
 export default frNE;

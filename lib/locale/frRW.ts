@@ -18,4 +18,6 @@ export const frRW: IFrRw = {
   region: rwanda,
 };
 
+Object.freeze(frRW);
+
 export default frRW;

@@ -18,4 +18,6 @@ export const frBF: IFrBf = {
   region: burkinaFaso,
 };
 
+Object.freeze(frBF);
+
 export default frBF;

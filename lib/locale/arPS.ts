@@ -18,4 +18,6 @@ export const arPS: IArPs = {
   region: palestineStateOf,
 };
 
+Object.freeze(arPS);
+
 export default arPS;

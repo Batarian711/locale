@@ -18,4 +18,6 @@ export const deLU: IDeLu = {
   region: luxembourg,
 };
 
+Object.freeze(deLU);
+
 export default deLU;

@@ -18,4 +18,6 @@ export const frTD: IFrTd = {
   region: chad,
 };
 
+Object.freeze(frTD);
+
 export default frTD;

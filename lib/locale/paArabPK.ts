@@ -21,4 +21,6 @@ export const paArabPK: IPaArabPk = {
   script: arabic,
 };
 
+Object.freeze(paArabPK);
+
 export default paArabPK;

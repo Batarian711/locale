@@ -18,4 +18,6 @@ export const plPL: IPlPl = {
   region: poland,
 };
 
+Object.freeze(plPL);
+
 export default plPL;

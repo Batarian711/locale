@@ -18,4 +18,6 @@ export const enJM: IEnJm = {
   region: jamaica,
 };
 
+Object.freeze(enJM);
+
 export default enJM;

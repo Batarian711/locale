@@ -18,4 +18,6 @@ export const ffSN: IFfSn = {
   region: senegal,
 };
 
+Object.freeze(ffSN);
+
 export default ffSN;

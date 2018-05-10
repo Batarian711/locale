@@ -18,4 +18,6 @@ export const boIN: IBoIn = {
   region: india,
 };
 
+Object.freeze(boIN);
+
 export default boIN;

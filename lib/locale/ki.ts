@@ -15,4 +15,6 @@ export const ki: IKi = {
   language: kikuyu,
 };
 
+Object.freeze(ki);
+
 export default ki;

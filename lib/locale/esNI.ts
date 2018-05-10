@@ -18,4 +18,6 @@ export const esNI: IEsNi = {
   region: nicaragua,
 };
 
+Object.freeze(esNI);
+
 export default esNI;

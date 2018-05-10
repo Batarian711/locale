@@ -18,4 +18,6 @@ export const frCM: IFrCm = {
   region: cameroon,
 };
 
+Object.freeze(frCM);
+
 export default frCM;

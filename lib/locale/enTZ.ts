@@ -18,4 +18,6 @@ export const enTZ: IEnTz = {
   region: tanzaniaUnitedRepublicOf,
 };
 
+Object.freeze(enTZ);
+
 export default enTZ;

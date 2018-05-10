@@ -18,4 +18,6 @@ export const noNO: INoNo = {
   region: norway,
 };
 
+Object.freeze(noNO);
+
 export default noNO;

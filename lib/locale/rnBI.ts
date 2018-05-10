@@ -18,4 +18,6 @@ export const rnBI: IRnBi = {
   region: burundi,
 };
 
+Object.freeze(rnBI);
+
 export default rnBI;

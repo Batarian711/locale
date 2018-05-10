@@ -18,4 +18,6 @@ export const srRS: ISrRs = {
   region: serbia,
 };
 
+Object.freeze(srRS);
+
 export default srRS;

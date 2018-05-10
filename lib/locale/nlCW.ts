@@ -18,4 +18,6 @@ export const nlCW: INlCw = {
   region: curacao,
 };
 
+Object.freeze(nlCW);
+
 export default nlCW;

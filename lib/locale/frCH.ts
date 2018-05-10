@@ -18,4 +18,6 @@ export const frCH: IFrCh = {
   region: switzerland,
 };
 
+Object.freeze(frCH);
+
 export default frCH;

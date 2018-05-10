@@ -15,4 +15,6 @@ export const bo: IBo = {
   language: tibetanStandard,
 };
 
+Object.freeze(bo);
+
 export default bo;

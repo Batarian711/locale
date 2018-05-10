@@ -15,4 +15,6 @@ export const ca: ICa = {
   language: catalan,
 };
 
+Object.freeze(ca);
+
 export default ca;

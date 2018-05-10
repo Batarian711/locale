@@ -18,4 +18,6 @@ export const sgCF: ISgCf = {
   region: centralAfricanRepublic,
 };
 
+Object.freeze(sgCF);
+
 export default sgCF;

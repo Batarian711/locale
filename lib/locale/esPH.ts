@@ -18,4 +18,6 @@ export const esPH: IEsPh = {
   region: philippines,
 };
 
+Object.freeze(esPH);
+
 export default esPH;

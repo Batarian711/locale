@@ -18,4 +18,6 @@ export const lnAO: ILnAo = {
   region: angola,
 };
 
+Object.freeze(lnAO);
+
 export default lnAO;

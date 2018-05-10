@@ -21,4 +21,6 @@ export const bmLatnML: IBmLatnMl = {
   script: latin,
 };
 
+Object.freeze(bmLatnML);
+
 export default bmLatnML;

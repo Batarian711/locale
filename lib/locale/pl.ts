@@ -15,4 +15,6 @@ export const pl: IPl = {
   language: polish,
 };
 
+Object.freeze(pl);
+
 export default pl;

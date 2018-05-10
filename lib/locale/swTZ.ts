@@ -18,4 +18,6 @@ export const swTZ: ISwTz = {
   region: tanzaniaUnitedRepublicOf,
 };
 
+Object.freeze(swTZ);
+
 export default swTZ;

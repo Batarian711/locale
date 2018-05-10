@@ -18,4 +18,6 @@ export const enPH: IEnPh = {
   region: philippines,
 };
 
+Object.freeze(enPH);
+
 export default enPH;

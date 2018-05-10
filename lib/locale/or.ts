@@ -15,4 +15,6 @@ export const or: IOr = {
   language: oriya,
 };
 
+Object.freeze(or);
+
 export default or;

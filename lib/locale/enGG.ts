@@ -18,4 +18,6 @@ export const enGG: IEnGg = {
   region: guernsey,
 };
 
+Object.freeze(enGG);
+
 export default enGG;

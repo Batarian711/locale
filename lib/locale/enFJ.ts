@@ -18,4 +18,6 @@ export const enFJ: IEnFj = {
   region: fiji,
 };
 
+Object.freeze(enFJ);
+
 export default enFJ;

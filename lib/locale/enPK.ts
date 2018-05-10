@@ -18,4 +18,6 @@ export const enPK: IEnPk = {
   region: pakistan,
 };
 
+Object.freeze(enPK);
+
 export default enPK;

@@ -18,4 +18,6 @@ export const frRE: IFrRe = {
   region: reunion,
 };
 
+Object.freeze(frRE);
+
 export default frRE;

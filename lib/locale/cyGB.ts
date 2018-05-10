@@ -21,4 +21,6 @@ export const cyGB: ICyGb = {
   region: unitedKingdomOfGreatBritainAndNorthernIreland,
 };
 
+Object.freeze(cyGB);
+
 export default cyGB;

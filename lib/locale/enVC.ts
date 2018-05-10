@@ -18,4 +18,6 @@ export const enVC: IEnVc = {
   region: saintVincentAndTheGrenadines,
 };
 
+Object.freeze(enVC);
+
 export default enVC;

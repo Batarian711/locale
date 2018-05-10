@@ -21,4 +21,6 @@ export const zhHansCN: IZhHansCn = {
   script: hanSimplified,
 };
 
+Object.freeze(zhHansCN);
+
 export default zhHansCN;

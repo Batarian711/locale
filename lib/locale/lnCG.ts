@@ -18,4 +18,6 @@ export const lnCG: ILnCg = {
   region: congo,
 };
 
+Object.freeze(lnCG);
+
 export default lnCG;

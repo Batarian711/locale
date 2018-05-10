@@ -18,4 +18,6 @@ export const arSO: IArSo = {
   region: somalia,
 };
 
+Object.freeze(arSO);
+
 export default arSO;

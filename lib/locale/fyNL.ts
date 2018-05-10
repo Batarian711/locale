@@ -18,4 +18,6 @@ export const fyNL: IFyNl = {
   region: netherlands,
 };
 
+Object.freeze(fyNL);
+
 export default fyNL;

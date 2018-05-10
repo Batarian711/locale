@@ -18,4 +18,6 @@ export const enKN: IEnKn = {
   region: saintKittsAndNevis,
 };
 
+Object.freeze(enKN);
+
 export default enKN;

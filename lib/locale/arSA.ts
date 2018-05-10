@@ -18,4 +18,6 @@ export const arSA: IArSa = {
   region: saudiArabia,
 };
 
+Object.freeze(arSA);
+
 export default arSA;

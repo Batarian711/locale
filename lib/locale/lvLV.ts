@@ -18,4 +18,6 @@ export const lvLV: ILvLv = {
   region: latvia,
 };
 
+Object.freeze(lvLV);
+
 export default lvLV;

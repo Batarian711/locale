@@ -15,4 +15,6 @@ export const he: IHe = {
   language: hebrew,
 };
 
+Object.freeze(he);
+
 export default he;

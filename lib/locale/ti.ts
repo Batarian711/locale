@@ -15,4 +15,6 @@ export const ti: ITi = {
   language: tigrinya,
 };
 
+Object.freeze(ti);
+
 export default ti;

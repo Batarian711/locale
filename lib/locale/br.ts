@@ -15,4 +15,6 @@ export const br: IBr = {
   language: breton,
 };
 
+Object.freeze(br);
+
 export default br;

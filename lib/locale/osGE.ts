@@ -18,4 +18,6 @@ export const osGE: IOsGe = {
   region: georgia,
 };
 
+Object.freeze(osGE);
+
 export default osGE;

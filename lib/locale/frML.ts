@@ -18,4 +18,6 @@ export const frML: IFrMl = {
   region: mali,
 };
 
+Object.freeze(frML);
+
 export default frML;

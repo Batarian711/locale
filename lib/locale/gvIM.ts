@@ -18,4 +18,6 @@ export const gvIM: IGvIm = {
   region: isleOfMan,
 };
 
+Object.freeze(gvIM);
+
 export default gvIM;

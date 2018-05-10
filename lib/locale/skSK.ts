@@ -18,4 +18,6 @@ export const skSK: ISkSk = {
   region: slovakia,
 };
 
+Object.freeze(skSK);
+
 export default skSK;

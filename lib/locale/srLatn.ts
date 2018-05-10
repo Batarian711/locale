@@ -18,4 +18,6 @@ export const srLatn: ISrLatn = {
   script: latin,
 };
 
+Object.freeze(srLatn);
+
 export default srLatn;

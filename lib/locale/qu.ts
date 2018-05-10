@@ -15,4 +15,6 @@ export const qu: IQu = {
   language: quechua,
 };
 
+Object.freeze(qu);
+
 export default qu;

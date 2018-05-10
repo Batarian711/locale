@@ -18,4 +18,6 @@ export const itCH: IItCh = {
   region: switzerland,
 };
 
+Object.freeze(itCH);
+
 export default itCH;

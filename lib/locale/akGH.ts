@@ -18,4 +18,6 @@ export const akGH: IAkGh = {
   region: ghana,
 };
 
+Object.freeze(akGH);
+
 export default akGH;

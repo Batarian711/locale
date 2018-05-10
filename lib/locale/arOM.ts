@@ -18,4 +18,6 @@ export const arOM: IArOm = {
   region: oman,
 };
 
+Object.freeze(arOM);
+
 export default arOM;

@@ -18,4 +18,6 @@ export const ptTL: IPtTl = {
   region: timorLeste,
 };
 
+Object.freeze(ptTL);
+
 export default ptTL;

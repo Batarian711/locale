@@ -18,4 +18,6 @@ export const esSV: IEsSv = {
   region: elSalvador,
 };
 
+Object.freeze(esSV);
+
 export default esSV;

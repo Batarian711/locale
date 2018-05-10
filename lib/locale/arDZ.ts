@@ -18,4 +18,6 @@ export const arDZ: IArDz = {
   region: algeria,
 };
 
+Object.freeze(arDZ);
+
 export default arDZ;

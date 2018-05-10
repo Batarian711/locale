@@ -18,4 +18,6 @@ export const psAF: IPsAf = {
   region: afghanistan,
 };
 
+Object.freeze(psAF);
+
 export default psAF;

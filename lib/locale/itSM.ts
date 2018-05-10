@@ -18,4 +18,6 @@ export const itSM: IItSm = {
   region: sanMarino,
 };
 
+Object.freeze(itSM);
+
 export default itSM;

@@ -15,4 +15,6 @@ export const sq: ISq = {
   language: albanian,
 };
 
+Object.freeze(sq);
+
 export default sq;

@@ -18,4 +18,6 @@ export const frTN: IFrTn = {
   region: tunisia,
 };
 
+Object.freeze(frTN);
+
 export default frTN;

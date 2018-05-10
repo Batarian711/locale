@@ -18,4 +18,6 @@ export const frMR: IFrMr = {
   region: mauritania,
 };
 
+Object.freeze(frMR);
+
 export default frMR;

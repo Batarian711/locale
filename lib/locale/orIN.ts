@@ -18,4 +18,6 @@ export const orIN: IOrIn = {
   region: india,
 };
 
+Object.freeze(orIN);
+
 export default orIN;

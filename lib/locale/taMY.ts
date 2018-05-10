@@ -18,4 +18,6 @@ export const taMY: ITaMy = {
   region: malaysia,
 };
 
+Object.freeze(taMY);
+
 export default taMY;

@@ -18,4 +18,6 @@ export const urIN: IUrIn = {
   region: india,
 };
 
+Object.freeze(urIN);
+
 export default urIN;

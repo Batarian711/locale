@@ -15,4 +15,6 @@ export const fa: IFa = {
   language: persian,
 };
 
+Object.freeze(fa);
+
 export default fa;

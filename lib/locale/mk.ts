@@ -15,4 +15,6 @@ export const mk: IMk = {
   language: macedonian,
 };
 
+Object.freeze(mk);
+
 export default mk;

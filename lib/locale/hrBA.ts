@@ -18,4 +18,6 @@ export const hrBA: IHrBa = {
   region: bosniaAndHerzegovina,
 };
 
+Object.freeze(hrBA);
+
 export default hrBA;

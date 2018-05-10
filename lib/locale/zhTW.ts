@@ -18,4 +18,6 @@ export const zhTW: IZhTw = {
   region: taiwanProvinceOfChina,
 };
 
+Object.freeze(zhTW);
+
 export default zhTW;

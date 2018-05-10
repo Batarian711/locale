@@ -21,4 +21,6 @@ export const uzCyrlUZ: IUzCyrlUz = {
   script: cyrillic,
 };
 
+Object.freeze(uzCyrlUZ);
+
 export default uzCyrlUZ;

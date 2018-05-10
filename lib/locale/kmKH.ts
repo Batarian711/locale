@@ -18,4 +18,6 @@ export const kmKH: IKmKh = {
   region: cambodia,
 };
 
+Object.freeze(kmKH);
+
 export default kmKH;

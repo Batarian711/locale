@@ -21,4 +21,6 @@ export const zhHantHK: IZhHantHk = {
   script: hanTraditional,
 };
 
+Object.freeze(zhHantHK);
+
 export default zhHantHK;

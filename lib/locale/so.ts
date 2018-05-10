@@ -15,4 +15,6 @@ export const so: ISo = {
   language: somali,
 };
 
+Object.freeze(so);
+
 export default so;

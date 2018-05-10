@@ -15,4 +15,6 @@ export const de: IDe = {
   language: german,
 };
 
+Object.freeze(de);
+
 export default de;

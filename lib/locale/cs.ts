@@ -15,4 +15,6 @@ export const cs: ICs = {
   language: czech,
 };
 
+Object.freeze(cs);
+
 export default cs;

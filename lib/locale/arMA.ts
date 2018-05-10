@@ -18,4 +18,6 @@ export const arMA: IArMa = {
   region: morocco,
 };
 
+Object.freeze(arMA);
+
 export default arMA;

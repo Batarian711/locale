@@ -18,4 +18,6 @@ export const lnCD: ILnCd = {
   region: democraticRepublicOfTheCongo,
 };
 
+Object.freeze(lnCD);
+
 export default lnCD;

@@ -18,4 +18,6 @@ export const ksArab: IKsArab = {
   script: arabic,
 };
 
+Object.freeze(ksArab);
+
 export default ksArab;

@@ -18,4 +18,6 @@ export const esCL: IEsCl = {
   region: chile,
 };
 
+Object.freeze(esCL);
+
 export default esCL;

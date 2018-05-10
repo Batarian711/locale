@@ -18,4 +18,6 @@ export const enVG: IEnVg = {
   region: britishVirginIslands,
 };
 
+Object.freeze(enVG);
+
 export default enVG;

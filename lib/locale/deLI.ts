@@ -18,4 +18,6 @@ export const deLI: IDeLi = {
   region: liechtenstein,
 };
 
+Object.freeze(deLI);
+
 export default deLI;

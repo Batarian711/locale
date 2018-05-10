@@ -15,4 +15,6 @@ export const it: IIt = {
   language: italian,
 };
 
+Object.freeze(it);
+
 export default it;

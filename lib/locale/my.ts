@@ -15,4 +15,6 @@ export const my: IMy = {
   language: burmese,
 };
 
+Object.freeze(my);
+
 export default my;

@@ -18,4 +18,6 @@ export const mtMT: IMtMt = {
   region: malta,
 };
 
+Object.freeze(mtMT);
+
 export default mtMT;

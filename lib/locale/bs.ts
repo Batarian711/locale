@@ -15,4 +15,6 @@ export const bs: IBs = {
   language: bosnian,
 };
 
+Object.freeze(bs);
+
 export default bs;

@@ -18,4 +18,6 @@ export const enMH: IEnMh = {
   region: marshallIslands,
 };
 
+Object.freeze(enMH);
+
 export default enMH;

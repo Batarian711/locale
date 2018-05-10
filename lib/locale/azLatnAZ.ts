@@ -21,4 +21,6 @@ export const azLatnAZ: IAzLatnAz = {
   script: latin,
 };
 
+Object.freeze(azLatnAZ);
+
 export default azLatnAZ;

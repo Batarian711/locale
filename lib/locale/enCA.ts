@@ -18,4 +18,6 @@ export const enCA: IEnCa = {
   region: canada,
 };
 
+Object.freeze(enCA);
+
 export default enCA;

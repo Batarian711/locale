@@ -18,4 +18,6 @@ export const enFK: IEnFk = {
   region: falklandIslands,
 };
 
+Object.freeze(enFK);
+
 export default enFK;

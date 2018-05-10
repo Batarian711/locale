@@ -18,4 +18,6 @@ export const enGH: IEnGh = {
   region: ghana,
 };
 
+Object.freeze(enGH);
+
 export default enGH;

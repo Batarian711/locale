@@ -18,4 +18,6 @@ export const ugArab: IUgArab = {
   script: arabic,
 };
 
+Object.freeze(ugArab);
+
 export default ugArab;

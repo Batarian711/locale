@@ -18,4 +18,6 @@ export const soDJ: ISoDj = {
   region: djibouti,
 };
 
+Object.freeze(soDJ);
+
 export default soDJ;

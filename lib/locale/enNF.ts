@@ -18,4 +18,6 @@ export const enNF: IEnNf = {
   region: norfolkIsland,
 };
 
+Object.freeze(enNF);
+
 export default enNF;

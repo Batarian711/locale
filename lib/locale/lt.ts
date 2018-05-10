@@ -15,4 +15,6 @@ export const lt: ILt = {
   language: lithuanian,
 };
 
+Object.freeze(lt);
+
 export default lt;

@@ -18,4 +18,6 @@ export const frCA: IFrCa = {
   region: canada,
 };
 
+Object.freeze(frCA);
+
 export default frCA;

@@ -15,4 +15,6 @@ export const lo: ILo = {
   language: lao,
 };
 
+Object.freeze(lo);
+
 export default lo;

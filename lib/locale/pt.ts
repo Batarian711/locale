@@ -15,4 +15,6 @@ export const pt: IPt = {
   language: portuguese,
 };
 
+Object.freeze(pt);
+
 export default pt;

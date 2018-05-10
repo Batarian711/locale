@@ -18,4 +18,6 @@ export const elGR: IElGr = {
   region: greece,
 };
 
+Object.freeze(elGR);
+
 export default elGR;

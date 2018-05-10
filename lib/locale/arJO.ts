@@ -18,4 +18,6 @@ export const arJO: IArJo = {
   region: jordan,
 };
 
+Object.freeze(arJO);
+
 export default arJO;

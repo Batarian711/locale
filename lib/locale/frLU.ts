@@ -18,4 +18,6 @@ export const frLU: IFrLu = {
   region: luxembourg,
 };
 
+Object.freeze(frLU);
+
 export default frLU;

@@ -18,4 +18,6 @@ export const esPE: IEsPe = {
   region: peru,
 };
 
+Object.freeze(esPE);
+
 export default esPE;

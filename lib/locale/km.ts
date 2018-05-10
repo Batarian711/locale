@@ -15,4 +15,6 @@ export const km: IKm = {
   language: khmer,
 };
 
+Object.freeze(km);
+
 export default km;

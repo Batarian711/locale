@@ -18,4 +18,6 @@ export const kkCyrl: IKkCyrl = {
   script: cyrillic,
 };
 
+Object.freeze(kkCyrl);
+
 export default kkCyrl;

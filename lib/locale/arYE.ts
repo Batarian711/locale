@@ -18,4 +18,6 @@ export const arYE: IArYe = {
   region: yemen,
 };
 
+Object.freeze(arYE);
+
 export default arYE;
