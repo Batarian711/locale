@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { bangladesh, Bangladesh } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { bengali, Bengali } from '@lib/locale/Iso639/Part1';
 

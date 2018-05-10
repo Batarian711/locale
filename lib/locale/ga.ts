@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { irish, Irish } from '@lib/locale/Iso639/Part1';
 
 /**

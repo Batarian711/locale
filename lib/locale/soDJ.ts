@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { djibouti, Djibouti } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { somali, Somali } from '@lib/locale/Iso639/Part1';
 

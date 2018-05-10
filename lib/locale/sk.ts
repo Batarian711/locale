@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { slovak, Slovak } from '@lib/locale/Iso639/Part1';
 
 /**

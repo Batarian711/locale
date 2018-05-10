@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { china, China } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { uyghur, Uyghur } from '@lib/locale/Iso639/Part1';
 import { arabic, Arabic } from '@lib/locale/Script';

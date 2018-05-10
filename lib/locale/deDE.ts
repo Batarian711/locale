@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { germany, Germany } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { german, German } from '@lib/locale/Iso639/Part1';
 

@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { russian, Russian } from '@lib/locale/Iso639/Part1';
 
 /**

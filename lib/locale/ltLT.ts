@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { lithuania, Lithuania } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { lithuanian, Lithuanian } from '@lib/locale/Iso639/Part1';
 

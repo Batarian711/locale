@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { korean, Korean } from '@lib/locale/Iso639/Part1';
 
 /**

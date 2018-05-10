@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { malaysia, Malaysia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { malay, Malay } from '@lib/locale/Iso639/Part1';
 import { latin, Latin } from '@lib/locale/Script';

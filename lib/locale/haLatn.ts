@@ -1,4 +1,4 @@
-import ILocale from '@lib/ILocale';
+import { IImmutable as ILocale } from '@lib/ILocale';
 import { hausa, Hausa } from '@lib/locale/Iso639/Part1';
 import { latin, Latin } from '@lib/locale/Script';
 
