@@ -1,3 +1,12 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/ef-carbon/locale/compare/v2.0.0...v2.1.0) (2018-05-10)
+
+
+### Features
+
+* export mutable and immutable interfaces ([7e89aad](https://github.com/ef-carbon/locale/commit/7e89aad))
+* freeze all locale objects ([4f966a9](https://github.com/ef-carbon/locale/commit/4f966a9))
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/ef-carbon/locale/compare/v1.1.0...v2.0.0) (2018-03-18)
 
