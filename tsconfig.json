@@ -44,7 +44,6 @@
     "hideGenerator": true,
     "excludePrivate": true,
     "logger": "none",
-    "exclude": "**/*.test.ts",
-    "media": "media"
+    "exclude": "**/*.test.ts"
   }
 }
