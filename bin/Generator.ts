@@ -4,7 +4,7 @@ import Output from '@bin/Output';
 /**
  * Writes the provided data to the output location
  * @param output the output location to write to
- * @param
+ * @param data the data to write
  */
 type Generator = (output: Output | number, data: IData) => AsyncIterableIterator<string>;
 
