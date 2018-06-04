@@ -1,5 +1,3 @@
-import { } from 'jest';
-
 import { enGB, enUS } from '@lib';
 
 describe('Locale', () => {
