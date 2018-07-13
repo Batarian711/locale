@@ -74,7 +74,7 @@ export const gurmukhi: Gurmukhi = 'Guru';
  * All possible types for  IETF script tags
  * @see https://en.wikipedia.org/wiki/IETF_language_tag
  */
-type Script = Cyrillic
+export type Script = Cyrillic
   | Latin
   | HanSimplified
   | HanTraditional
