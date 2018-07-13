@@ -8,6 +8,7 @@
   "bin": {
     "ef-locale": "dist/bin/locale"
   },
+  "homepage": "https://ef-carbon.github.io/locale/",
   "repository": "https://github.com/ef-carbon/locale.git",
   "license": "MIT",
   "engines": {
