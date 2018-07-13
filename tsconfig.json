@@ -25,9 +25,7 @@
     },
     "newLine": "LF",
     "lib": [
-      "es2017",
-      "dom",
-      "esnext.asynciterable"
+      "es2017"
     ]
   },
   "include": [
