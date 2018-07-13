@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { fula, Fula } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ff: IFf = {
   language: fula,
 };
 
-Object.freeze(ff);
+freeze(ff);
 
 export default ff;

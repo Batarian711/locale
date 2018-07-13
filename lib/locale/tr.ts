@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { turkish, Turkish } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const tr: ITr = {
   language: turkish,
 };
 
-Object.freeze(tr);
+freeze(tr);
 
 export default tr;

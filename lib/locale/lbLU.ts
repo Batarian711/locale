@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { luxembourg, Luxembourg } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { luxembourgish, Luxembourgish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const lbLU: ILbLu = {
   region: luxembourg,
 };
 
-Object.freeze(lbLU);
+freeze(lbLU);
 
 export default lbLU;

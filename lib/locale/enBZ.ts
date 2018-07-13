@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { belize, Belize } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { english, English } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const enBZ: IEnBz = {
   region: belize,
 };
 
-Object.freeze(enBZ);
+freeze(enBZ);
 
 export default enBZ;

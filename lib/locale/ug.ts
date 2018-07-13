@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { uyghur, Uyghur } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ug: IUg = {
   language: uyghur,
 };
 
-Object.freeze(ug);
+freeze(ug);
 
 export default ug;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { tigrinya, Tigrinya } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ti: ITi = {
   language: tigrinya,
 };
 
-Object.freeze(ti);
+freeze(ti);
 
 export default ti;

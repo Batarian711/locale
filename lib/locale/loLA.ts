@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { laoPeoplesDemocraticRepublic, LaoPeoplesDemocraticRepublic } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { lao, Lao } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const loLA: ILoLa = {
   region: laoPeoplesDemocraticRepublic,
 };
 
-Object.freeze(loLA);
+freeze(loLA);
 
 export default loLA;

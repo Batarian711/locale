@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { nigeria, Nigeria } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { yoruba, Yoruba } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const yoNG: IYoNg = {
   region: nigeria,
 };
 
-Object.freeze(yoNG);
+freeze(yoNG);
 
 export default yoNG;

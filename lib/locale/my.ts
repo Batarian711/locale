@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { burmese, Burmese } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const my: IMy = {
   language: burmese,
 };
 
-Object.freeze(my);
+freeze(my);
 
 export default my;

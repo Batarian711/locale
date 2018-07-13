@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { ewe, Ewe } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ee: IEe = {
   language: ewe,
 };
 
-Object.freeze(ee);
+freeze(ee);
 
 export default ee;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { bruneiDarussalam, BruneiDarussalam } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { malay, Malay } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const msBN: IMsBn = {
   region: bruneiDarussalam,
 };
 
-Object.freeze(msBN);
+freeze(msBN);
 
 export default msBN;

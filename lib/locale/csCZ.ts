@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { czechRepublic, CzechRepublic } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { czech, Czech } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const csCZ: ICsCz = {
   region: czechRepublic,
 };
 
-Object.freeze(csCZ);
+freeze(csCZ);
 
 export default csCZ;

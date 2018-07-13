@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { yiddish, Yiddish } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const yi: IYi = {
   language: yiddish,
 };
 
-Object.freeze(yi);
+freeze(yi);
 
 export default yi;

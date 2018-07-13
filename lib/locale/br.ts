@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { breton, Breton } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const br: IBr = {
   language: breton,
 };
 
-Object.freeze(br);
+freeze(br);
 
 export default br;

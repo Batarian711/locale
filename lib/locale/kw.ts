@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { cornish, Cornish } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const kw: IKw = {
   language: cornish,
 };
 
-Object.freeze(kw);
+freeze(kw);
 
 export default kw;

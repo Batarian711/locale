@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { uzbek, Uzbek } from '@lib/locale/Iso639/Part1';
 import { arabic, Arabic } from '@lib/locale/Script';
@@ -18,6 +19,6 @@ export const uzArab: IUzArab = {
   script: arabic,
 };
 
-Object.freeze(uzArab);
+freeze(uzArab);
 
 export default uzArab;

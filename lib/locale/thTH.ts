@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { thailand, Thailand } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { thai, Thai } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const thTH: IThTh = {
   region: thailand,
 };
 
-Object.freeze(thTH);
+freeze(thTH);
 
 export default thTH;

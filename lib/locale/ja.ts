@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { japanese, Japanese } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ja: IJa = {
   language: japanese,
 };
 
-Object.freeze(ja);
+freeze(ja);
 
 export default ja;

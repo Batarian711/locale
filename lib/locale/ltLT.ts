@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { lithuania, Lithuania } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { lithuanian, Lithuanian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const ltLT: ILtLt = {
   region: lithuania,
 };
 
-Object.freeze(ltLT);
+freeze(ltLT);
 
 export default ltLT;

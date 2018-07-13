@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { tibetanStandard, TibetanStandard } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const bo: IBo = {
   language: tibetanStandard,
 };
 
-Object.freeze(bo);
+freeze(bo);
 
 export default bo;

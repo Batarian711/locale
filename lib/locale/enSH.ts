@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import {
   saintHelenaAscensionAndTristanDaCunha,
@@ -21,6 +22,6 @@ export const enSH: IEnSh = {
   region: saintHelenaAscensionAndTristanDaCunha,
 };
 
-Object.freeze(enSH);
+freeze(enSH);
 
 export default enSH;

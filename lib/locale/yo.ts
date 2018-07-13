@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { yoruba, Yoruba } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const yo: IYo = {
   language: yoruba,
 };
 
-Object.freeze(yo);
+freeze(yo);
 
 export default yo;

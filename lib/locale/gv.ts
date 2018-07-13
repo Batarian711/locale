@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { manx, Manx } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const gv: IGv = {
   language: manx,
 };
 
-Object.freeze(gv);
+freeze(gv);
 
 export default gv;

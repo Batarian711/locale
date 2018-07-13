@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { brazil, Brazil } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { portuguese, Portuguese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const ptBR: IPtBr = {
   region: brazil,
 };
 
-Object.freeze(ptBR);
+freeze(ptBR);
 
 export default ptBR;

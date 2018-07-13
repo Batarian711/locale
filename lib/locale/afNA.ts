@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { namibia, Namibia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { afrikaans, Afrikaans } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const afNA: IAfNa = {
   region: namibia,
 };
 
-Object.freeze(afNA);
+freeze(afNA);
 
 export default afNA;

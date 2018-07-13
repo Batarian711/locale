@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { china, China } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { chinese, Chinese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const zhCN: IZhCn = {
   region: china,
 };
 
-Object.freeze(zhCN);
+freeze(zhCN);
 
 export default zhCN;

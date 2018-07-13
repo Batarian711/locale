@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { vietnamese, Vietnamese } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const vi: IVi = {
   language: vietnamese,
 };
 
-Object.freeze(vi);
+freeze(vi);
 
 export default vi;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { estonian, Estonian } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const et: IEt = {
   language: estonian,
 };
 
-Object.freeze(et);
+freeze(et);
 
 export default et;

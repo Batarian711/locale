@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { tongan, Tongan } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const to: ITo = {
   language: tongan,
 };
 
-Object.freeze(to);
+freeze(to);
 
 export default to;

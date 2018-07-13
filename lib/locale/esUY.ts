@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { uruguay, Uruguay } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { spanish, Spanish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const esUY: IEsUy = {
   region: uruguay,
 };
 
-Object.freeze(esUY);
+freeze(esUY);
 
 export default esUY;

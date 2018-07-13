@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { armenia, Armenia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { armenian, Armenian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const hyAM: IHyAm = {
   region: armenia,
 };
 
-Object.freeze(hyAM);
+freeze(hyAM);
 
 export default hyAM;

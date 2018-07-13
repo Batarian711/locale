@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { portuguese, Portuguese } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const pt: IPt = {
   language: portuguese,
 };
 
-Object.freeze(pt);
+freeze(pt);
 
 export default pt;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { congo, Congo } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { lingala, Lingala } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const lnCG: ILnCg = {
   region: congo,
 };
 
-Object.freeze(lnCG);
+freeze(lnCG);
 
 export default lnCG;

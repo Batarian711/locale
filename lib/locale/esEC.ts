@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { ecuador, Ecuador } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { spanish, Spanish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const esEC: IEsEc = {
   region: ecuador,
 };
 
-Object.freeze(esEC);
+freeze(esEC);
 
 export default esEC;

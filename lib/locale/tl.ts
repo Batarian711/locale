@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { tagalog, Tagalog } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const tl: ITl = {
   language: tagalog,
 };
 
-Object.freeze(tl);
+freeze(tl);
 
 export default tl;

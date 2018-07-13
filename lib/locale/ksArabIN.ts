@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { india, India } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { kashmiri, Kashmiri } from '@lib/locale/Iso639/Part1';
@@ -21,6 +22,6 @@ export const ksArabIN: IKsArabIn = {
   script: arabic,
 };
 
-Object.freeze(ksArabIN);
+freeze(ksArabIN);
 
 export default ksArabIN;

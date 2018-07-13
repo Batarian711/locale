@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { korean, Korean } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ko: IKo = {
   language: korean,
 };
 
-Object.freeze(ko);
+freeze(ko);
 
 export default ko;

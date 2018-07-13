@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { saintVincentAndTheGrenadines, SaintVincentAndTheGrenadines } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { english, English } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const enVC: IEnVc = {
   region: saintVincentAndTheGrenadines,
 };
 
-Object.freeze(enVC);
+freeze(enVC);
 
 export default enVC;

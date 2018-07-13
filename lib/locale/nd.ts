@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { northernNdebele, NorthernNdebele } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const nd: INd = {
   language: northernNdebele,
 };
 
-Object.freeze(nd);
+freeze(nd);
 
 export default nd;

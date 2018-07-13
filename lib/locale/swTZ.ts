@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { tanzaniaUnitedRepublicOf, TanzaniaUnitedRepublicOf } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { swahili, Swahili } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const swTZ: ISwTz = {
   region: tanzaniaUnitedRepublicOf,
 };
 
-Object.freeze(swTZ);
+freeze(swTZ);
 
 export default swTZ;

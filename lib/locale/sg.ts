@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { sango, Sango } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const sg: ISg = {
   language: sango,
 };
 
-Object.freeze(sg);
+freeze(sg);
 
 export default sg;

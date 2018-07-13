@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { caymanIslands, CaymanIslands } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { english, English } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const enKY: IEnKy = {
   region: caymanIslands,
 };
 
-Object.freeze(enKY);
+freeze(enKY);
 
 export default enKY;

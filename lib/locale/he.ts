@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { hebrew, Hebrew } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const he: IHe = {
   language: hebrew,
 };
 
-Object.freeze(he);
+freeze(he);
 
 export default he;

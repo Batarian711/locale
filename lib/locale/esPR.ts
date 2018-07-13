@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { puertoRico, PuertoRico } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { spanish, Spanish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const esPR: IEsPr = {
   region: puertoRico,
 };
 
-Object.freeze(esPR);
+freeze(esPR);
 
 export default esPR;

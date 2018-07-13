@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { afrikaans, Afrikaans } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const af: IAf = {
   language: afrikaans,
 };
 
-Object.freeze(af);
+freeze(af);
 
 export default af;

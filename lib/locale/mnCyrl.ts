@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { mongolian, Mongolian } from '@lib/locale/Iso639/Part1';
 import { cyrillic, Cyrillic } from '@lib/locale/Script';
@@ -18,6 +19,6 @@ export const mnCyrl: IMnCyrl = {
   script: cyrillic,
 };
 
-Object.freeze(mnCyrl);
+freeze(mnCyrl);
 
 export default mnCyrl;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { akan, Akan } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ak: IAk = {
   language: akan,
 };
 
-Object.freeze(ak);
+freeze(ak);
 
 export default ak;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { austria, Austria } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { german, German } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const deAT: IDeAt = {
   region: austria,
 };
 
-Object.freeze(deAT);
+freeze(deAT);
 
 export default deAT;

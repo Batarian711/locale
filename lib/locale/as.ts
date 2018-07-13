@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { assamese, Assamese } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const as: IAs = {
   language: assamese,
 };
 
-Object.freeze(as);
+freeze(as);
 
 export default as;

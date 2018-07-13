@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { slovene, Slovene } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const sl: ISl = {
   language: slovene,
 };
 
-Object.freeze(sl);
+freeze(sl);
 
 export default sl;

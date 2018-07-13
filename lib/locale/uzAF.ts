@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { afghanistan, Afghanistan } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { uzbek, Uzbek } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const uzAF: IUzAf = {
   region: afghanistan,
 };
 
-Object.freeze(uzAF);
+freeze(uzAF);
 
 export default uzAF;

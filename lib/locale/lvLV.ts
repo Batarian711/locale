@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { latvia, Latvia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { latvian, Latvian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const lvLV: ILvLv = {
   region: latvia,
 };
 
-Object.freeze(lvLV);
+freeze(lvLV);
 
 export default lvLV;

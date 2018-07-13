@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { urdu, Urdu } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ur: IUr = {
   language: urdu,
 };
 
-Object.freeze(ur);
+freeze(ur);
 
 export default ur;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { egypt, Egypt } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { arabic, Arabic } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const arEG: IArEg = {
   region: egypt,
 };
 
-Object.freeze(arEG);
+freeze(arEG);
 
 export default arEG;

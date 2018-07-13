@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { andorra, Andorra } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { catalan, Catalan } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const caAD: ICaAd = {
   region: andorra,
 };
 
-Object.freeze(caAD);
+freeze(caAD);
 
 export default caAD;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { ganda, Ganda } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const lg: ILg = {
   language: ganda,
 };
 
-Object.freeze(lg);
+freeze(lg);
 
 export default lg;

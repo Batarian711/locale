@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { lubaKatanga, LubaKatanga } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const lu: ILu = {
   language: lubaKatanga,
 };
 
-Object.freeze(lu);
+freeze(lu);
 
 export default lu;

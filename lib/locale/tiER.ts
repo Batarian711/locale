@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { eritrea, Eritrea } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { tigrinya, Tigrinya } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const tiER: ITiEr = {
   region: eritrea,
 };
 
-Object.freeze(tiER);
+freeze(tiER);
 
 export default tiER;

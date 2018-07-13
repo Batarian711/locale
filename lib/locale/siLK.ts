@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { sriLanka, SriLanka } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { sinhalese, Sinhalese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const siLK: ISiLk = {
   region: sriLanka,
 };
 
-Object.freeze(siLK);
+freeze(siLK);
 
 export default siLK;

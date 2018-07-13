@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { norway, Norway } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { norwegian, Norwegian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const noNO: INoNo = {
   region: norway,
 };
 
-Object.freeze(noNO);
+freeze(noNO);
 
 export default noNO;

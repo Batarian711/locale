@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { cambodia, Cambodia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { khmer, Khmer } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const kmKH: IKmKh = {
   region: cambodia,
 };
 
-Object.freeze(kmKH);
+freeze(kmKH);
 
 export default kmKH;

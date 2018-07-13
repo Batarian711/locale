@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { vietNam, VietNam } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { vietnamese, Vietnamese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const viVN: IViVn = {
   region: vietNam,
 };
 
-Object.freeze(viVN);
+freeze(viVN);
 
 export default viVN;

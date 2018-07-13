@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { danish, Danish } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const da: IDa = {
   language: danish,
 };
 
-Object.freeze(da);
+freeze(da);
 
 export default da;

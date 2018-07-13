@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { azerbaijani, Azerbaijani } from '@lib/locale/Iso639/Part1';
 import { cyrillic, Cyrillic } from '@lib/locale/Script';
@@ -18,6 +19,6 @@ export const azCyrl: IAzCyrl = {
   script: cyrillic,
 };
 
-Object.freeze(azCyrl);
+freeze(azCyrl);
 
 export default azCyrl;

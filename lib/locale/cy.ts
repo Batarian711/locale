@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { welsh, Welsh } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const cy: ICy = {
   language: welsh,
 };
 
-Object.freeze(cy);
+freeze(cy);
 
 export default cy;

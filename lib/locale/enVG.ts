@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { britishVirginIslands, BritishVirginIslands } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { english, English } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const enVG: IEnVg = {
   region: britishVirginIslands,
 };
 
-Object.freeze(enVG);
+freeze(enVG);
 
 export default enVG;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { macedonian, Macedonian } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const mk: IMk = {
   language: macedonian,
 };
 
-Object.freeze(mk);
+freeze(mk);
 
 export default mk;

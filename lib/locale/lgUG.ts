@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { uganda, Uganda } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { ganda, Ganda } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const lgUG: ILgUg = {
   region: uganda,
 };
 
-Object.freeze(lgUG);
+freeze(lgUG);
 
 export default lgUG;

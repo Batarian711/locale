@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { southAfrica, SouthAfrica } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { zulu, Zulu } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const zuZA: IZuZa = {
   region: southAfrica,
 };
 
-Object.freeze(zuZA);
+freeze(zuZA);
 
 export default zuZA;

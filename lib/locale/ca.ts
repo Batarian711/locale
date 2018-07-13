@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { catalan, Catalan } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ca: ICa = {
   language: catalan,
 };
 
-Object.freeze(ca);
+freeze(ca);
 
 export default ca;

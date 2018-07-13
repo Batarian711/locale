@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { oriya, Oriya } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const or: IOr = {
   language: oriya,
 };
 
-Object.freeze(or);
+freeze(or);
 
 export default or;

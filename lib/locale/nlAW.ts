@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { aruba, Aruba } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { dutch, Dutch } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const nlAW: INlAw = {
   region: aruba,
 };
 
-Object.freeze(nlAW);
+freeze(nlAW);
 
 export default nlAW;

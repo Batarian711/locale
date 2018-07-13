@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { german, German } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const de: IDe = {
   language: german,
 };
 
-Object.freeze(de);
+freeze(de);
 
 export default de;

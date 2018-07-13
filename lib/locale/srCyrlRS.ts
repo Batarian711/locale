@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { serbia, Serbia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { serbian, Serbian } from '@lib/locale/Iso639/Part1';
@@ -21,6 +22,6 @@ export const srCyrlRS: ISrCyrlRs = {
   script: cyrillic,
 };
 
-Object.freeze(srCyrlRS);
+freeze(srCyrlRS);
 
 export default srCyrlRS;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { belarus, Belarus } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { russian, Russian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const ruBY: IRuBy = {
   region: belarus,
 };
 
-Object.freeze(ruBY);
+freeze(ruBY);
 
 export default ruBY;

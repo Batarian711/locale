@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { zulu, Zulu } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const zu: IZu = {
   language: zulu,
 };
 
-Object.freeze(zu);
+freeze(zu);
 
 export default zu;

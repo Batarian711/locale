@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { arabic, Arabic } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ar: IAr = {
   language: arabic,
 };
 
-Object.freeze(ar);
+freeze(ar);
 
 export default ar;

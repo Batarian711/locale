@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { ukrainian, Ukrainian } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const uk: IUk = {
   language: ukrainian,
 };
 
-Object.freeze(uk);
+freeze(uk);
 
 export default uk;

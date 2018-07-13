@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { rwanda, Rwanda } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { kinyarwanda, Kinyarwanda } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const rwRW: IRwRw = {
   region: rwanda,
 };
 
-Object.freeze(rwRW);
+freeze(rwRW);
 
 export default rwRW;

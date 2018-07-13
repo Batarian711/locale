@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { ethiopia, Ethiopia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { tigrinya, Tigrinya } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const tiET: ITiEt = {
   region: ethiopia,
 };
 
-Object.freeze(tiET);
+freeze(tiET);
 
 export default tiET;

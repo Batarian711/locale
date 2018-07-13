@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { faroese, Faroese } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const fo: IFo = {
   language: faroese,
 };
 
-Object.freeze(fo);
+freeze(fo);
 
 export default fo;

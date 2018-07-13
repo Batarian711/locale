@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { myanmar, Myanmar } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { burmese, Burmese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const myMM: IMyMm = {
   region: myanmar,
 };
 
-Object.freeze(myMM);
+freeze(myMM);
 
 export default myMM;

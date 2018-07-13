@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { nigeria, Nigeria } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { igbo, Igbo } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const igNG: IIgNg = {
   region: nigeria,
 };
 
-Object.freeze(igNG);
+freeze(igNG);
 
 export default igNG;

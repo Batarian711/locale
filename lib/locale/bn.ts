@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { bengali, Bengali } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const bn: IBn = {
   language: bengali,
 };
 
-Object.freeze(bn);
+freeze(bn);
 
 export default bn;

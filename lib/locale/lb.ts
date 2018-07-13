@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { luxembourgish, Luxembourgish } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const lb: ILb = {
   language: luxembourgish,
 };
 
-Object.freeze(lb);
+freeze(lb);
 
 export default lb;

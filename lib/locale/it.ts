@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { italian, Italian } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const it: IIt = {
   language: italian,
 };
 
-Object.freeze(it);
+freeze(it);
 
 export default it;

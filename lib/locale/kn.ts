@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { kannada, Kannada } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const kn: IKn = {
   language: kannada,
 };
 
-Object.freeze(kn);
+freeze(kn);
 
 export default kn;

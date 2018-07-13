@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { malay, Malay } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ms: IMs = {
   language: malay,
 };
 
-Object.freeze(ms);
+freeze(ms);
 
 export default ms;

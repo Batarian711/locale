@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { ethiopia, Ethiopia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { amharic, Amharic } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const amET: IAmEt = {
   region: ethiopia,
 };
 
-Object.freeze(amET);
+freeze(amET);
 
 export default amET;

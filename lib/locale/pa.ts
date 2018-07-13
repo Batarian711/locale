@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { punjabi, Punjabi } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const pa: IPa = {
   language: punjabi,
 };
 
-Object.freeze(pa);
+freeze(pa);
 
 export default pa;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { marathi, Marathi } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const mr: IMr = {
   language: marathi,
 };
 
-Object.freeze(mr);
+freeze(mr);
 
 export default mr;

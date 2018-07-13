@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { india, India } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { tamil, Tamil } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const taIN: ITaIn = {
   region: india,
 };
 
-Object.freeze(taIN);
+freeze(taIN);
 
 export default taIN;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { mali, Mali } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { bambara, Bambara } from '@lib/locale/Iso639/Part1';
@@ -21,6 +22,6 @@ export const bmLatnML: IBmLatnMl = {
   script: latin,
 };
 
-Object.freeze(bmLatnML);
+freeze(bmLatnML);
 
 export default bmLatnML;

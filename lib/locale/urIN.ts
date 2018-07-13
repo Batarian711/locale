@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { india, India } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { urdu, Urdu } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const urIN: IUrIn = {
   region: india,
 };
 
-Object.freeze(urIN);
+freeze(urIN);
 
 export default urIN;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { malta, Malta } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { maltese, Maltese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const mtMT: IMtMt = {
   region: malta,
 };
 
-Object.freeze(mtMT);
+freeze(mtMT);
 
 export default mtMT;

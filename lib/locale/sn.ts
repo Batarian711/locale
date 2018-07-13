@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { shona, Shona } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const sn: ISn = {
   language: shona,
 };
 
-Object.freeze(sn);
+freeze(sn);
 
 export default sn;

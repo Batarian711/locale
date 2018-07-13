@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { democraticPeoplesRepublicOfKorea, DemocraticPeoplesRepublicOfKorea } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { korean, Korean } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const koKP: IKoKp = {
   region: democraticPeoplesRepublicOfKorea,
 };
 
-Object.freeze(koKP);
+freeze(koKP);
 
 export default koKP;

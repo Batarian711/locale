@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { norwegianBokmal, NorwegianBokmal } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const nb: INb = {
   language: norwegianBokmal,
 };
 
-Object.freeze(nb);
+freeze(nb);
 
 export default nb;

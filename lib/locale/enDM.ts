@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { dominica, Dominica } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { english, English } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const enDM: IEnDm = {
   region: dominica,
 };
 
-Object.freeze(enDM);
+freeze(enDM);
 
 export default enDM;

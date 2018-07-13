@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { irish, Irish } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ga: IGa = {
   language: irish,
 };
 
-Object.freeze(ga);
+freeze(ga);
 
 export default ga;

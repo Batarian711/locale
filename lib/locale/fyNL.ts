@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { netherlands, Netherlands } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { westernFrisian, WesternFrisian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const fyNL: IFyNl = {
   region: netherlands,
 };
 
-Object.freeze(fyNL);
+freeze(fyNL);
 
 export default fyNL;

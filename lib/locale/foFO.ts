@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { faroeIslands, FaroeIslands } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { faroese, Faroese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const foFO: IFoFo = {
   region: faroeIslands,
 };
 
-Object.freeze(foFO);
+freeze(foFO);
 
 export default foFO;

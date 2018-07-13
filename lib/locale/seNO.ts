@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { norway, Norway } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { northernSami, NorthernSami } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const seNO: ISeNo = {
   region: norway,
 };
 
-Object.freeze(seNO);
+freeze(seNO);
 
 export default seNO;

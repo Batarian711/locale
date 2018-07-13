@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { pakistan, Pakistan } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { punjabi, Punjabi } from '@lib/locale/Iso639/Part1';
@@ -21,6 +22,6 @@ export const paArabPK: IPaArabPk = {
   script: arabic,
 };
 
-Object.freeze(paArabPK);
+freeze(paArabPK);
 
 export default paArabPK;

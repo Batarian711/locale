@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { dutch, Dutch } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const nl: INl = {
   language: dutch,
 };
 
-Object.freeze(nl);
+freeze(nl);
 
 export default nl;

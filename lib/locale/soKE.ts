@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { kenya, Kenya } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { somali, Somali } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const soKE: ISoKe = {
   region: kenya,
 };
 
-Object.freeze(soKE);
+freeze(soKE);
 
 export default soKE;

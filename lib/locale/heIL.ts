@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { israel, Israel } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { hebrew, Hebrew } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const heIL: IHeIl = {
   region: israel,
 };
 
-Object.freeze(heIL);
+freeze(heIL);
 
 export default heIL;

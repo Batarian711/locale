@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { svalbardAndJanMayen, SvalbardAndJanMayen } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { norwegianBokmal, NorwegianBokmal } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const nbSJ: INbSj = {
   region: svalbardAndJanMayen,
 };
 
-Object.freeze(nbSJ);
+freeze(nbSJ);
 
 export default nbSJ;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { quechua, Quechua } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const qu: IQu = {
   language: quechua,
 };
 
-Object.freeze(qu);
+freeze(qu);
 
 export default qu;

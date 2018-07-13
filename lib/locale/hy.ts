@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { armenian, Armenian } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const hy: IHy = {
   language: armenian,
 };
 
-Object.freeze(hy);
+freeze(hy);
 
 export default hy;

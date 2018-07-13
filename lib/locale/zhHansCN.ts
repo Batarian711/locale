@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { china, China } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { chinese, Chinese } from '@lib/locale/Iso639/Part1';
@@ -21,6 +22,6 @@ export const zhHansCN: IZhHansCn = {
   script: hanSimplified,
 };
 
-Object.freeze(zhHansCN);
+freeze(zhHansCN);
 
 export default zhHansCN;

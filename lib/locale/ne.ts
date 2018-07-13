@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { nepali, Nepali } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ne: INe = {
   language: nepali,
 };
 
-Object.freeze(ne);
+freeze(ne);
 
 export default ne;

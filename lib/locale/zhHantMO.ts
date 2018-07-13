@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { macao, Macao } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { chinese, Chinese } from '@lib/locale/Iso639/Part1';
@@ -21,6 +22,6 @@ export const zhHantMO: IZhHantMo = {
   script: hanTraditional,
 };
 
-Object.freeze(zhHantMO);
+freeze(zhHantMO);
 
 export default zhHantMO;

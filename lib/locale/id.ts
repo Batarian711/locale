@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { indonesian, Indonesian } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const id: IId = {
   language: indonesian,
 };
 
-Object.freeze(id);
+freeze(id);
 
 export default id;

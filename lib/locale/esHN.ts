@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { honduras, Honduras } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { spanish, Spanish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const esHN: IEsHn = {
   region: honduras,
 };
 
-Object.freeze(esHN);
+freeze(esHN);
 
 export default esHN;

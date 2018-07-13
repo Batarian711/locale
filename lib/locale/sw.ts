@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { swahili, Swahili } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const sw: ISw = {
   language: swahili,
 };
 
-Object.freeze(sw);
+freeze(sw);
 
 export default sw;

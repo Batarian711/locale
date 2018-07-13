@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { sweden, Sweden } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { swedish, Swedish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const svSE: ISvSe = {
   region: sweden,
 };
 
-Object.freeze(svSE);
+freeze(svSE);
 
 export default svSE;

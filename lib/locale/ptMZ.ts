@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { mozambique, Mozambique } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { portuguese, Portuguese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const ptMZ: IPtMz = {
   region: mozambique,
 };
 
-Object.freeze(ptMZ);
+freeze(ptMZ);
 
 export default ptMZ;

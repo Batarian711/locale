@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { finland, Finland } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { finnish, Finnish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const fiFI: IFiFi = {
   region: finland,
 };
 
-Object.freeze(fiFI);
+freeze(fiFI);
 
 export default fiFI;

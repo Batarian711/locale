@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { angola, Angola } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { portuguese, Portuguese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const ptAO: IPtAo = {
   region: angola,
 };
 
-Object.freeze(ptAO);
+freeze(ptAO);
 
 export default ptAO;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { thai, Thai } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const th: ITh = {
   language: thai,
 };
 
-Object.freeze(th);
+freeze(th);
 
 export default th;

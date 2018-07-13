@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { greenland, Greenland } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { danish, Danish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const daGL: IDaGl = {
   region: greenland,
 };
 
-Object.freeze(daGL);
+freeze(daGL);
 
 export default daGL;

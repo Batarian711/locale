@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { kyrgyz, Kyrgyz } from '@lib/locale/Iso639/Part1';
 import { cyrillic, Cyrillic } from '@lib/locale/Script';
@@ -18,6 +19,6 @@ export const kyCyrl: IKyCyrl = {
   script: cyrillic,
 };
 
-Object.freeze(kyCyrl);
+freeze(kyCyrl);
 
 export default kyCyrl;

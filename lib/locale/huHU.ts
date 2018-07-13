@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { hungary, Hungary } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { hungarian, Hungarian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const huHU: IHuHu = {
   region: hungary,
 };
 
-Object.freeze(huHU);
+freeze(huHU);
 
 export default huHU;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { iran, Iran } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { persian, Persian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const faIR: IFaIr = {
   region: iran,
 };
 
-Object.freeze(faIR);
+freeze(faIR);
 
 export default faIR;

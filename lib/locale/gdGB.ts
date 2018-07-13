@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import {
   unitedKingdomOfGreatBritainAndNorthernIreland,
@@ -23,6 +24,6 @@ export const gdGB: IGdGb = {
   region: unitedKingdomOfGreatBritainAndNorthernIreland,
 };
 
-Object.freeze(gdGB);
+freeze(gdGB);
 
 export default gdGB;

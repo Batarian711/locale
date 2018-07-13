@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { croatia, Croatia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { croatian, Croatian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const hrHR: IHrHr = {
   region: croatia,
 };
 
-Object.freeze(hrHR);
+freeze(hrHR);
 
 export default hrHR;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { malaysia, Malaysia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { tamil, Tamil } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const taMY: ITaMy = {
   region: malaysia,
 };
 
-Object.freeze(taMY);
+freeze(taMY);
 
 export default taMY;

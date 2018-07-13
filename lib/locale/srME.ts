@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { montenegro, Montenegro } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { serbian, Serbian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const srME: ISrMe = {
   region: montenegro,
 };
 
-Object.freeze(srME);
+freeze(srME);
 
 export default srME;

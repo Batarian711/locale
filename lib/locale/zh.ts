@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { chinese, Chinese } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const zh: IZh = {
   language: chinese,
 };
 
-Object.freeze(zh);
+freeze(zh);
 
 export default zh;

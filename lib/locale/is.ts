@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { icelandic, Icelandic } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const is: IIs = {
   language: icelandic,
 };
 
-Object.freeze(is);
+freeze(is);
 
 export default is;

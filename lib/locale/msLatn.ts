@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { malay, Malay } from '@lib/locale/Iso639/Part1';
 import { latin, Latin } from '@lib/locale/Script';
@@ -18,6 +19,6 @@ export const msLatn: IMsLatn = {
   script: latin,
 };
 
-Object.freeze(msLatn);
+freeze(msLatn);
 
 export default msLatn;

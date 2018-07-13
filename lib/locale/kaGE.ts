@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { georgia, Georgia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { georgian, Georgian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const kaGE: IKaGe = {
   region: georgia,
 };
 
-Object.freeze(kaGE);
+freeze(kaGE);
 
 export default kaGE;

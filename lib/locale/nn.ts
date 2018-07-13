@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { norwegianNynorsk, NorwegianNynorsk } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const nn: INn = {
   language: norwegianNynorsk,
 };
 
-Object.freeze(nn);
+freeze(nn);
 
 export default nn;

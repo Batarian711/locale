@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { lao, Lao } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const lo: ILo = {
   language: lao,
 };
 
-Object.freeze(lo);
+freeze(lo);
 
 export default lo;

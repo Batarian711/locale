@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { kuwait, Kuwait } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { arabic, Arabic } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const arKW: IArKw = {
   region: kuwait,
 };
 
-Object.freeze(arKW);
+freeze(arKW);
 
 export default arKW;

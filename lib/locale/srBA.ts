@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { bosniaAndHerzegovina, BosniaAndHerzegovina } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { serbian, Serbian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const srBA: ISrBa = {
   region: bosniaAndHerzegovina,
 };
 
-Object.freeze(srBA);
+freeze(srBA);
 
 export default srBA;

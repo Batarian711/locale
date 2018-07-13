@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { southSudan, SouthSudan } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { arabic, Arabic } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const arSS: IArSs = {
   region: southSudan,
 };
 
-Object.freeze(arSS);
+freeze(arSS);
 
 export default arSS;

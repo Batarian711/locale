@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { slovenia, Slovenia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { slovene, Slovene } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const slSI: ISlSi = {
   region: slovenia,
 };
 
-Object.freeze(slSI);
+freeze(slSI);
 
 export default slSI;

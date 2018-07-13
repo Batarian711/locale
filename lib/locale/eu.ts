@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { basque, Basque } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const eu: IEu = {
   language: basque,
 };
 
-Object.freeze(eu);
+freeze(eu);
 
 export default eu;

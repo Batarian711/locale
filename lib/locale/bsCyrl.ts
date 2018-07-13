@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { bosnian, Bosnian } from '@lib/locale/Iso639/Part1';
 import { cyrillic, Cyrillic } from '@lib/locale/Script';
@@ -18,6 +19,6 @@ export const bsCyrl: IBsCyrl = {
   script: cyrillic,
 };
 
-Object.freeze(bsCyrl);
+freeze(bsCyrl);
 
 export default bsCyrl;

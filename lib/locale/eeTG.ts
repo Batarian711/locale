@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { togo, Togo } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { ewe, Ewe } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const eeTG: IEeTg = {
   region: togo,
 };
 
-Object.freeze(eeTG);
+freeze(eeTG);
 
 export default eeTG;

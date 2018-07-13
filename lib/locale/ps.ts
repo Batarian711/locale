@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { pashto, Pashto } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ps: IPs = {
   language: pashto,
 };
 
-Object.freeze(ps);
+freeze(ps);
 
 export default ps;

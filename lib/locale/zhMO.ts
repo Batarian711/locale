@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { macao, Macao } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { chinese, Chinese } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const zhMO: IZhMo = {
   region: macao,
 };
 
-Object.freeze(zhMO);
+freeze(zhMO);
 
 export default zhMO;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { kyrgyzstan, Kyrgyzstan } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { kyrgyz, Kyrgyz } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const kyKG: IKyKg = {
   region: kyrgyzstan,
 };
 
-Object.freeze(kyKG);
+freeze(kyKG);
 
 export default kyKG;

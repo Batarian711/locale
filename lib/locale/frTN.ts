@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { tunisia, Tunisia } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { french, French } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const frTN: IFrTn = {
   region: tunisia,
 };
 
-Object.freeze(frTN);
+freeze(frTN);
 
 export default frTN;

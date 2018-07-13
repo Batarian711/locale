@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { hindi, Hindi } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const hi: IHi = {
   language: hindi,
 };
 
-Object.freeze(hi);
+freeze(hi);
 
 export default hi;

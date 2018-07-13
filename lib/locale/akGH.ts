@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { ghana, Ghana } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { akan, Akan } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const akGH: IAkGh = {
   region: ghana,
 };
 
-Object.freeze(akGH);
+freeze(akGH);
 
 export default akGH;

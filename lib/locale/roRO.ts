@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { romania, Romania } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { romanian, Romanian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const roRO: IRoRo = {
   region: romania,
 };
 
-Object.freeze(roRO);
+freeze(roRO);
 
 export default roRO;

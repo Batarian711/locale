@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { tonga, Tonga } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { tongan, Tongan } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const toTO: IToTo = {
   region: tonga,
 };
 
-Object.freeze(toTO);
+freeze(toTO);
 
 export default toTO;

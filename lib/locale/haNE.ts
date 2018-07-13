@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { niger, Niger } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { hausa, Hausa } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const haNE: IHaNe = {
   region: niger,
 };
 
-Object.freeze(haNE);
+freeze(haNE);
 
 export default haNE;

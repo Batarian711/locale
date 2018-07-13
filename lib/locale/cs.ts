@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { czech, Czech } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const cs: ICs = {
   language: czech,
 };
 
-Object.freeze(cs);
+freeze(cs);
 
 export default cs;

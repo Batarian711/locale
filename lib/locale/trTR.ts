@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { turkey, Turkey } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { turkish, Turkish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const trTR: ITrTr = {
   region: turkey,
 };
 
-Object.freeze(trTR);
+freeze(trTR);
 
 export default trTR;

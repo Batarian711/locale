@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { india, India } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { punjabi, Punjabi } from '@lib/locale/Iso639/Part1';
@@ -21,6 +22,6 @@ export const paGuruIN: IPaGuruIn = {
   script: gurmukhi,
 };
 
-Object.freeze(paGuruIN);
+freeze(paGuruIN);
 
 export default paGuruIN;

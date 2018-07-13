@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { christmasIsland, ChristmasIsland } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { english, English } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const enCX: IEnCx = {
   region: christmasIsland,
 };
 
-Object.freeze(enCX);
+freeze(enCX);
 
 export default enCX;

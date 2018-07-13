@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { afghanistan, Afghanistan } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { pashto, Pashto } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const psAF: IPsAf = {
   region: afghanistan,
 };
 
-Object.freeze(psAF);
+freeze(psAF);
 
 export default psAF;

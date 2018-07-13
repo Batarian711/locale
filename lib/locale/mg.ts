@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { malagasy, Malagasy } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const mg: IMg = {
   language: malagasy,
 };
 
-Object.freeze(mg);
+freeze(mg);
 
 export default mg;

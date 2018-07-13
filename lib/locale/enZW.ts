@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { zimbabwe, Zimbabwe } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { english, English } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const enZW: IEnZw = {
   region: zimbabwe,
 };
 
-Object.freeze(enZW);
+freeze(enZW);
 
 export default enZW;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { igbo, Igbo } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ig: IIg = {
   language: igbo,
 };
 
-Object.freeze(ig);
+freeze(ig);
 
 export default ig;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { albania, Albania } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { albanian, Albanian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const sqAL: ISqAl = {
   region: albania,
 };
 
-Object.freeze(sqAL);
+freeze(sqAL);
 
 export default sqAL;

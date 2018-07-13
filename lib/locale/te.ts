@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { telugu, Telugu } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const te: ITe = {
   language: telugu,
 };
 
-Object.freeze(te);
+freeze(te);
 
 export default te;

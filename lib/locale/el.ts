@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { greek, Greek } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const el: IEl = {
   language: greek,
 };
 
-Object.freeze(el);
+freeze(el);
 
 export default el;

@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { ecuador, Ecuador } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { quechua, Quechua } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const quEC: IQuEc = {
   region: ecuador,
 };
 
-Object.freeze(quEC);
+freeze(quEC);
 
 export default quEC;

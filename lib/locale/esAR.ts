@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { argentina, Argentina } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { spanish, Spanish } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const esAR: IEsAr = {
   region: argentina,
 };
 
-Object.freeze(esAR);
+freeze(esAR);
 
 export default esAR;

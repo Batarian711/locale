@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { lingala, Lingala } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ln: ILn = {
   language: lingala,
 };
 
-Object.freeze(ln);
+freeze(ln);
 
 export default ln;

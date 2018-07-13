@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { nepal, Nepal } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { nepali, Nepali } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const neNP: INeNp = {
   region: nepal,
 };
 
-Object.freeze(neNP);
+freeze(neNP);
 
 export default neNP;

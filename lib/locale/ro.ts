@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { romanian, Romanian } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const ro: IRo = {
   language: romanian,
 };
 
-Object.freeze(ro);
+freeze(ro);
 
 export default ro;

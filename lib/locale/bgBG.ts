@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { bulgaria, Bulgaria } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { bulgarian, Bulgarian } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const bgBG: IBgBg = {
   region: bulgaria,
 };
 
-Object.freeze(bgBG);
+freeze(bgBG);
 
 export default bgBG;

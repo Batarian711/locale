@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { mongolian, Mongolian } from '@lib/locale/Iso639/Part1';
 
@@ -15,6 +16,6 @@ export const mn: IMn = {
   language: mongolian,
 };
 
-Object.freeze(mn);
+freeze(mn);
 
 export default mn;

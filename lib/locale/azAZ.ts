@@ -1,3 +1,4 @@
+import { freeze } from '@lib/freeze';
 import { IImmutable as ILocale } from '@lib/ILocale';
 import { azerbaijan, Azerbaijan } from '@lib/locale/Iso3166/Part1/Alpha2';
 import { azerbaijani, Azerbaijani } from '@lib/locale/Iso639/Part1';
@@ -18,6 +19,6 @@ export const azAZ: IAzAz = {
   region: azerbaijan,
 };
 
-Object.freeze(azAZ);
+freeze(azAZ);
 
 export default azAZ;
