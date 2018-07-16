@@ -1,6 +1,10 @@
-import ExtendableError from 'extendable-error';
-
-// tslint:disable-next-line:no-empty-interface
 export interface IOptions { }
 
-export default abstract class LocaleError extends ExtendableError { }
+export abstract class LocaleError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'LocaleError';
+  }
+}
+
+export default LocaleError;

@@ -61,7 +61,6 @@
   "dependencies": {
     "clime": "^0.5.9",
     "diacritics": "^1.3.0",
-    "extendable-error": "^0.1.5",
     "node-fetch": "^2.1.2",
     "word-wrap": "^1.2.3"
   },

@@ -20,7 +20,6 @@ export default {
     'util',
     'node-fetch',
     'diacritics',
-    'extendable-error',
     'typescript',
     'word-wrap'
   ],

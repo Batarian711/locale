@@ -8,7 +8,4 @@ export default {
     sourcemap: true
   },
   context: 'global',
-  external: [
-    'extendable-error'
-  ]
 };
