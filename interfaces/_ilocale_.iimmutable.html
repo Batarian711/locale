@@ -1,0 +1,1970 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IImmutable | EF Locale</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">EF Locale</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/_ilocale_.html">&quot;ILocale&quot;</a>
+				</li>
+				<li>
+					<a href="_ilocale_.iimmutable.html">IImmutable</a>
+				</li>
+			</ul>
+			<h1>Interface IImmutable&lt;L, R, S&gt;</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>The interface for representing a locale. It consists of three parts; <code>language</code>, <code>region</code> and <code>script</code>. The
+							language, by default, is an ISO639-1 two letter string. The region, by default, is an ISO3166-1 two letter
+							string. The script is one of the valid script types available in this library. The <code>region</code> and <code>script</code> are
+						optional.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>see</dt>
+						<dd><p><a href="../modules/_locale_iso639_index_.html#iso639">Iso639</a></p>
+						</dd>
+						<dt>see</dt>
+						<dd><p><a href="../modules/_locale_iso3166_index_.html#iso3166">Iso3166</a></p>
+						</dd>
+						<dt>see</dt>
+						<dd><p><a href="../modules/_locale_script_.html#script">Script</a></p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-type-parameters">
+				<h3>Type parameters</h3>
+				<ul class="tsd-type-parameters">
+					<li>
+						<h4>L</h4>
+					</li>
+					<li>
+						<h4>R</h4>
+					</li>
+					<li>
+						<h4>S</h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">IImmutable</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<a href="_ilocale_.imutable.html" class="tsd-signature-type">IMutable</a>
+							</li>
+							<li>
+								<a href="_locale_af_.iaf.html" class="tsd-signature-type">IAf</a>
+							</li>
+							<li>
+								<a href="_locale_afna_.iafna.html" class="tsd-signature-type">IAfNa</a>
+							</li>
+							<li>
+								<a href="_locale_afza_.iafza.html" class="tsd-signature-type">IAfZa</a>
+							</li>
+							<li>
+								<a href="_locale_ak_.iak.html" class="tsd-signature-type">IAk</a>
+							</li>
+							<li>
+								<a href="_locale_akgh_.iakgh.html" class="tsd-signature-type">IAkGh</a>
+							</li>
+							<li>
+								<a href="_locale_sq_.isq.html" class="tsd-signature-type">ISq</a>
+							</li>
+							<li>
+								<a href="_locale_sqal_.isqal.html" class="tsd-signature-type">ISqAl</a>
+							</li>
+							<li>
+								<a href="_locale_sqmk_.isqmk.html" class="tsd-signature-type">ISqMk</a>
+							</li>
+							<li>
+								<a href="_locale_am_.iam.html" class="tsd-signature-type">IAm</a>
+							</li>
+							<li>
+								<a href="_locale_amet_.iamet.html" class="tsd-signature-type">IAmEt</a>
+							</li>
+							<li>
+								<a href="_locale_ar_.iar.html" class="tsd-signature-type">IAr</a>
+							</li>
+							<li>
+								<a href="_locale_ardz_.iardz.html" class="tsd-signature-type">IArDz</a>
+							</li>
+							<li>
+								<a href="_locale_arbh_.iarbh.html" class="tsd-signature-type">IArBh</a>
+							</li>
+							<li>
+								<a href="_locale_artd_.iartd.html" class="tsd-signature-type">IArTd</a>
+							</li>
+							<li>
+								<a href="_locale_arkm_.iarkm.html" class="tsd-signature-type">IArKm</a>
+							</li>
+							<li>
+								<a href="_locale_ardj_.iardj.html" class="tsd-signature-type">IArDj</a>
+							</li>
+							<li>
+								<a href="_locale_areg_.iareg.html" class="tsd-signature-type">IArEg</a>
+							</li>
+							<li>
+								<a href="_locale_arer_.iarer.html" class="tsd-signature-type">IArEr</a>
+							</li>
+							<li>
+								<a href="_locale_ariq_.iariq.html" class="tsd-signature-type">IArIq</a>
+							</li>
+							<li>
+								<a href="_locale_aril_.iaril.html" class="tsd-signature-type">IArIl</a>
+							</li>
+							<li>
+								<a href="_locale_arjo_.iarjo.html" class="tsd-signature-type">IArJo</a>
+							</li>
+							<li>
+								<a href="_locale_arkw_.iarkw.html" class="tsd-signature-type">IArKw</a>
+							</li>
+							<li>
+								<a href="_locale_arlb_.iarlb.html" class="tsd-signature-type">IArLb</a>
+							</li>
+							<li>
+								<a href="_locale_arly_.iarly.html" class="tsd-signature-type">IArLy</a>
+							</li>
+							<li>
+								<a href="_locale_armr_.iarmr.html" class="tsd-signature-type">IArMr</a>
+							</li>
+							<li>
+								<a href="_locale_arma_.iarma.html" class="tsd-signature-type">IArMa</a>
+							</li>
+							<li>
+								<a href="_locale_arom_.iarom.html" class="tsd-signature-type">IArOm</a>
+							</li>
+							<li>
+								<a href="_locale_arps_.iarps.html" class="tsd-signature-type">IArPs</a>
+							</li>
+							<li>
+								<a href="_locale_arqa_.iarqa.html" class="tsd-signature-type">IArQa</a>
+							</li>
+							<li>
+								<a href="_locale_arsa_.iarsa.html" class="tsd-signature-type">IArSa</a>
+							</li>
+							<li>
+								<a href="_locale_arso_.iarso.html" class="tsd-signature-type">IArSo</a>
+							</li>
+							<li>
+								<a href="_locale_arss_.iarss.html" class="tsd-signature-type">IArSs</a>
+							</li>
+							<li>
+								<a href="_locale_arsd_.iarsd.html" class="tsd-signature-type">IArSd</a>
+							</li>
+							<li>
+								<a href="_locale_arsy_.iarsy.html" class="tsd-signature-type">IArSy</a>
+							</li>
+							<li>
+								<a href="_locale_artn_.iartn.html" class="tsd-signature-type">IArTn</a>
+							</li>
+							<li>
+								<a href="_locale_arae_.iarae.html" class="tsd-signature-type">IArAe</a>
+							</li>
+							<li>
+								<a href="_locale_areh_.iareh.html" class="tsd-signature-type">IArEh</a>
+							</li>
+							<li>
+								<a href="_locale_arye_.iarye.html" class="tsd-signature-type">IArYe</a>
+							</li>
+							<li>
+								<a href="_locale_hy_.ihy.html" class="tsd-signature-type">IHy</a>
+							</li>
+							<li>
+								<a href="_locale_hyam_.ihyam.html" class="tsd-signature-type">IHyAm</a>
+							</li>
+							<li>
+								<a href="_locale_as_.ias.html" class="tsd-signature-type">IAs</a>
+							</li>
+							<li>
+								<a href="_locale_asin_.iasin.html" class="tsd-signature-type">IAsIn</a>
+							</li>
+							<li>
+								<a href="_locale_az_.iaz.html" class="tsd-signature-type">IAz</a>
+							</li>
+							<li>
+								<a href="_locale_azaz_.iazaz.html" class="tsd-signature-type">IAzAz</a>
+							</li>
+							<li>
+								<a href="_locale_azcyrlaz_.iazcyrlaz.html" class="tsd-signature-type">IAzCyrlAz</a>
+							</li>
+							<li>
+								<a href="_locale_azcyrl_.iazcyrl.html" class="tsd-signature-type">IAzCyrl</a>
+							</li>
+							<li>
+								<a href="_locale_azlatnaz_.iazlatnaz.html" class="tsd-signature-type">IAzLatnAz</a>
+							</li>
+							<li>
+								<a href="_locale_azlatn_.iazlatn.html" class="tsd-signature-type">IAzLatn</a>
+							</li>
+							<li>
+								<a href="_locale_bm_.ibm.html" class="tsd-signature-type">IBm</a>
+							</li>
+							<li>
+								<a href="_locale_bmlatnml_.ibmlatnml.html" class="tsd-signature-type">IBmLatnMl</a>
+							</li>
+							<li>
+								<a href="_locale_bmlatn_.ibmlatn.html" class="tsd-signature-type">IBmLatn</a>
+							</li>
+							<li>
+								<a href="_locale_eu_.ieu.html" class="tsd-signature-type">IEu</a>
+							</li>
+							<li>
+								<a href="_locale_eues_.ieues.html" class="tsd-signature-type">IEuEs</a>
+							</li>
+							<li>
+								<a href="_locale_be_.ibe.html" class="tsd-signature-type">IBe</a>
+							</li>
+							<li>
+								<a href="_locale_beby_.ibeby.html" class="tsd-signature-type">IBeBy</a>
+							</li>
+							<li>
+								<a href="_locale_bn_.ibn.html" class="tsd-signature-type">IBn</a>
+							</li>
+							<li>
+								<a href="_locale_bnbd_.ibnbd.html" class="tsd-signature-type">IBnBd</a>
+							</li>
+							<li>
+								<a href="_locale_bnin_.ibnin.html" class="tsd-signature-type">IBnIn</a>
+							</li>
+							<li>
+								<a href="_locale_bs_.ibs.html" class="tsd-signature-type">IBs</a>
+							</li>
+							<li>
+								<a href="_locale_bsba_.ibsba.html" class="tsd-signature-type">IBsBa</a>
+							</li>
+							<li>
+								<a href="_locale_bscyrlba_.ibscyrlba.html" class="tsd-signature-type">IBsCyrlBa</a>
+							</li>
+							<li>
+								<a href="_locale_bscyrl_.ibscyrl.html" class="tsd-signature-type">IBsCyrl</a>
+							</li>
+							<li>
+								<a href="_locale_bslatnba_.ibslatnba.html" class="tsd-signature-type">IBsLatnBa</a>
+							</li>
+							<li>
+								<a href="_locale_bslatn_.ibslatn.html" class="tsd-signature-type">IBsLatn</a>
+							</li>
+							<li>
+								<a href="_locale_br_.ibr.html" class="tsd-signature-type">IBr</a>
+							</li>
+							<li>
+								<a href="_locale_brfr_.ibrfr.html" class="tsd-signature-type">IBrFr</a>
+							</li>
+							<li>
+								<a href="_locale_bg_.ibg.html" class="tsd-signature-type">IBg</a>
+							</li>
+							<li>
+								<a href="_locale_bgbg_.ibgbg.html" class="tsd-signature-type">IBgBg</a>
+							</li>
+							<li>
+								<a href="_locale_my_.imy.html" class="tsd-signature-type">IMy</a>
+							</li>
+							<li>
+								<a href="_locale_mymm_.imymm.html" class="tsd-signature-type">IMyMm</a>
+							</li>
+							<li>
+								<a href="_locale_ca_.ica.html" class="tsd-signature-type">ICa</a>
+							</li>
+							<li>
+								<a href="_locale_caad_.icaad.html" class="tsd-signature-type">ICaAd</a>
+							</li>
+							<li>
+								<a href="_locale_cafr_.icafr.html" class="tsd-signature-type">ICaFr</a>
+							</li>
+							<li>
+								<a href="_locale_cait_.icait.html" class="tsd-signature-type">ICaIt</a>
+							</li>
+							<li>
+								<a href="_locale_caes_.icaes.html" class="tsd-signature-type">ICaEs</a>
+							</li>
+							<li>
+								<a href="_locale_zh_.izh.html" class="tsd-signature-type">IZh</a>
+							</li>
+							<li>
+								<a href="_locale_zhcn_.izhcn.html" class="tsd-signature-type">IZhCn</a>
+							</li>
+							<li>
+								<a href="_locale_zhhk_.izhhk.html" class="tsd-signature-type">IZhHk</a>
+							</li>
+							<li>
+								<a href="_locale_zhmo_.izhmo.html" class="tsd-signature-type">IZhMo</a>
+							</li>
+							<li>
+								<a href="_locale_zhhanscn_.izhhanscn.html" class="tsd-signature-type">IZhHansCn</a>
+							</li>
+							<li>
+								<a href="_locale_zhhanshk_.izhhanshk.html" class="tsd-signature-type">IZhHansHk</a>
+							</li>
+							<li>
+								<a href="_locale_zhhansmo_.izhhansmo.html" class="tsd-signature-type">IZhHansMo</a>
+							</li>
+							<li>
+								<a href="_locale_zhhanssg_.izhhanssg.html" class="tsd-signature-type">IZhHansSg</a>
+							</li>
+							<li>
+								<a href="_locale_zhhans_.izhhans.html" class="tsd-signature-type">IZhHans</a>
+							</li>
+							<li>
+								<a href="_locale_zhsg_.izhsg.html" class="tsd-signature-type">IZhSg</a>
+							</li>
+							<li>
+								<a href="_locale_zhtw_.izhtw.html" class="tsd-signature-type">IZhTw</a>
+							</li>
+							<li>
+								<a href="_locale_zhhanthk_.izhhanthk.html" class="tsd-signature-type">IZhHantHk</a>
+							</li>
+							<li>
+								<a href="_locale_zhhantmo_.izhhantmo.html" class="tsd-signature-type">IZhHantMo</a>
+							</li>
+							<li>
+								<a href="_locale_zhhanttw_.izhhanttw.html" class="tsd-signature-type">IZhHantTw</a>
+							</li>
+							<li>
+								<a href="_locale_zhhant_.izhhant.html" class="tsd-signature-type">IZhHant</a>
+							</li>
+							<li>
+								<a href="_locale_kw_.ikw.html" class="tsd-signature-type">IKw</a>
+							</li>
+							<li>
+								<a href="_locale_kwgb_.ikwgb.html" class="tsd-signature-type">IKwGb</a>
+							</li>
+							<li>
+								<a href="_locale_hr_.ihr.html" class="tsd-signature-type">IHr</a>
+							</li>
+							<li>
+								<a href="_locale_hrba_.ihrba.html" class="tsd-signature-type">IHrBa</a>
+							</li>
+							<li>
+								<a href="_locale_hrhr_.ihrhr.html" class="tsd-signature-type">IHrHr</a>
+							</li>
+							<li>
+								<a href="_locale_cs_.ics.html" class="tsd-signature-type">ICs</a>
+							</li>
+							<li>
+								<a href="_locale_cscz_.icscz.html" class="tsd-signature-type">ICsCz</a>
+							</li>
+							<li>
+								<a href="_locale_da_.ida.html" class="tsd-signature-type">IDa</a>
+							</li>
+							<li>
+								<a href="_locale_dadk_.idadk.html" class="tsd-signature-type">IDaDk</a>
+							</li>
+							<li>
+								<a href="_locale_dagl_.idagl.html" class="tsd-signature-type">IDaGl</a>
+							</li>
+							<li>
+								<a href="_locale_nl_.inl.html" class="tsd-signature-type">INl</a>
+							</li>
+							<li>
+								<a href="_locale_nlaw_.inlaw.html" class="tsd-signature-type">INlAw</a>
+							</li>
+							<li>
+								<a href="_locale_nlbe_.inlbe.html" class="tsd-signature-type">INlBe</a>
+							</li>
+							<li>
+								<a href="_locale_nlbq_.inlbq.html" class="tsd-signature-type">INlBq</a>
+							</li>
+							<li>
+								<a href="_locale_nlcw_.inlcw.html" class="tsd-signature-type">INlCw</a>
+							</li>
+							<li>
+								<a href="_locale_nlnl_.inlnl.html" class="tsd-signature-type">INlNl</a>
+							</li>
+							<li>
+								<a href="_locale_nlsx_.inlsx.html" class="tsd-signature-type">INlSx</a>
+							</li>
+							<li>
+								<a href="_locale_nlsr_.inlsr.html" class="tsd-signature-type">INlSr</a>
+							</li>
+							<li>
+								<a href="_locale_dz_.idz.html" class="tsd-signature-type">IDz</a>
+							</li>
+							<li>
+								<a href="_locale_dzbt_.idzbt.html" class="tsd-signature-type">IDzBt</a>
+							</li>
+							<li>
+								<a href="_locale_en_.ien.html" class="tsd-signature-type">IEn</a>
+							</li>
+							<li>
+								<a href="_locale_enas_.ienas.html" class="tsd-signature-type">IEnAs</a>
+							</li>
+							<li>
+								<a href="_locale_enai_.ienai.html" class="tsd-signature-type">IEnAi</a>
+							</li>
+							<li>
+								<a href="_locale_enag_.ienag.html" class="tsd-signature-type">IEnAg</a>
+							</li>
+							<li>
+								<a href="_locale_enau_.ienau.html" class="tsd-signature-type">IEnAu</a>
+							</li>
+							<li>
+								<a href="_locale_enbs_.ienbs.html" class="tsd-signature-type">IEnBs</a>
+							</li>
+							<li>
+								<a href="_locale_enbb_.ienbb.html" class="tsd-signature-type">IEnBb</a>
+							</li>
+							<li>
+								<a href="_locale_enbe_.ienbe.html" class="tsd-signature-type">IEnBe</a>
+							</li>
+							<li>
+								<a href="_locale_enbz_.ienbz.html" class="tsd-signature-type">IEnBz</a>
+							</li>
+							<li>
+								<a href="_locale_enbm_.ienbm.html" class="tsd-signature-type">IEnBm</a>
+							</li>
+							<li>
+								<a href="_locale_enbw_.ienbw.html" class="tsd-signature-type">IEnBw</a>
+							</li>
+							<li>
+								<a href="_locale_enio_.ienio.html" class="tsd-signature-type">IEnIo</a>
+							</li>
+							<li>
+								<a href="_locale_envg_.ienvg.html" class="tsd-signature-type">IEnVg</a>
+							</li>
+							<li>
+								<a href="_locale_encm_.iencm.html" class="tsd-signature-type">IEnCm</a>
+							</li>
+							<li>
+								<a href="_locale_enca_.ienca.html" class="tsd-signature-type">IEnCa</a>
+							</li>
+							<li>
+								<a href="_locale_enky_.ienky.html" class="tsd-signature-type">IEnKy</a>
+							</li>
+							<li>
+								<a href="_locale_encx_.iencx.html" class="tsd-signature-type">IEnCx</a>
+							</li>
+							<li>
+								<a href="_locale_encc_.iencc.html" class="tsd-signature-type">IEnCc</a>
+							</li>
+							<li>
+								<a href="_locale_enck_.ienck.html" class="tsd-signature-type">IEnCk</a>
+							</li>
+							<li>
+								<a href="_locale_endm_.iendm.html" class="tsd-signature-type">IEnDm</a>
+							</li>
+							<li>
+								<a href="_locale_ener_.iener.html" class="tsd-signature-type">IEnEr</a>
+							</li>
+							<li>
+								<a href="_locale_enfk_.ienfk.html" class="tsd-signature-type">IEnFk</a>
+							</li>
+							<li>
+								<a href="_locale_enfj_.ienfj.html" class="tsd-signature-type">IEnFj</a>
+							</li>
+							<li>
+								<a href="_locale_engm_.iengm.html" class="tsd-signature-type">IEnGm</a>
+							</li>
+							<li>
+								<a href="_locale_engh_.iengh.html" class="tsd-signature-type">IEnGh</a>
+							</li>
+							<li>
+								<a href="_locale_engi_.iengi.html" class="tsd-signature-type">IEnGi</a>
+							</li>
+							<li>
+								<a href="_locale_engd_.iengd.html" class="tsd-signature-type">IEnGd</a>
+							</li>
+							<li>
+								<a href="_locale_engu_.iengu.html" class="tsd-signature-type">IEnGu</a>
+							</li>
+							<li>
+								<a href="_locale_engg_.iengg.html" class="tsd-signature-type">IEnGg</a>
+							</li>
+							<li>
+								<a href="_locale_engy_.iengy.html" class="tsd-signature-type">IEnGy</a>
+							</li>
+							<li>
+								<a href="_locale_enhk_.ienhk.html" class="tsd-signature-type">IEnHk</a>
+							</li>
+							<li>
+								<a href="_locale_enin_.ienin.html" class="tsd-signature-type">IEnIn</a>
+							</li>
+							<li>
+								<a href="_locale_enie_.ienie.html" class="tsd-signature-type">IEnIe</a>
+							</li>
+							<li>
+								<a href="_locale_enim_.ienim.html" class="tsd-signature-type">IEnIm</a>
+							</li>
+							<li>
+								<a href="_locale_enjm_.ienjm.html" class="tsd-signature-type">IEnJm</a>
+							</li>
+							<li>
+								<a href="_locale_enje_.ienje.html" class="tsd-signature-type">IEnJe</a>
+							</li>
+							<li>
+								<a href="_locale_enke_.ienke.html" class="tsd-signature-type">IEnKe</a>
+							</li>
+							<li>
+								<a href="_locale_enki_.ienki.html" class="tsd-signature-type">IEnKi</a>
+							</li>
+							<li>
+								<a href="_locale_enls_.ienls.html" class="tsd-signature-type">IEnLs</a>
+							</li>
+							<li>
+								<a href="_locale_enlr_.ienlr.html" class="tsd-signature-type">IEnLr</a>
+							</li>
+							<li>
+								<a href="_locale_enmo_.ienmo.html" class="tsd-signature-type">IEnMo</a>
+							</li>
+							<li>
+								<a href="_locale_enmg_.ienmg.html" class="tsd-signature-type">IEnMg</a>
+							</li>
+							<li>
+								<a href="_locale_enmw_.ienmw.html" class="tsd-signature-type">IEnMw</a>
+							</li>
+							<li>
+								<a href="_locale_enmy_.ienmy.html" class="tsd-signature-type">IEnMy</a>
+							</li>
+							<li>
+								<a href="_locale_enmt_.ienmt.html" class="tsd-signature-type">IEnMt</a>
+							</li>
+							<li>
+								<a href="_locale_enmh_.ienmh.html" class="tsd-signature-type">IEnMh</a>
+							</li>
+							<li>
+								<a href="_locale_enmu_.ienmu.html" class="tsd-signature-type">IEnMu</a>
+							</li>
+							<li>
+								<a href="_locale_enfm_.ienfm.html" class="tsd-signature-type">IEnFm</a>
+							</li>
+							<li>
+								<a href="_locale_enms_.ienms.html" class="tsd-signature-type">IEnMs</a>
+							</li>
+							<li>
+								<a href="_locale_enna_.ienna.html" class="tsd-signature-type">IEnNa</a>
+							</li>
+							<li>
+								<a href="_locale_ennr_.iennr.html" class="tsd-signature-type">IEnNr</a>
+							</li>
+							<li>
+								<a href="_locale_ennz_.iennz.html" class="tsd-signature-type">IEnNz</a>
+							</li>
+							<li>
+								<a href="_locale_enng_.ienng.html" class="tsd-signature-type">IEnNg</a>
+							</li>
+							<li>
+								<a href="_locale_ennu_.iennu.html" class="tsd-signature-type">IEnNu</a>
+							</li>
+							<li>
+								<a href="_locale_ennf_.iennf.html" class="tsd-signature-type">IEnNf</a>
+							</li>
+							<li>
+								<a href="_locale_enmp_.ienmp.html" class="tsd-signature-type">IEnMp</a>
+							</li>
+							<li>
+								<a href="_locale_enpk_.ienpk.html" class="tsd-signature-type">IEnPk</a>
+							</li>
+							<li>
+								<a href="_locale_enpw_.ienpw.html" class="tsd-signature-type">IEnPw</a>
+							</li>
+							<li>
+								<a href="_locale_enpg_.ienpg.html" class="tsd-signature-type">IEnPg</a>
+							</li>
+							<li>
+								<a href="_locale_enph_.ienph.html" class="tsd-signature-type">IEnPh</a>
+							</li>
+							<li>
+								<a href="_locale_enpn_.ienpn.html" class="tsd-signature-type">IEnPn</a>
+							</li>
+							<li>
+								<a href="_locale_enpr_.ienpr.html" class="tsd-signature-type">IEnPr</a>
+							</li>
+							<li>
+								<a href="_locale_enrw_.ienrw.html" class="tsd-signature-type">IEnRw</a>
+							</li>
+							<li>
+								<a href="_locale_enws_.ienws.html" class="tsd-signature-type">IEnWs</a>
+							</li>
+							<li>
+								<a href="_locale_ensc_.iensc.html" class="tsd-signature-type">IEnSc</a>
+							</li>
+							<li>
+								<a href="_locale_ensl_.iensl.html" class="tsd-signature-type">IEnSl</a>
+							</li>
+							<li>
+								<a href="_locale_ensg_.iensg.html" class="tsd-signature-type">IEnSg</a>
+							</li>
+							<li>
+								<a href="_locale_ensx_.iensx.html" class="tsd-signature-type">IEnSx</a>
+							</li>
+							<li>
+								<a href="_locale_ensb_.iensb.html" class="tsd-signature-type">IEnSb</a>
+							</li>
+							<li>
+								<a href="_locale_enza_.ienza.html" class="tsd-signature-type">IEnZa</a>
+							</li>
+							<li>
+								<a href="_locale_enss_.ienss.html" class="tsd-signature-type">IEnSs</a>
+							</li>
+							<li>
+								<a href="_locale_ensh_.iensh.html" class="tsd-signature-type">IEnSh</a>
+							</li>
+							<li>
+								<a href="_locale_enkn_.ienkn.html" class="tsd-signature-type">IEnKn</a>
+							</li>
+							<li>
+								<a href="_locale_enlc_.ienlc.html" class="tsd-signature-type">IEnLc</a>
+							</li>
+							<li>
+								<a href="_locale_envc_.ienvc.html" class="tsd-signature-type">IEnVc</a>
+							</li>
+							<li>
+								<a href="_locale_ensd_.iensd.html" class="tsd-signature-type">IEnSd</a>
+							</li>
+							<li>
+								<a href="_locale_ensz_.iensz.html" class="tsd-signature-type">IEnSz</a>
+							</li>
+							<li>
+								<a href="_locale_entz_.ientz.html" class="tsd-signature-type">IEnTz</a>
+							</li>
+							<li>
+								<a href="_locale_entk_.ientk.html" class="tsd-signature-type">IEnTk</a>
+							</li>
+							<li>
+								<a href="_locale_ento_.iento.html" class="tsd-signature-type">IEnTo</a>
+							</li>
+							<li>
+								<a href="_locale_entt_.ientt.html" class="tsd-signature-type">IEnTt</a>
+							</li>
+							<li>
+								<a href="_locale_entc_.ientc.html" class="tsd-signature-type">IEnTc</a>
+							</li>
+							<li>
+								<a href="_locale_entv_.ientv.html" class="tsd-signature-type">IEnTv</a>
+							</li>
+							<li>
+								<a href="_locale_enum_.ienum.html" class="tsd-signature-type">IEnUm</a>
+							</li>
+							<li>
+								<a href="_locale_envi_.ienvi.html" class="tsd-signature-type">IEnVi</a>
+							</li>
+							<li>
+								<a href="_locale_enug_.ienug.html" class="tsd-signature-type">IEnUg</a>
+							</li>
+							<li>
+								<a href="_locale_engb_.iengb.html" class="tsd-signature-type">IEnGb</a>
+							</li>
+							<li>
+								<a href="_locale_enus_.ienus.html" class="tsd-signature-type">IEnUs</a>
+							</li>
+							<li>
+								<a href="_locale_envu_.ienvu.html" class="tsd-signature-type">IEnVu</a>
+							</li>
+							<li>
+								<a href="_locale_enzm_.ienzm.html" class="tsd-signature-type">IEnZm</a>
+							</li>
+							<li>
+								<a href="_locale_enzw_.ienzw.html" class="tsd-signature-type">IEnZw</a>
+							</li>
+							<li>
+								<a href="_locale_eo_.ieo.html" class="tsd-signature-type">IEo</a>
+							</li>
+							<li>
+								<a href="_locale_et_.iet.html" class="tsd-signature-type">IEt</a>
+							</li>
+							<li>
+								<a href="_locale_etee_.ietee.html" class="tsd-signature-type">IEtEe</a>
+							</li>
+							<li>
+								<a href="_locale_ee_.iee.html" class="tsd-signature-type">IEe</a>
+							</li>
+							<li>
+								<a href="_locale_eegh_.ieegh.html" class="tsd-signature-type">IEeGh</a>
+							</li>
+							<li>
+								<a href="_locale_eetg_.ieetg.html" class="tsd-signature-type">IEeTg</a>
+							</li>
+							<li>
+								<a href="_locale_fo_.ifo.html" class="tsd-signature-type">IFo</a>
+							</li>
+							<li>
+								<a href="_locale_fofo_.ifofo.html" class="tsd-signature-type">IFoFo</a>
+							</li>
+							<li>
+								<a href="_locale_fi_.ifi.html" class="tsd-signature-type">IFi</a>
+							</li>
+							<li>
+								<a href="_locale_fifi_.ififi.html" class="tsd-signature-type">IFiFi</a>
+							</li>
+							<li>
+								<a href="_locale_fr_.ifr.html" class="tsd-signature-type">IFr</a>
+							</li>
+							<li>
+								<a href="_locale_frdz_.ifrdz.html" class="tsd-signature-type">IFrDz</a>
+							</li>
+							<li>
+								<a href="_locale_frbe_.ifrbe.html" class="tsd-signature-type">IFrBe</a>
+							</li>
+							<li>
+								<a href="_locale_frbj_.ifrbj.html" class="tsd-signature-type">IFrBj</a>
+							</li>
+							<li>
+								<a href="_locale_frbf_.ifrbf.html" class="tsd-signature-type">IFrBf</a>
+							</li>
+							<li>
+								<a href="_locale_frbi_.ifrbi.html" class="tsd-signature-type">IFrBi</a>
+							</li>
+							<li>
+								<a href="_locale_frcm_.ifrcm.html" class="tsd-signature-type">IFrCm</a>
+							</li>
+							<li>
+								<a href="_locale_frca_.ifrca.html" class="tsd-signature-type">IFrCa</a>
+							</li>
+							<li>
+								<a href="_locale_frcf_.ifrcf.html" class="tsd-signature-type">IFrCf</a>
+							</li>
+							<li>
+								<a href="_locale_frtd_.ifrtd.html" class="tsd-signature-type">IFrTd</a>
+							</li>
+							<li>
+								<a href="_locale_frkm_.ifrkm.html" class="tsd-signature-type">IFrKm</a>
+							</li>
+							<li>
+								<a href="_locale_frcg_.ifrcg.html" class="tsd-signature-type">IFrCg</a>
+							</li>
+							<li>
+								<a href="_locale_frcd_.ifrcd.html" class="tsd-signature-type">IFrCd</a>
+							</li>
+							<li>
+								<a href="_locale_frci_.ifrci.html" class="tsd-signature-type">IFrCi</a>
+							</li>
+							<li>
+								<a href="_locale_frdj_.ifrdj.html" class="tsd-signature-type">IFrDj</a>
+							</li>
+							<li>
+								<a href="_locale_frgq_.ifrgq.html" class="tsd-signature-type">IFrGq</a>
+							</li>
+							<li>
+								<a href="_locale_frfr_.ifrfr.html" class="tsd-signature-type">IFrFr</a>
+							</li>
+							<li>
+								<a href="_locale_frgf_.ifrgf.html" class="tsd-signature-type">IFrGf</a>
+							</li>
+							<li>
+								<a href="_locale_frpf_.ifrpf.html" class="tsd-signature-type">IFrPf</a>
+							</li>
+							<li>
+								<a href="_locale_frga_.ifrga.html" class="tsd-signature-type">IFrGa</a>
+							</li>
+							<li>
+								<a href="_locale_frgp_.ifrgp.html" class="tsd-signature-type">IFrGp</a>
+							</li>
+							<li>
+								<a href="_locale_frgn_.ifrgn.html" class="tsd-signature-type">IFrGn</a>
+							</li>
+							<li>
+								<a href="_locale_frht_.ifrht.html" class="tsd-signature-type">IFrHt</a>
+							</li>
+							<li>
+								<a href="_locale_frlu_.ifrlu.html" class="tsd-signature-type">IFrLu</a>
+							</li>
+							<li>
+								<a href="_locale_frmg_.ifrmg.html" class="tsd-signature-type">IFrMg</a>
+							</li>
+							<li>
+								<a href="_locale_frml_.ifrml.html" class="tsd-signature-type">IFrMl</a>
+							</li>
+							<li>
+								<a href="_locale_frmq_.ifrmq.html" class="tsd-signature-type">IFrMq</a>
+							</li>
+							<li>
+								<a href="_locale_frmr_.ifrmr.html" class="tsd-signature-type">IFrMr</a>
+							</li>
+							<li>
+								<a href="_locale_frmu_.ifrmu.html" class="tsd-signature-type">IFrMu</a>
+							</li>
+							<li>
+								<a href="_locale_fryt_.ifryt.html" class="tsd-signature-type">IFrYt</a>
+							</li>
+							<li>
+								<a href="_locale_frmc_.ifrmc.html" class="tsd-signature-type">IFrMc</a>
+							</li>
+							<li>
+								<a href="_locale_frma_.ifrma.html" class="tsd-signature-type">IFrMa</a>
+							</li>
+							<li>
+								<a href="_locale_frnc_.ifrnc.html" class="tsd-signature-type">IFrNc</a>
+							</li>
+							<li>
+								<a href="_locale_frne_.ifrne.html" class="tsd-signature-type">IFrNe</a>
+							</li>
+							<li>
+								<a href="_locale_frre_.ifrre.html" class="tsd-signature-type">IFrRe</a>
+							</li>
+							<li>
+								<a href="_locale_frrw_.ifrrw.html" class="tsd-signature-type">IFrRw</a>
+							</li>
+							<li>
+								<a href="_locale_frsn_.ifrsn.html" class="tsd-signature-type">IFrSn</a>
+							</li>
+							<li>
+								<a href="_locale_frsc_.ifrsc.html" class="tsd-signature-type">IFrSc</a>
+							</li>
+							<li>
+								<a href="_locale_frbl_.ifrbl.html" class="tsd-signature-type">IFrBl</a>
+							</li>
+							<li>
+								<a href="_locale_frmf_.ifrmf.html" class="tsd-signature-type">IFrMf</a>
+							</li>
+							<li>
+								<a href="_locale_frpm_.ifrpm.html" class="tsd-signature-type">IFrPm</a>
+							</li>
+							<li>
+								<a href="_locale_frch_.ifrch.html" class="tsd-signature-type">IFrCh</a>
+							</li>
+							<li>
+								<a href="_locale_frsy_.ifrsy.html" class="tsd-signature-type">IFrSy</a>
+							</li>
+							<li>
+								<a href="_locale_frtg_.ifrtg.html" class="tsd-signature-type">IFrTg</a>
+							</li>
+							<li>
+								<a href="_locale_frtn_.ifrtn.html" class="tsd-signature-type">IFrTn</a>
+							</li>
+							<li>
+								<a href="_locale_frvu_.ifrvu.html" class="tsd-signature-type">IFrVu</a>
+							</li>
+							<li>
+								<a href="_locale_frwf_.ifrwf.html" class="tsd-signature-type">IFrWf</a>
+							</li>
+							<li>
+								<a href="_locale_ff_.iff.html" class="tsd-signature-type">IFf</a>
+							</li>
+							<li>
+								<a href="_locale_ffcm_.iffcm.html" class="tsd-signature-type">IFfCm</a>
+							</li>
+							<li>
+								<a href="_locale_ffgn_.iffgn.html" class="tsd-signature-type">IFfGn</a>
+							</li>
+							<li>
+								<a href="_locale_ffmr_.iffmr.html" class="tsd-signature-type">IFfMr</a>
+							</li>
+							<li>
+								<a href="_locale_ffsn_.iffsn.html" class="tsd-signature-type">IFfSn</a>
+							</li>
+							<li>
+								<a href="_locale_gl_.igl.html" class="tsd-signature-type">IGl</a>
+							</li>
+							<li>
+								<a href="_locale_gles_.igles.html" class="tsd-signature-type">IGlEs</a>
+							</li>
+							<li>
+								<a href="_locale_lg_.ilg.html" class="tsd-signature-type">ILg</a>
+							</li>
+							<li>
+								<a href="_locale_lgug_.ilgug.html" class="tsd-signature-type">ILgUg</a>
+							</li>
+							<li>
+								<a href="_locale_ka_.ika.html" class="tsd-signature-type">IKa</a>
+							</li>
+							<li>
+								<a href="_locale_kage_.ikage.html" class="tsd-signature-type">IKaGe</a>
+							</li>
+							<li>
+								<a href="_locale_de_.ide.html" class="tsd-signature-type">IDe</a>
+							</li>
+							<li>
+								<a href="_locale_deat_.ideat.html" class="tsd-signature-type">IDeAt</a>
+							</li>
+							<li>
+								<a href="_locale_debe_.idebe.html" class="tsd-signature-type">IDeBe</a>
+							</li>
+							<li>
+								<a href="_locale_dede_.idede.html" class="tsd-signature-type">IDeDe</a>
+							</li>
+							<li>
+								<a href="_locale_deli_.ideli.html" class="tsd-signature-type">IDeLi</a>
+							</li>
+							<li>
+								<a href="_locale_delu_.idelu.html" class="tsd-signature-type">IDeLu</a>
+							</li>
+							<li>
+								<a href="_locale_dech_.idech.html" class="tsd-signature-type">IDeCh</a>
+							</li>
+							<li>
+								<a href="_locale_el_.iel.html" class="tsd-signature-type">IEl</a>
+							</li>
+							<li>
+								<a href="_locale_elcy_.ielcy.html" class="tsd-signature-type">IElCy</a>
+							</li>
+							<li>
+								<a href="_locale_elgr_.ielgr.html" class="tsd-signature-type">IElGr</a>
+							</li>
+							<li>
+								<a href="_locale_gu_.igu.html" class="tsd-signature-type">IGu</a>
+							</li>
+							<li>
+								<a href="_locale_guin_.iguin.html" class="tsd-signature-type">IGuIn</a>
+							</li>
+							<li>
+								<a href="_locale_ha_.iha.html" class="tsd-signature-type">IHa</a>
+							</li>
+							<li>
+								<a href="_locale_hagh_.ihagh.html" class="tsd-signature-type">IHaGh</a>
+							</li>
+							<li>
+								<a href="_locale_halatngh_.ihalatngh.html" class="tsd-signature-type">IHaLatnGh</a>
+							</li>
+							<li>
+								<a href="_locale_halatnne_.ihalatnne.html" class="tsd-signature-type">IHaLatnNe</a>
+							</li>
+							<li>
+								<a href="_locale_halatnng_.ihalatnng.html" class="tsd-signature-type">IHaLatnNg</a>
+							</li>
+							<li>
+								<a href="_locale_halatn_.ihalatn.html" class="tsd-signature-type">IHaLatn</a>
+							</li>
+							<li>
+								<a href="_locale_hane_.ihane.html" class="tsd-signature-type">IHaNe</a>
+							</li>
+							<li>
+								<a href="_locale_hang_.ihang.html" class="tsd-signature-type">IHaNg</a>
+							</li>
+							<li>
+								<a href="_locale_he_.ihe.html" class="tsd-signature-type">IHe</a>
+							</li>
+							<li>
+								<a href="_locale_heil_.iheil.html" class="tsd-signature-type">IHeIl</a>
+							</li>
+							<li>
+								<a href="_locale_hi_.ihi.html" class="tsd-signature-type">IHi</a>
+							</li>
+							<li>
+								<a href="_locale_hiin_.ihiin.html" class="tsd-signature-type">IHiIn</a>
+							</li>
+							<li>
+								<a href="_locale_hu_.ihu.html" class="tsd-signature-type">IHu</a>
+							</li>
+							<li>
+								<a href="_locale_huhu_.ihuhu.html" class="tsd-signature-type">IHuHu</a>
+							</li>
+							<li>
+								<a href="_locale_is_.iis.html" class="tsd-signature-type">IIs</a>
+							</li>
+							<li>
+								<a href="_locale_isis_.iisis.html" class="tsd-signature-type">IIsIs</a>
+							</li>
+							<li>
+								<a href="_locale_ig_.iig.html" class="tsd-signature-type">IIg</a>
+							</li>
+							<li>
+								<a href="_locale_igng_.iigng.html" class="tsd-signature-type">IIgNg</a>
+							</li>
+							<li>
+								<a href="_locale_id_.iid.html" class="tsd-signature-type">IId</a>
+							</li>
+							<li>
+								<a href="_locale_idid_.iidid.html" class="tsd-signature-type">IIdId</a>
+							</li>
+							<li>
+								<a href="_locale_ga_.iga.html" class="tsd-signature-type">IGa</a>
+							</li>
+							<li>
+								<a href="_locale_gaie_.igaie.html" class="tsd-signature-type">IGaIe</a>
+							</li>
+							<li>
+								<a href="_locale_it_.iit.html" class="tsd-signature-type">IIt</a>
+							</li>
+							<li>
+								<a href="_locale_itit_.iitit.html" class="tsd-signature-type">IItIt</a>
+							</li>
+							<li>
+								<a href="_locale_itsm_.iitsm.html" class="tsd-signature-type">IItSm</a>
+							</li>
+							<li>
+								<a href="_locale_itch_.iitch.html" class="tsd-signature-type">IItCh</a>
+							</li>
+							<li>
+								<a href="_locale_ja_.ija.html" class="tsd-signature-type">IJa</a>
+							</li>
+							<li>
+								<a href="_locale_jajp_.ijajp.html" class="tsd-signature-type">IJaJp</a>
+							</li>
+							<li>
+								<a href="_locale_kl_.ikl.html" class="tsd-signature-type">IKl</a>
+							</li>
+							<li>
+								<a href="_locale_klgl_.iklgl.html" class="tsd-signature-type">IKlGl</a>
+							</li>
+							<li>
+								<a href="_locale_kn_.ikn.html" class="tsd-signature-type">IKn</a>
+							</li>
+							<li>
+								<a href="_locale_knin_.iknin.html" class="tsd-signature-type">IKnIn</a>
+							</li>
+							<li>
+								<a href="_locale_ks_.iks.html" class="tsd-signature-type">IKs</a>
+							</li>
+							<li>
+								<a href="_locale_ksarabin_.iksarabin.html" class="tsd-signature-type">IKsArabIn</a>
+							</li>
+							<li>
+								<a href="_locale_ksarab_.iksarab.html" class="tsd-signature-type">IKsArab</a>
+							</li>
+							<li>
+								<a href="_locale_ksin_.iksin.html" class="tsd-signature-type">IKsIn</a>
+							</li>
+							<li>
+								<a href="_locale_kk_.ikk.html" class="tsd-signature-type">IKk</a>
+							</li>
+							<li>
+								<a href="_locale_kkcyrlkz_.ikkcyrlkz.html" class="tsd-signature-type">IKkCyrlKz</a>
+							</li>
+							<li>
+								<a href="_locale_kkcyrl_.ikkcyrl.html" class="tsd-signature-type">IKkCyrl</a>
+							</li>
+							<li>
+								<a href="_locale_kkkz_.ikkkz.html" class="tsd-signature-type">IKkKz</a>
+							</li>
+							<li>
+								<a href="_locale_km_.ikm.html" class="tsd-signature-type">IKm</a>
+							</li>
+							<li>
+								<a href="_locale_kmkh_.ikmkh.html" class="tsd-signature-type">IKmKh</a>
+							</li>
+							<li>
+								<a href="_locale_ki_.iki.html" class="tsd-signature-type">IKi</a>
+							</li>
+							<li>
+								<a href="_locale_kike_.ikike.html" class="tsd-signature-type">IKiKe</a>
+							</li>
+							<li>
+								<a href="_locale_rw_.irw.html" class="tsd-signature-type">IRw</a>
+							</li>
+							<li>
+								<a href="_locale_rwrw_.irwrw.html" class="tsd-signature-type">IRwRw</a>
+							</li>
+							<li>
+								<a href="_locale_ko_.iko.html" class="tsd-signature-type">IKo</a>
+							</li>
+							<li>
+								<a href="_locale_kokp_.ikokp.html" class="tsd-signature-type">IKoKp</a>
+							</li>
+							<li>
+								<a href="_locale_kokr_.ikokr.html" class="tsd-signature-type">IKoKr</a>
+							</li>
+							<li>
+								<a href="_locale_ky_.iky.html" class="tsd-signature-type">IKy</a>
+							</li>
+							<li>
+								<a href="_locale_kycyrlkg_.ikycyrlkg.html" class="tsd-signature-type">IKyCyrlKg</a>
+							</li>
+							<li>
+								<a href="_locale_kycyrl_.ikycyrl.html" class="tsd-signature-type">IKyCyrl</a>
+							</li>
+							<li>
+								<a href="_locale_kykg_.ikykg.html" class="tsd-signature-type">IKyKg</a>
+							</li>
+							<li>
+								<a href="_locale_lo_.ilo.html" class="tsd-signature-type">ILo</a>
+							</li>
+							<li>
+								<a href="_locale_lola_.ilola.html" class="tsd-signature-type">ILoLa</a>
+							</li>
+							<li>
+								<a href="_locale_lv_.ilv.html" class="tsd-signature-type">ILv</a>
+							</li>
+							<li>
+								<a href="_locale_lvlv_.ilvlv.html" class="tsd-signature-type">ILvLv</a>
+							</li>
+							<li>
+								<a href="_locale_ln_.iln.html" class="tsd-signature-type">ILn</a>
+							</li>
+							<li>
+								<a href="_locale_lnao_.ilnao.html" class="tsd-signature-type">ILnAo</a>
+							</li>
+							<li>
+								<a href="_locale_lncf_.ilncf.html" class="tsd-signature-type">ILnCf</a>
+							</li>
+							<li>
+								<a href="_locale_lncg_.ilncg.html" class="tsd-signature-type">ILnCg</a>
+							</li>
+							<li>
+								<a href="_locale_lncd_.ilncd.html" class="tsd-signature-type">ILnCd</a>
+							</li>
+							<li>
+								<a href="_locale_lt_.ilt.html" class="tsd-signature-type">ILt</a>
+							</li>
+							<li>
+								<a href="_locale_ltlt_.iltlt.html" class="tsd-signature-type">ILtLt</a>
+							</li>
+							<li>
+								<a href="_locale_lu_.ilu.html" class="tsd-signature-type">ILu</a>
+							</li>
+							<li>
+								<a href="_locale_lucd_.ilucd.html" class="tsd-signature-type">ILuCd</a>
+							</li>
+							<li>
+								<a href="_locale_lb_.ilb.html" class="tsd-signature-type">ILb</a>
+							</li>
+							<li>
+								<a href="_locale_lblu_.ilblu.html" class="tsd-signature-type">ILbLu</a>
+							</li>
+							<li>
+								<a href="_locale_mk_.imk.html" class="tsd-signature-type">IMk</a>
+							</li>
+							<li>
+								<a href="_locale_mkmk_.imkmk.html" class="tsd-signature-type">IMkMk</a>
+							</li>
+							<li>
+								<a href="_locale_mg_.img.html" class="tsd-signature-type">IMg</a>
+							</li>
+							<li>
+								<a href="_locale_mgmg_.imgmg.html" class="tsd-signature-type">IMgMg</a>
+							</li>
+							<li>
+								<a href="_locale_ms_.ims.html" class="tsd-signature-type">IMs</a>
+							</li>
+							<li>
+								<a href="_locale_msbn_.imsbn.html" class="tsd-signature-type">IMsBn</a>
+							</li>
+							<li>
+								<a href="_locale_mslatnbn_.imslatnbn.html" class="tsd-signature-type">IMsLatnBn</a>
+							</li>
+							<li>
+								<a href="_locale_mslatnmy_.imslatnmy.html" class="tsd-signature-type">IMsLatnMy</a>
+							</li>
+							<li>
+								<a href="_locale_mslatnsg_.imslatnsg.html" class="tsd-signature-type">IMsLatnSg</a>
+							</li>
+							<li>
+								<a href="_locale_mslatn_.imslatn.html" class="tsd-signature-type">IMsLatn</a>
+							</li>
+							<li>
+								<a href="_locale_msmy_.imsmy.html" class="tsd-signature-type">IMsMy</a>
+							</li>
+							<li>
+								<a href="_locale_mssg_.imssg.html" class="tsd-signature-type">IMsSg</a>
+							</li>
+							<li>
+								<a href="_locale_ml_.iml.html" class="tsd-signature-type">IMl</a>
+							</li>
+							<li>
+								<a href="_locale_mlin_.imlin.html" class="tsd-signature-type">IMlIn</a>
+							</li>
+							<li>
+								<a href="_locale_mt_.imt.html" class="tsd-signature-type">IMt</a>
+							</li>
+							<li>
+								<a href="_locale_mtmt_.imtmt.html" class="tsd-signature-type">IMtMt</a>
+							</li>
+							<li>
+								<a href="_locale_gv_.igv.html" class="tsd-signature-type">IGv</a>
+							</li>
+							<li>
+								<a href="_locale_gvim_.igvim.html" class="tsd-signature-type">IGvIm</a>
+							</li>
+							<li>
+								<a href="_locale_mr_.imr.html" class="tsd-signature-type">IMr</a>
+							</li>
+							<li>
+								<a href="_locale_mrin_.imrin.html" class="tsd-signature-type">IMrIn</a>
+							</li>
+							<li>
+								<a href="_locale_mn_.imn.html" class="tsd-signature-type">IMn</a>
+							</li>
+							<li>
+								<a href="_locale_mncyrlmn_.imncyrlmn.html" class="tsd-signature-type">IMnCyrlMn</a>
+							</li>
+							<li>
+								<a href="_locale_mncyrl_.imncyrl.html" class="tsd-signature-type">IMnCyrl</a>
+							</li>
+							<li>
+								<a href="_locale_mnmn_.imnmn.html" class="tsd-signature-type">IMnMn</a>
+							</li>
+							<li>
+								<a href="_locale_ne_.ine.html" class="tsd-signature-type">INe</a>
+							</li>
+							<li>
+								<a href="_locale_nein_.inein.html" class="tsd-signature-type">INeIn</a>
+							</li>
+							<li>
+								<a href="_locale_nenp_.inenp.html" class="tsd-signature-type">INeNp</a>
+							</li>
+							<li>
+								<a href="_locale_nd_.ind.html" class="tsd-signature-type">INd</a>
+							</li>
+							<li>
+								<a href="_locale_ndzw_.indzw.html" class="tsd-signature-type">INdZw</a>
+							</li>
+							<li>
+								<a href="_locale_se_.ise.html" class="tsd-signature-type">ISe</a>
+							</li>
+							<li>
+								<a href="_locale_sefi_.isefi.html" class="tsd-signature-type">ISeFi</a>
+							</li>
+							<li>
+								<a href="_locale_seno_.iseno.html" class="tsd-signature-type">ISeNo</a>
+							</li>
+							<li>
+								<a href="_locale_sese_.isese.html" class="tsd-signature-type">ISeSe</a>
+							</li>
+							<li>
+								<a href="_locale_no_.ino.html" class="tsd-signature-type">INo</a>
+							</li>
+							<li>
+								<a href="_locale_nono_.inono.html" class="tsd-signature-type">INoNo</a>
+							</li>
+							<li>
+								<a href="_locale_nb_.inb.html" class="tsd-signature-type">INb</a>
+							</li>
+							<li>
+								<a href="_locale_nbno_.inbno.html" class="tsd-signature-type">INbNo</a>
+							</li>
+							<li>
+								<a href="_locale_nbsj_.inbsj.html" class="tsd-signature-type">INbSj</a>
+							</li>
+							<li>
+								<a href="_locale_nn_.inn.html" class="tsd-signature-type">INn</a>
+							</li>
+							<li>
+								<a href="_locale_nnno_.innno.html" class="tsd-signature-type">INnNo</a>
+							</li>
+							<li>
+								<a href="_locale_or_.ior.html" class="tsd-signature-type">IOr</a>
+							</li>
+							<li>
+								<a href="_locale_orin_.iorin.html" class="tsd-signature-type">IOrIn</a>
+							</li>
+							<li>
+								<a href="_locale_om_.iom.html" class="tsd-signature-type">IOm</a>
+							</li>
+							<li>
+								<a href="_locale_omet_.iomet.html" class="tsd-signature-type">IOmEt</a>
+							</li>
+							<li>
+								<a href="_locale_omke_.iomke.html" class="tsd-signature-type">IOmKe</a>
+							</li>
+							<li>
+								<a href="_locale_os_.ios.html" class="tsd-signature-type">IOs</a>
+							</li>
+							<li>
+								<a href="_locale_osge_.iosge.html" class="tsd-signature-type">IOsGe</a>
+							</li>
+							<li>
+								<a href="_locale_osru_.iosru.html" class="tsd-signature-type">IOsRu</a>
+							</li>
+							<li>
+								<a href="_locale_ps_.ips.html" class="tsd-signature-type">IPs</a>
+							</li>
+							<li>
+								<a href="_locale_psaf_.ipsaf.html" class="tsd-signature-type">IPsAf</a>
+							</li>
+							<li>
+								<a href="_locale_fa_.ifa.html" class="tsd-signature-type">IFa</a>
+							</li>
+							<li>
+								<a href="_locale_faaf_.ifaaf.html" class="tsd-signature-type">IFaAf</a>
+							</li>
+							<li>
+								<a href="_locale_fair_.ifair.html" class="tsd-signature-type">IFaIr</a>
+							</li>
+							<li>
+								<a href="_locale_pl_.ipl.html" class="tsd-signature-type">IPl</a>
+							</li>
+							<li>
+								<a href="_locale_plpl_.iplpl.html" class="tsd-signature-type">IPlPl</a>
+							</li>
+							<li>
+								<a href="_locale_pt_.ipt.html" class="tsd-signature-type">IPt</a>
+							</li>
+							<li>
+								<a href="_locale_ptao_.iptao.html" class="tsd-signature-type">IPtAo</a>
+							</li>
+							<li>
+								<a href="_locale_ptbr_.iptbr.html" class="tsd-signature-type">IPtBr</a>
+							</li>
+							<li>
+								<a href="_locale_ptcv_.iptcv.html" class="tsd-signature-type">IPtCv</a>
+							</li>
+							<li>
+								<a href="_locale_ptgw_.iptgw.html" class="tsd-signature-type">IPtGw</a>
+							</li>
+							<li>
+								<a href="_locale_ptmo_.iptmo.html" class="tsd-signature-type">IPtMo</a>
+							</li>
+							<li>
+								<a href="_locale_ptmz_.iptmz.html" class="tsd-signature-type">IPtMz</a>
+							</li>
+							<li>
+								<a href="_locale_ptpt_.iptpt.html" class="tsd-signature-type">IPtPt</a>
+							</li>
+							<li>
+								<a href="_locale_ptst_.iptst.html" class="tsd-signature-type">IPtSt</a>
+							</li>
+							<li>
+								<a href="_locale_pttl_.ipttl.html" class="tsd-signature-type">IPtTl</a>
+							</li>
+							<li>
+								<a href="_locale_pa_.ipa.html" class="tsd-signature-type">IPa</a>
+							</li>
+							<li>
+								<a href="_locale_paarabpk_.ipaarabpk.html" class="tsd-signature-type">IPaArabPk</a>
+							</li>
+							<li>
+								<a href="_locale_paarab_.ipaarab.html" class="tsd-signature-type">IPaArab</a>
+							</li>
+							<li>
+								<a href="_locale_paguruin_.ipaguruin.html" class="tsd-signature-type">IPaGuruIn</a>
+							</li>
+							<li>
+								<a href="_locale_paguru_.ipaguru.html" class="tsd-signature-type">IPaGuru</a>
+							</li>
+							<li>
+								<a href="_locale_pain_.ipain.html" class="tsd-signature-type">IPaIn</a>
+							</li>
+							<li>
+								<a href="_locale_papk_.ipapk.html" class="tsd-signature-type">IPaPk</a>
+							</li>
+							<li>
+								<a href="_locale_qu_.iqu.html" class="tsd-signature-type">IQu</a>
+							</li>
+							<li>
+								<a href="_locale_qubo_.iqubo.html" class="tsd-signature-type">IQuBo</a>
+							</li>
+							<li>
+								<a href="_locale_quec_.iquec.html" class="tsd-signature-type">IQuEc</a>
+							</li>
+							<li>
+								<a href="_locale_qupe_.iqupe.html" class="tsd-signature-type">IQuPe</a>
+							</li>
+							<li>
+								<a href="_locale_ro_.iro.html" class="tsd-signature-type">IRo</a>
+							</li>
+							<li>
+								<a href="_locale_romd_.iromd.html" class="tsd-signature-type">IRoMd</a>
+							</li>
+							<li>
+								<a href="_locale_roro_.iroro.html" class="tsd-signature-type">IRoRo</a>
+							</li>
+							<li>
+								<a href="_locale_rm_.irm.html" class="tsd-signature-type">IRm</a>
+							</li>
+							<li>
+								<a href="_locale_rmch_.irmch.html" class="tsd-signature-type">IRmCh</a>
+							</li>
+							<li>
+								<a href="_locale_rn_.irn.html" class="tsd-signature-type">IRn</a>
+							</li>
+							<li>
+								<a href="_locale_rnbi_.irnbi.html" class="tsd-signature-type">IRnBi</a>
+							</li>
+							<li>
+								<a href="_locale_ru_.iru.html" class="tsd-signature-type">IRu</a>
+							</li>
+							<li>
+								<a href="_locale_ruby_.iruby.html" class="tsd-signature-type">IRuBy</a>
+							</li>
+							<li>
+								<a href="_locale_rukz_.irukz.html" class="tsd-signature-type">IRuKz</a>
+							</li>
+							<li>
+								<a href="_locale_rukg_.irukg.html" class="tsd-signature-type">IRuKg</a>
+							</li>
+							<li>
+								<a href="_locale_rumd_.irumd.html" class="tsd-signature-type">IRuMd</a>
+							</li>
+							<li>
+								<a href="_locale_ruru_.iruru.html" class="tsd-signature-type">IRuRu</a>
+							</li>
+							<li>
+								<a href="_locale_ruua_.iruua.html" class="tsd-signature-type">IRuUa</a>
+							</li>
+							<li>
+								<a href="_locale_sg_.isg.html" class="tsd-signature-type">ISg</a>
+							</li>
+							<li>
+								<a href="_locale_sgcf_.isgcf.html" class="tsd-signature-type">ISgCf</a>
+							</li>
+							<li>
+								<a href="_locale_gd_.igd.html" class="tsd-signature-type">IGd</a>
+							</li>
+							<li>
+								<a href="_locale_gdgb_.igdgb.html" class="tsd-signature-type">IGdGb</a>
+							</li>
+							<li>
+								<a href="_locale_sr_.isr.html" class="tsd-signature-type">ISr</a>
+							</li>
+							<li>
+								<a href="_locale_srba_.isrba.html" class="tsd-signature-type">ISrBa</a>
+							</li>
+							<li>
+								<a href="_locale_srcyrlba_.isrcyrlba.html" class="tsd-signature-type">ISrCyrlBa</a>
+							</li>
+							<li>
+								<a href="_locale_srcyrlme_.isrcyrlme.html" class="tsd-signature-type">ISrCyrlMe</a>
+							</li>
+							<li>
+								<a href="_locale_srcyrlrs_.isrcyrlrs.html" class="tsd-signature-type">ISrCyrlRs</a>
+							</li>
+							<li>
+								<a href="_locale_srcyrl_.isrcyrl.html" class="tsd-signature-type">ISrCyrl</a>
+							</li>
+							<li>
+								<a href="_locale_srlatnba_.isrlatnba.html" class="tsd-signature-type">ISrLatnBa</a>
+							</li>
+							<li>
+								<a href="_locale_srlatnme_.isrlatnme.html" class="tsd-signature-type">ISrLatnMe</a>
+							</li>
+							<li>
+								<a href="_locale_srlatnrs_.isrlatnrs.html" class="tsd-signature-type">ISrLatnRs</a>
+							</li>
+							<li>
+								<a href="_locale_srlatn_.isrlatn.html" class="tsd-signature-type">ISrLatn</a>
+							</li>
+							<li>
+								<a href="_locale_srme_.isrme.html" class="tsd-signature-type">ISrMe</a>
+							</li>
+							<li>
+								<a href="_locale_srrs_.isrrs.html" class="tsd-signature-type">ISrRs</a>
+							</li>
+							<li>
+								<a href="_locale_sn_.isn.html" class="tsd-signature-type">ISn</a>
+							</li>
+							<li>
+								<a href="_locale_snzw_.isnzw.html" class="tsd-signature-type">ISnZw</a>
+							</li>
+							<li>
+								<a href="_locale_ii_.iii.html" class="tsd-signature-type">IIi</a>
+							</li>
+							<li>
+								<a href="_locale_iicn_.iiicn.html" class="tsd-signature-type">IIiCn</a>
+							</li>
+							<li>
+								<a href="_locale_si_.isi.html" class="tsd-signature-type">ISi</a>
+							</li>
+							<li>
+								<a href="_locale_silk_.isilk.html" class="tsd-signature-type">ISiLk</a>
+							</li>
+							<li>
+								<a href="_locale_sk_.isk.html" class="tsd-signature-type">ISk</a>
+							</li>
+							<li>
+								<a href="_locale_sksk_.isksk.html" class="tsd-signature-type">ISkSk</a>
+							</li>
+							<li>
+								<a href="_locale_sl_.isl.html" class="tsd-signature-type">ISl</a>
+							</li>
+							<li>
+								<a href="_locale_slsi_.islsi.html" class="tsd-signature-type">ISlSi</a>
+							</li>
+							<li>
+								<a href="_locale_so_.iso.html" class="tsd-signature-type">ISo</a>
+							</li>
+							<li>
+								<a href="_locale_sodj_.isodj.html" class="tsd-signature-type">ISoDj</a>
+							</li>
+							<li>
+								<a href="_locale_soet_.isoet.html" class="tsd-signature-type">ISoEt</a>
+							</li>
+							<li>
+								<a href="_locale_soke_.isoke.html" class="tsd-signature-type">ISoKe</a>
+							</li>
+							<li>
+								<a href="_locale_soso_.isoso.html" class="tsd-signature-type">ISoSo</a>
+							</li>
+							<li>
+								<a href="_locale_es_.ies.html" class="tsd-signature-type">IEs</a>
+							</li>
+							<li>
+								<a href="_locale_esar_.iesar.html" class="tsd-signature-type">IEsAr</a>
+							</li>
+							<li>
+								<a href="_locale_esbo_.iesbo.html" class="tsd-signature-type">IEsBo</a>
+							</li>
+							<li>
+								<a href="_locale_escl_.iescl.html" class="tsd-signature-type">IEsCl</a>
+							</li>
+							<li>
+								<a href="_locale_esco_.iesco.html" class="tsd-signature-type">IEsCo</a>
+							</li>
+							<li>
+								<a href="_locale_escr_.iescr.html" class="tsd-signature-type">IEsCr</a>
+							</li>
+							<li>
+								<a href="_locale_escu_.iescu.html" class="tsd-signature-type">IEsCu</a>
+							</li>
+							<li>
+								<a href="_locale_esdo_.iesdo.html" class="tsd-signature-type">IEsDo</a>
+							</li>
+							<li>
+								<a href="_locale_esec_.iesec.html" class="tsd-signature-type">IEsEc</a>
+							</li>
+							<li>
+								<a href="_locale_essv_.iessv.html" class="tsd-signature-type">IEsSv</a>
+							</li>
+							<li>
+								<a href="_locale_esgq_.iesgq.html" class="tsd-signature-type">IEsGq</a>
+							</li>
+							<li>
+								<a href="_locale_esgt_.iesgt.html" class="tsd-signature-type">IEsGt</a>
+							</li>
+							<li>
+								<a href="_locale_eshn_.ieshn.html" class="tsd-signature-type">IEsHn</a>
+							</li>
+							<li>
+								<a href="_locale_esmx_.iesmx.html" class="tsd-signature-type">IEsMx</a>
+							</li>
+							<li>
+								<a href="_locale_esni_.iesni.html" class="tsd-signature-type">IEsNi</a>
+							</li>
+							<li>
+								<a href="_locale_espa_.iespa.html" class="tsd-signature-type">IEsPa</a>
+							</li>
+							<li>
+								<a href="_locale_espy_.iespy.html" class="tsd-signature-type">IEsPy</a>
+							</li>
+							<li>
+								<a href="_locale_espe_.iespe.html" class="tsd-signature-type">IEsPe</a>
+							</li>
+							<li>
+								<a href="_locale_esph_.iesph.html" class="tsd-signature-type">IEsPh</a>
+							</li>
+							<li>
+								<a href="_locale_espr_.iespr.html" class="tsd-signature-type">IEsPr</a>
+							</li>
+							<li>
+								<a href="_locale_eses_.ieses.html" class="tsd-signature-type">IEsEs</a>
+							</li>
+							<li>
+								<a href="_locale_esus_.iesus.html" class="tsd-signature-type">IEsUs</a>
+							</li>
+							<li>
+								<a href="_locale_esuy_.iesuy.html" class="tsd-signature-type">IEsUy</a>
+							</li>
+							<li>
+								<a href="_locale_esve_.iesve.html" class="tsd-signature-type">IEsVe</a>
+							</li>
+							<li>
+								<a href="_locale_sw_.isw.html" class="tsd-signature-type">ISw</a>
+							</li>
+							<li>
+								<a href="_locale_swke_.iswke.html" class="tsd-signature-type">ISwKe</a>
+							</li>
+							<li>
+								<a href="_locale_swtz_.iswtz.html" class="tsd-signature-type">ISwTz</a>
+							</li>
+							<li>
+								<a href="_locale_swug_.iswug.html" class="tsd-signature-type">ISwUg</a>
+							</li>
+							<li>
+								<a href="_locale_sv_.isv.html" class="tsd-signature-type">ISv</a>
+							</li>
+							<li>
+								<a href="_locale_svax_.isvax.html" class="tsd-signature-type">ISvAx</a>
+							</li>
+							<li>
+								<a href="_locale_svfi_.isvfi.html" class="tsd-signature-type">ISvFi</a>
+							</li>
+							<li>
+								<a href="_locale_svse_.isvse.html" class="tsd-signature-type">ISvSe</a>
+							</li>
+							<li>
+								<a href="_locale_tl_.itl.html" class="tsd-signature-type">ITl</a>
+							</li>
+							<li>
+								<a href="_locale_tlph_.itlph.html" class="tsd-signature-type">ITlPh</a>
+							</li>
+							<li>
+								<a href="_locale_ta_.ita.html" class="tsd-signature-type">ITa</a>
+							</li>
+							<li>
+								<a href="_locale_tain_.itain.html" class="tsd-signature-type">ITaIn</a>
+							</li>
+							<li>
+								<a href="_locale_tamy_.itamy.html" class="tsd-signature-type">ITaMy</a>
+							</li>
+							<li>
+								<a href="_locale_tasg_.itasg.html" class="tsd-signature-type">ITaSg</a>
+							</li>
+							<li>
+								<a href="_locale_talk_.italk.html" class="tsd-signature-type">ITaLk</a>
+							</li>
+							<li>
+								<a href="_locale_te_.ite.html" class="tsd-signature-type">ITe</a>
+							</li>
+							<li>
+								<a href="_locale_tein_.itein.html" class="tsd-signature-type">ITeIn</a>
+							</li>
+							<li>
+								<a href="_locale_th_.ith.html" class="tsd-signature-type">ITh</a>
+							</li>
+							<li>
+								<a href="_locale_thth_.ithth.html" class="tsd-signature-type">IThTh</a>
+							</li>
+							<li>
+								<a href="_locale_bo_.ibo.html" class="tsd-signature-type">IBo</a>
+							</li>
+							<li>
+								<a href="_locale_bocn_.ibocn.html" class="tsd-signature-type">IBoCn</a>
+							</li>
+							<li>
+								<a href="_locale_boin_.iboin.html" class="tsd-signature-type">IBoIn</a>
+							</li>
+							<li>
+								<a href="_locale_ti_.iti.html" class="tsd-signature-type">ITi</a>
+							</li>
+							<li>
+								<a href="_locale_tier_.itier.html" class="tsd-signature-type">ITiEr</a>
+							</li>
+							<li>
+								<a href="_locale_tiet_.itiet.html" class="tsd-signature-type">ITiEt</a>
+							</li>
+							<li>
+								<a href="_locale_to_.ito.html" class="tsd-signature-type">ITo</a>
+							</li>
+							<li>
+								<a href="_locale_toto_.itoto.html" class="tsd-signature-type">IToTo</a>
+							</li>
+							<li>
+								<a href="_locale_tr_.itr.html" class="tsd-signature-type">ITr</a>
+							</li>
+							<li>
+								<a href="_locale_trcy_.itrcy.html" class="tsd-signature-type">ITrCy</a>
+							</li>
+							<li>
+								<a href="_locale_trtr_.itrtr.html" class="tsd-signature-type">ITrTr</a>
+							</li>
+							<li>
+								<a href="_locale_uk_.iuk.html" class="tsd-signature-type">IUk</a>
+							</li>
+							<li>
+								<a href="_locale_ukua_.iukua.html" class="tsd-signature-type">IUkUa</a>
+							</li>
+							<li>
+								<a href="_locale_ur_.iur.html" class="tsd-signature-type">IUr</a>
+							</li>
+							<li>
+								<a href="_locale_urin_.iurin.html" class="tsd-signature-type">IUrIn</a>
+							</li>
+							<li>
+								<a href="_locale_urpk_.iurpk.html" class="tsd-signature-type">IUrPk</a>
+							</li>
+							<li>
+								<a href="_locale_ug_.iug.html" class="tsd-signature-type">IUg</a>
+							</li>
+							<li>
+								<a href="_locale_ugarabcn_.iugarabcn.html" class="tsd-signature-type">IUgArabCn</a>
+							</li>
+							<li>
+								<a href="_locale_ugarab_.iugarab.html" class="tsd-signature-type">IUgArab</a>
+							</li>
+							<li>
+								<a href="_locale_ugcn_.iugcn.html" class="tsd-signature-type">IUgCn</a>
+							</li>
+							<li>
+								<a href="_locale_uz_.iuz.html" class="tsd-signature-type">IUz</a>
+							</li>
+							<li>
+								<a href="_locale_uzaf_.iuzaf.html" class="tsd-signature-type">IUzAf</a>
+							</li>
+							<li>
+								<a href="_locale_uzarabaf_.iuzarabaf.html" class="tsd-signature-type">IUzArabAf</a>
+							</li>
+							<li>
+								<a href="_locale_uzarab_.iuzarab.html" class="tsd-signature-type">IUzArab</a>
+							</li>
+							<li>
+								<a href="_locale_uzcyrluz_.iuzcyrluz.html" class="tsd-signature-type">IUzCyrlUz</a>
+							</li>
+							<li>
+								<a href="_locale_uzcyrl_.iuzcyrl.html" class="tsd-signature-type">IUzCyrl</a>
+							</li>
+							<li>
+								<a href="_locale_uzlatnuz_.iuzlatnuz.html" class="tsd-signature-type">IUzLatnUz</a>
+							</li>
+							<li>
+								<a href="_locale_uzlatn_.iuzlatn.html" class="tsd-signature-type">IUzLatn</a>
+							</li>
+							<li>
+								<a href="_locale_uzuz_.iuzuz.html" class="tsd-signature-type">IUzUz</a>
+							</li>
+							<li>
+								<a href="_locale_vi_.ivi.html" class="tsd-signature-type">IVi</a>
+							</li>
+							<li>
+								<a href="_locale_vivn_.ivivn.html" class="tsd-signature-type">IViVn</a>
+							</li>
+							<li>
+								<a href="_locale_cy_.icy.html" class="tsd-signature-type">ICy</a>
+							</li>
+							<li>
+								<a href="_locale_cygb_.icygb.html" class="tsd-signature-type">ICyGb</a>
+							</li>
+							<li>
+								<a href="_locale_fy_.ify.html" class="tsd-signature-type">IFy</a>
+							</li>
+							<li>
+								<a href="_locale_fynl_.ifynl.html" class="tsd-signature-type">IFyNl</a>
+							</li>
+							<li>
+								<a href="_locale_yi_.iyi.html" class="tsd-signature-type">IYi</a>
+							</li>
+							<li>
+								<a href="_locale_yo_.iyo.html" class="tsd-signature-type">IYo</a>
+							</li>
+							<li>
+								<a href="_locale_yobj_.iyobj.html" class="tsd-signature-type">IYoBj</a>
+							</li>
+							<li>
+								<a href="_locale_yong_.iyong.html" class="tsd-signature-type">IYoNg</a>
+							</li>
+							<li>
+								<a href="_locale_zu_.izu.html" class="tsd-signature-type">IZu</a>
+							</li>
+							<li>
+								<a href="_locale_zuza_.izuza.html" class="tsd-signature-type">IZuZa</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_ilocale_.iimmutable.html#language" class="tsd-kind-icon">language</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_ilocale_.iimmutable.html#region" class="tsd-kind-icon">region</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_ilocale_.iimmutable.html#script" class="tsd-kind-icon">script</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="language" class="tsd-anchor"></a>
+					<h3>language</h3>
+					<div class="tsd-signature tsd-kind-icon">language<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">L</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ef-carbon/locale/blob/1c9ec7b/lib/ILocale.ts#L21">ILocale.ts:21</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Used to help identify languages, whether spoken, written, signed, or otherwise signaled, for the purpose of
+								communication.  This includes constructed and artificial languages but excludes languages not intended
+							primarily for human communication, such as programming languages.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p><a href="../modules/_locale_iso639_index_.html#iso639">Iso639</a></p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="region" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> region</h3>
+					<div class="tsd-signature tsd-kind-icon">region<span class="tsd-signature-symbol">:</span> <a href="" class="tsd-signature-type">R</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ef-carbon/locale/blob/1c9ec7b/lib/ILocale.ts#L31">ILocale.ts:31</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Used to indicate linguistic variations associated with or appropriate to a specific country, territory, or
+								region. Typically, a region subtag is used to indicate variations such as regional dialects or usage, or
+								region-specific spelling conventions. It can also be used to indicate that content is expressed in a way that
+								is appropriate for use throughout a region, for instance, Spanish content tailored to be useful throughout
+							Latin America.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p><a href="../modules/_locale_iso3166_index_.html#iso3166">Iso3166</a></p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="script" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> script</h3>
+					<div class="tsd-signature tsd-kind-icon">script<span class="tsd-signature-symbol">:</span> <a href="" class="tsd-signature-type">S</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ef-carbon/locale/blob/1c9ec7b/lib/ILocale.ts#L38">ILocale.ts:38</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Used to indicate the script or writing system variations that distinguish the written forms of a language or
+							its dialects</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p><a href="../modules/_locale_script_.html#script">Script</a></p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/_ilocale_.html">"ILocale"</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter">
+						<a href="_ilocale_.iimmutable.html" class="tsd-kind-icon">IImmutable</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_ilocale_.iimmutable.html#language" class="tsd-kind-icon">language</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_ilocale_.iimmutable.html#region" class="tsd-kind-icon">region</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_ilocale_.iimmutable.html#script" class="tsd-kind-icon">script</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter">
+						<a href="_ilocale_.imutable.html" class="tsd-kind-icon">IMutable</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
