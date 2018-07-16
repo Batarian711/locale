@@ -1,3 +1,12 @@
+## [2.1.1](https://github.com/ef-carbon/locale/compare/v2.1.0...v2.1.1) (2018-07-16)
+
+
+### Bug Fixes
+
+* export `Iso639`, `Iso3166` and `Script` ([95d2f62](https://github.com/ef-carbon/locale/commit/95d2f62))
+* only freeze when supported ([e19ca72](https://github.com/ef-carbon/locale/commit/e19ca72))
+* remove `extendable-error` dependency ([b474725](https://github.com/ef-carbon/locale/commit/b474725))
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/ef-carbon/locale/compare/v2.0.0...v2.1.0) (2018-05-10)
 
