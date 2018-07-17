@@ -1,3 +1,6 @@
+<p align="center"><img src="Media/icon.png" alt="locale" height="300px"></p>
+
+
 # EF Locale
 
 [![CircleCI][circleci-badge]][circleci]
